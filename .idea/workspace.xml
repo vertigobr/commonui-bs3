@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="387d0907-b13b-4c9f-913c-63f1bf3e7dda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner/featured-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner/featured-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner/featured-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/ala.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/bioatlas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/canadesys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/crbio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/datos-bio-ag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/erikkus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/gbif-ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/gbif-benin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/gbif-es.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/gbif-fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/gbif-pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/gbif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/living-atlas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/nbn_atlas_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/nbn_atlas_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/nbn_atlas_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/comunidade/nbn_atlas_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/banner-amostragem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/banner-colecoes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/banner-especie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/banner-geo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/banner-media.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/banner-metadados.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/banner-outros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/beija-flor.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/checkilistspapaers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/colecao1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/colecao2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/colecoes_imagem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/como_usar_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/como_usar_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/como_usar_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/como_usar_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/conjunto_metadados.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/datapaper_colecao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/eventos_amostragem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/mapasdadosespaciais.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/outros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/outros2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/conteudo/outros3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gbif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header/big-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header/big-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header/big-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header/small-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header/small-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header/small-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header/small-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header/small-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/infografico/biobr-nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/infografico/endemico_e_grupos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/infografico/img-biobr-ameacadas-icmbio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/infografico/img-biobr-ameacadas-iucn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/licenca/by-nc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/licenca/by.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/licenca/cc-zero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/licenca/public.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main/buriti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main/conexao-mata-atlantica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main/full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main/jalapao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main/portal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main/sapo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main/suarana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main/teste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rodape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rodape2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sibbr.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#button#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#7183#7847#0" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/banner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/old.html" />
+        <option value="$PROJECT_DIR$/footer.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="commonui-bs3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonui-bs3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angelica\Documents\commonui-bs3\css" />
+      <recent name="C:\Users\angelica\Documents\commonui-bs3\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="387d0907-b13b-4c9f-913c-63f1bf3e7dda" name="Default Changelist" comment="" />
+      <created>1553713124189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553713124189</updated>
+      <workItem from="1553713125975" duration="5589000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5589000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23717949" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/content.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="428" lean-forward="true" selection-start-line="428" selection-end-line="428" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#3761#3766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#7183#7847#0" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
