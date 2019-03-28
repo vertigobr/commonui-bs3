@@ -2,7 +2,7 @@
 body, nav, article, p, h, footer {
     -webkit-font-smoothing: antialiased;
     font: normal 15px Roboto, Helvetica, "Helvetica Neue", Arial, sans-serif;
-    padding-top: 0;
+    padding-top: 0; 
 }
 
 .article p {
@@ -285,30 +285,6 @@ img:hover {
     border: 1px solid #d4d4d4;
 }
 
-/*... Custumização lista ordenada ...*/
-ol {
-    margin-left: 0;
-    padding-right: 0;
-    list-style-type: none;
-}
-
-ol > li {
-    counter-increment: step-counter;
-}
-
-ol > li::before {
-    content: counter(step-counter) ".";
-    margin-right: 5px;
-    font-size: 2.2rem;
-    color: #333333;
-    font-weight: bold;
-    padding-right: 5px;
-    float: left;
-    position: relative;
-    top: -4px;
-    height: 22px;
-}
-
 .nbn-atlas {
     background: #bfbfbf;
     padding: 5px 10px;
@@ -453,4 +429,13 @@ ol > li::before {
 
 .circle-container img:hover {
     opacity: 0.9;
+}
+
+.main-stats > h4 { 
+    color: #888888;
+    text-align: center;
+}
+
+.stat-number{
+    text-align: center;
 }

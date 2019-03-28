@@ -26,7 +26,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="background-lightgrey">
+<body  >
 
 <!-- Menus Governo Brasileiro-->
 <div id="barra-brasil" style="background:#7F7F7F; max-height: 20px; padding:0 0 0 10px; display:block;"></div>
@@ -139,11 +139,11 @@
 </nav>
 <!-- End Navbar -->
 
-<div class="jumbotron ala-header hidden-print" id="ala-jumbotron">
+<div class="jumbotron ala-header hidden-print" id="ala-jumbotron" style="background-image: url(./img/main/full.jpg);">
     <div class="container">
-        <div class="col-lg-6 col-md-8 col-sm-12 promotional">The <strong>Atlas of Living Australia</strong> is a
-            collaborative, national project that aggregates biodiversity data from multiple sources and makes it freely
-            available and usable online
+        <div class="col-lg-8 col-md-10 col-sm-12 promotional">O <strong>Sistema de Informação sobre a Biodiversidade
+            Brasileira</strong> é uma plataforma online que integra dados sobre a biodiversidade e os ecossistemas
+            brasileiros de diversas fontes no Brasil e no exterior.
         </div>
     </div>
 </div>
@@ -162,139 +162,167 @@
   </div>
 </div> -->
 <!-- End promotional alert -->
+<!-- Main stats -->
+<div class="container">
+<div class="col-md-12">
+    <div class="main-stats row">
+      <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+        <h4>Occurrence Records</h4>
+        <div class="stat-number" id="allRecords">
+          68,000,000
+        </div>
+      </div>
+
+      <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+        <h4>Species</h4>
+        <div class="stat-number" id="allSpecies">
+          472,000
+        </div>
+      </div>
+
+      <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+        <h4>Data downloads</h4>
+        <div class="stat-number" id="allDownloads">
+          914,000
+        </div>
+      </div>
+
+      <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+        <h4>Registered users</h4>
+        <div class="stat-number" id="allUsers">
+          34,000
+        </div>
+      </div>
+    </div><!-- End main stats -->
+  </div> 
+ </div>
 
 <!-- Container -->
-<div class="container" id="main">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="panel panel-default ">
+                    <div class="hvrbox">
+                        <a href="./infografico.html">
+                            <img class="img-responsive img-full img-saturate hvrbox-layer_bottom" alt="Jalapão"
+                                 src="./img/main/jalapao.jpg">
+                        </a>
+                        <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Foto: Cassiana Moreira</div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="title-box"><a href="./infografico.html">Conhecendo a biodiversidade</a></h3>
+                        <p class="help-block">
+                            Conheça a biodiversidade brasileira em números, por grupos taxonômicos, endemismos e
+                            categorias de ameaça.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="hvrbox">
+                        <a href="http://www.sibbr.gov.br/cienciacidada" target="_blank">
+                            <img class="img-responsive img-full" alt="Ciência cidadã" src="./img/main/sapo.jpg">
+                        </a>
+                        <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Foto: José Sabino</div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="title-box"><a href="http://www.sibbr.gov.br/cienciacidada" target="_blank">Ciência
+                            cidadã</a></h3>
+                        <p class="help-block"> Conheça os projetos de ciência cidadã relativos à conservação da
+                            biodiversidade e do meio ambiente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="hvrbox">
+                        <a href="https://ferramentas.sibbr.gov.br/ficha/bin/view/FN" target="_blank">
+                            <img class="img-responsive img-full" alt="Buriti" src="./img/main/buriti.jpg"></a>
+                        <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Foto: Fernando Tatagiba</div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="title-box">
+                            <a href="https://ferramentas.sibbr.gov.br/ficha/bin/view/FN" target="_blank">
+                                Biodiversidade &amp; Nutrição</a>
+                        </h3>
+                        <p class="help-block">
+                            A ferramenta permite conhecer a composição nutricional de alimentos bem como receitas de
+                            espécies nativas da biodiversidade brasileira.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
 
-    <div class="col-md-8 col-md-offset-2 hidden">
-        <h1 class="heading-large margin-bottom-quarter-1">Atlas of Living Australia</h1>
-        <h2 class="promotional">
-            The Atlas of Living Australia is a collaborative, national project that aggregates biodiversity data from
-            multiple sources and makes it freely available and usable online
-        </h2>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="hvrbox">
+                        <a href="/explore-by-location/">
+                            <img class="img-responsive img-full box-map" alt="Portal espacial"
+                                 src="img/main/portal.png"></a>
+                        <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Foto: SiBBr</div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="title-box"><a href="img/main/portal.png">Portal espacial</a></h3>
+                        <p class="help-block">
+                            Acesse ao portal espacial e visualize os registros de ocorrências de espécies junto com
+                            outras informações e camadas ambientais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="hvrbox">
+                        <a href="/explore-by-location/">
+                            <img class="img-responsive img-full" alt="Conexão Mata Atlântica"
+                                 src="./img/main/conexao-mata-atlantica.jpg"></a>
+                        <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Foto: MCTIC</div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="title-box"><a href="img/main/portal.png">Conexão Mata Atlântica</a></h3>
+                        <p class="help-block">
+                            Projeto visa recuperar e preservar os serviços ecossistêmicos associados à biodiversidade e
+                            captura de carbono da Mata Atlântica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="hvrbox">
+                        <a href="https://lists.ala.org.au/iconic-species">
+                            <img class="img-responsive img-full" alt="Koala" src="./img/main/suarana.jpg"></a>
+                        <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Foto: José Sabino</div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="title-box"><a href="./img/main/suarana.jpg">Notícias</a></h3>
+                        <p class="help-block">
+                            Confira as últimas novidades, atualizações do SiBBr e da agenda nacional sobre
+                            biodiversidade e meio ambiente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <!-- Main stats -->
-    <div class="col-md-12">
-        <div class="main-stats row">
-            <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                <h4>Occurrence Records</h4>
-                <div class="stat-number" id="allRecords">
-                    68,000,000
-                </div>
-            </div>
-
-            <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                <h4>Species</h4>
-                <div class="stat-number" id="allSpecies">
-                    472,000
-                </div>
-            </div>
-
-            <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                <h4>Data downloads</h4>
-                <div class="stat-number" id="allDownloads">
-                    914,000
-                </div>
-            </div>
-
-            <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                <h4>Registered users</h4>
-                <div class="stat-number" id="allUsers">
-                    34,000
-                </div>
-            </div>
-        </div><!-- End main stats -->
-    </div>
-
-
-    <!-- Main col -->
-    <div class="col-md-12">
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="panel panel-default">
-                <a href="https://wptest.ala.org.au/australias-species/"><img class="img-responsive"
-                                                                             src="img/homepage-channel-image-koala.jpg"></a>
-                <div class="panel-body">
-                    <h3><a href="https://wptest.ala.org.au/australias-species/">Australian species</a></h3>
-                    <p class="help-block">
-                        Search for Australian flora and fauna species by common, scientific name or search by category.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="panel panel-default">
-                <a href="https://wptest.ala.org.au/species-by-location/"><img class="img-responsive"
-                                                                              src="img/homepage-channel-image-lionfish.jpg"></a>
-                <div class="panel-body">
-                    <h3><a href="https://wptest.ala.org.au/species-by-location/">Species by location</a></h3>
-                    <p class="help-block">
-                        Use the Atlas of Living Australia to browse species by pre-defined region or by location to find
-                        species nearby.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="panel panel-default">
-                <a href="https://wptest.ala.org.au/occurrence-records/"><img class="img-responsive"
-                                                                             src="img/homepage-channel-image-rainbow-lorikeet.jpg"></a>
-                <div class="panel-body">
-                    <h3><a href="https://wptest.ala.org.au/occurrence-records/">Occurrence records</a></h3>
-                    <p class="help-block">
-                        Use the Atlas to Explore species occurrence records using the Spatial Portal or Search Records
-                        for species occurrences.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- End Col -->
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="panel panel-default">
-                <a href="https://wptest.ala.org.au/get-involved/"><img class="img-responsive"
-                                                                       src="https://wptest.ala.org.au/wp-content/themes/ala-wordpress-theme/img/ala-info-hub-get-involved-icon.jpg"></a>
-                <div class="panel-body">
-                    <h3><a href="https://wptest.ala.org.au/get-involved/">Work with the ALA</a></h3>
-                    <p class="help-block">
-                        Learn about the ALA and discover the many different ways in which we can help you achieve your
-                        goals.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="panel panel-default">
-                <a href="https://wptest.ala.org.au/blogs-news/">
-                    <img class="img-responsive"
-                         src="https://wptest.ala.org.au/wp-content/themes/ala-wordpress-theme/img/ala-info-hub-how-you-can-icon.jpg">
-                </a>
-                <div class="panel-body">
-                    <h3><a href="https://wptest.ala.org.au/blogs-news/">Browse ALA news</a></h3>
-                    <p class="help-block">
-                        Learn about the ALA and discover the many different ways in which we can help you achieve your
-                        goals.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="panel panel-default">
-                <a href="https://wptest.ala.org.au/atlas-information-hub/">
-                    <img class="img-responsive"
-                         src="https://wptest.ala.org.au/wp-content/themes/ala-wordpress-theme/img/ala-info-hub-education-icon.jpg">
-                </a>
-                <div class="panel-body">
-                    <h3><a href="https://wptest.ala.org.au/atlas-information-hub/">ALA knowledge base</a></h3>
-                    <p class="help-block">
-                        Did you see something? Photograph something? Contribute your sighting to the Atlas of Living
-                        Australia. Log your sighting at our Record a Sighting page.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- End Col -->
-    </div><!-- End main col -->
-
 </div>
 
 <footer>
