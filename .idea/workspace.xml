@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e16d1d7-c68f-478f-819f-29202b92117e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/cadastro-ciencia-cidada.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/cadastro-ciencia-cidada.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/cadastro-colecoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/cadastro-colecoes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/colecoes-biologicas.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/colecoes-biologicas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/como-citar.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/como-citar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/como-usar-sibbr.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/como-usar-sibbr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/comunidade-ala.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/comunidade-ala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/conjunto-metadados.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/conjunto-metadados.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/dados-espaciais.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/dados-espaciais.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/enviar-media-ao-sibbr.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/enviar-media-ao-sibbr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/evento-amostragem.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/evento-amostragem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/infografico.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/infografico.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/licenca-uso.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/licenca-uso.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/listas-especies.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/listas-especies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/o-que-sibbr.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/o-que-sibbr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/outros.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/outros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/publique-conjunto-dados.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/publique-conjunto-dados.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/quem-somos.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/quem-somos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/rede-parceiros.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/rede-parceiros.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/sugestao.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/sugestao.html" afterDir="false" />
@@ -27,136 +34,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5018248">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/page/outros.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-                  <folding>
-                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/page/politica-de-dados.html">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/page/publique-conjunto-dados.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-                  <folding>
-                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/page/quem-somos.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-                  <folding>
-                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/page/rede-parceiros.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-                  <folding>
-                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/page/sugestao.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="369">
-                  <caret line="306" column="23" lean-forward="true" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/page/cadastro-colecoes.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="556">
-                  <caret line="333" column="80" selection-start-line="333" selection-start-column="80" selection-end-line="333" selection-end-column="80" />
-                  <folding>
-                    <element signature="n#style#0;n#img#0;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#1;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#5;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/page/canais-contato.html">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/page/colecoes-biologicas.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="420" column="29" selection-start-line="420" selection-start-column="29" selection-end-line="420" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/page/cadastro-ciencia-cidada.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="709">
-                  <caret line="350" selection-start-line="350" selection-end-line="350" />
-                  <folding>
-                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#1;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#p#2;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#p#4;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="624">
-                  <caret line="442" column="62" selection-start-line="442" selection-start-column="62" selection-end-line="443" selection-end-column="89" />
-                  <folding>
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/outros.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="220" column="20" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/politica-de-dados.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/cadastro-ciencia-cidada.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="324" column="34" selection-start-line="324" selection-start-column="34" selection-end-line="324" selection-end-column="34" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#2;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#4;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -174,6 +95,8 @@
       <find>&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;./js/jquery-3.3.1.min.js&quot;&gt;&lt;/script&gt;</find>
       <find>commonui-bs3/page/</find>
       <find>commonui-bs3/page/&quot;</find>
+      <find>http://barra.brasil.gov.br/barra.js</find>
+      <find>open</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;./img/</replace>
@@ -186,6 +109,7 @@
       <replace>&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;</replace>
       <replace>commonui-bs3/&quot;</replace>
       <replace>commonui-bs3&quot;</replace>
+      <replace>https://barra.brasil.gov.br/barra.js</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\angelica\Documents\commonui-bs3</dir>
@@ -218,7 +142,6 @@
         <option value="$PROJECT_DIR$/rede-parceiros.html" />
         <option value="$PROJECT_DIR$/sugestao.html" />
         <option value="$PROJECT_DIR$/banner.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/page/cadastro-colecoes.html" />
         <option value="$PROJECT_DIR$/page/como-citar.html" />
@@ -237,8 +160,9 @@
         <option value="$PROJECT_DIR$/page/quem-somos.html" />
         <option value="$PROJECT_DIR$/page/rede-parceiros.html" />
         <option value="$PROJECT_DIR$/page/sugestao.html" />
-        <option value="$PROJECT_DIR$/page/cadastro-ciencia-cidada.html" />
         <option value="$PROJECT_DIR$/page/colecoes-biologicas.html" />
+        <option value="$PROJECT_DIR$/page/cadastro-ciencia-cidada.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -304,7 +228,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553882059811</updated>
-      <workItem from="1553882061828" duration="7749000" />
+      <workItem from="1553882061828" duration="8876000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;correção de links menus paginas internas&quot;">
       <created>1553884010763</created>
@@ -317,7 +241,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7749000" />
+    <option name="totallyTimeSpent" value="8876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -447,16 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/outros.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/politica-de-dados.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -490,18 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="442" column="62" selection-start-line="442" selection-start-column="62" selection-end-line="443" selection-end-column="89" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/head.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -512,24 +414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/cadastro-ciencia-cidada.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="350" selection-start-line="350" selection-end-line="350" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/sugestao.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
-          <caret line="306" column="23" lean-forward="true" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
+          <caret line="306" column="23" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -552,6 +440,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="420" column="29" selection-start-line="420" selection-start-column="29" selection-end-line="420" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/cadastro-ciencia-cidada.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="324" column="34" selection-start-line="324" selection-start-column="34" selection-end-line="324" selection-end-column="34" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#article#2;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/outros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="220" column="20" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
         </state>
       </provider>
     </entry>
