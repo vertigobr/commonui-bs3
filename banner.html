@@ -1,110 +1,115 @@
- 
 <!-- Menus Governo Brasileiro-->
 <div id="barra-brasil" style="background:#7F7F7F; max-height: 20px; padding:0 0 0 10px; display:block;"></div>
 
 <!-- Navbar start -->
 <nav class="navbar navbar-default">
 
-        <div class="container container-navbar">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/">
-                    <img alt="Brand" src="http://www.sibbr.gov.br/images/logo.svg" class="img-responsive logo" alt="SiBBr">
-                </a>
+    <div class="container container-navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/">
+                <img alt="Brand" src="http://www.sibbr.gov.br/images/logo.svg" class="img-responsive logo" alt="SiBBr">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <!-- <li class="active"><a href="#">Home</a></li> -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        Explore <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="https://ala-hub.ala-dev.vertigo.com.br/ala-hub">Explore ocorrências</a></li>
+                        <li><a href="https://ala-hub.ala-dev.vertigo.com.br/ala-hub/explore/your-area">Explore sua
+                            área</a></li>
+                        <!-- <li><a href="https://bie.ala.org.au/">Search species</a></li> -->
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        Busque e analise <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="https://ala-bie.ala-dev.vertigo.com.br/ala-bie/">Busque por espécies</a></li>
+                        <li><a href="https://collectory.ala-dev.vertigo.com.br/collectory/">Busque por coleções</a></li>
+                        <li><a href="https://collectory.ala-dev.vertigo.com.br/collectory/datasets">Busque por conjuntos
+                            de dados</a>
+                        <li><a href="http://www.sibbr.gov.br/cienciacidada" target="_blank">Projetos ciência cidadã</a>
+                        </li>
+                        <li><a href="https://portal-espacial-hub.ala-dev.vertigo.com.br/spatial-hub/" target="_blank">Portal
+                            espacial</a></li>
+                        <li><a href="https://ferramentas.sibbr.gov.br/geonetwork" target="_blank">Catálogo de
+                            metadados</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        Participe <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Cadastre uma coleção biológica</a></li>
+                        <li><a href="#">Projetos de ciência cidadã</a></li>
+                        <li><a href="#">Publique um conjunto de dados</a></li>
+                        <li><a href="#">Envio de mídias ao SiBBr</a></li>
+                        <li><a href="#">Licença para uso dos dados</a></li>
+                        <li><a href="#">Política de dados do SiBBr</a></li>
+                        <li><a href="#">Sugestões</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        Conheça o SiBBr <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">O que é o SiBBr</a></li>
+                        <li><a href="#">Como usar o SiBBr</a></li>
+                        <li><a href="#">Rede de parceiros</a></li>
+                        <li><a href="#">Como citar</a></li>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Canais de Contato</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+                        Comunidade do ALA</span>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul class="nav navbar-nav navbar-right visible-xs">-->
+            <!--<li>-->
+            <!--<a href="https://wpprod2017.ala.org.au/wp-login.php?redirect_to=https%3A%2F%2Fwpprod2017.ala.org.au">-->
+            <!--<span class="nav-login">Log in</span></a>-->
+            <!--</li>-->
+            <!--</ul>-->
+        </div><!-- /.navbar-collapse -->
+
+        <div>
+            <div class="pesquisar">
+                <form class="col-md-9 banner" id="global-search" action="ala-bie/search" method="get"
+                      name="search-form">
+                    <div class="icon-addon addon-lg">
+                        <input type="text" placeholder="Pesquisar ..." class="form-control autocomplete ac_input"
+                               id="biesearch" name="q" autocomplete="off">
+                        <label for="biesearch" class="glyphicon glyphicon-search" rel="tooltip" title="search"></label>
+                    </div>
+                </form>
             </div>
-    
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <!-- <li class="active"><a href="#">Home</a></li> -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            Explore <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="https://ala-hub.ala-dev.vertigo.com.br/ala-hub">Explore ocorrências</a></li>
-                            <li><a href="https://ala-hub.ala-dev.vertigo.com.br/ala-hub/explore/your-area">Explore sua área</a></li>
-                            <!-- <li><a href="https://bie.ala.org.au/">Search species</a></li> -->
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            Busque e analise <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="https://ala-bie.ala-dev.vertigo.com.br/ala-bie/">Busque por espécies</a></li>
-                            <li><a href="https://collectory.ala-dev.vertigo.com.br/collectory/">Busque por coleções</a></li>
-                            <li><a href="https://collectory.ala-dev.vertigo.com.br/collectory/datasets">Busque por conjuntos de dados</a>
-                            <li><a href="http://www.sibbr.gov.br/cienciacidada" target="_blank">Projetos ciência cidadã</a></li>
-                            <li><a href="https://portal-espacial-hub.ala-dev.vertigo.com.br/spatial-hub/" target="_blank">Portal espacial</a></li>
-                            <li><a href="https://ferramentas.sibbr.gov.br/geonetwork" target="_blank">Catálogo de metadados</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            Participe <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Cadastre uma coleção biológica</a></li>
-                            <li><a href="#">Projetos de ciência cidadã</a></li>
-                            <li><a href="#">Publique um conjunto de dados</a></li>
-                            <li><a href="#">Envio de mídias ao SiBBr</a></li>
-                            <li><a href="#">Licença para uso dos dados</a></li>
-                            <li><a href="#">Política de dados do SiBBr</a></li>
-                            <li><a href="#">Sugestões</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            Conheça o SiBBr <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">O que é o SiBBr</a></li>
-                            <li><a href="#">Como usar o SiBBr</a></li>
-                            <li><a href="#">Rede de parceiros</a></li>
-                            <li><a href="#">Como citar</a></li>
-                            <li><a href="#">Quem somos</a></li>
-                            <li><a href="#">Canais de Contato</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" role="button" aria-expanded="false">
-                            Comunidade do ALA</span>
-                        </a>
-                    </li>
-                </ul>
-                <!--<ul class="nav navbar-nav navbar-right visible-xs">-->
-                <!--<li>-->
-                <!--<a href="https://wpprod2017.ala.org.au/wp-login.php?redirect_to=https%3A%2F%2Fwpprod2017.ala.org.au">-->
-                <!--<span class="nav-login">Log in</span></a>-->
-                <!--</li>-->
-                <!--</ul>-->
-            </div><!-- /.navbar-collapse -->
-    
-            <div>
-                <div class="pesquisar">
-                    <form class="col-md-9 banner" id="global-search" action="ala-bie/search" method="get"
-                          name="search-form">
-                        <div class="icon-addon addon-lg">
-                            <input type="text" placeholder="Pesquisar ..." class="form-control autocomplete ac_input"
-                                   id="biesearch" name="q" autocomplete="off">
-                            <label for="biesearch" class="glyphicon glyphicon-search" rel="tooltip" title="search"></label>
-                        </div>
-                    </form>
-                </div>
-    
-                <div class="col-md-3 no-gbif">nó brasileiro do GBIF
-                    <img src="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/img/gbif.png" class="logo-gbif" alt="SiBBr"/>
-                </div>
+
+            <div class="col-md-3 no-gbif">nó brasileiro do GBIF
+                <img src="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/img/gbif.png" class="logo-gbif"
+                     alt="SiBBr"/>
             </div>
-    
-        </div><!-- /.container-fluid -->
-    
-    </nav>
+        </div>
+
+    </div><!-- /.container-fluid -->
+
+</nav>
 <!-- End Navbar -->
 
