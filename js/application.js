@@ -1,9 +1,9 @@
 // initialise plugins
-$(function(){
+$(function () {
 
     var autocompleteUrl = 'https://bie.ala.org.au/ws/search/auto';
 
-    if(typeof BIE_VARS != 'undefined' && BIE_VARS.autocompleteUrl){
+    if (typeof BIE_VARS != 'undefined' && BIE_VARS.autocompleteUrl) {
         autocompleteUrl = BIE_VARS.autocompleteUrl;
     }
 
@@ -11,12 +11,12 @@ $(function(){
     $("#biesearch").autocomplete(autocompleteUrl, {
         extraParams: {limit: 100},
         dataType: 'json',
-        parse: function(data) {
+        parse: function (data) {
             var rows = new Array();
             data = data.autoCompleteList;
-            for(var i=0; i<data.length; i++) {
+            for (var i = 0; i < data.length; i++) {
                 rows[i] = {
-                    data:data[i],
+                    data: data[i],
                     value: data[i].matchedNames[0],
                     result: data[i].matchedNames[0]
                 };
@@ -24,7 +24,7 @@ $(function(){
             return rows;
         },
         matchSubset: false,
-        formatItem: function(row, i, n) {
+        formatItem: function (row, i, n) {
             return row.matchedNames[0];
         },
         cacheLength: 10,
@@ -47,7 +47,7 @@ $(function(){
     // Mobile/desktop toggle
     // TODO: set a cookie so user's choice is remembered across pages
     var responsiveCssFile = $("#responsiveCss").attr("href"); // remember set href
-    $(".toggleResponsive").click(function(e) {
+    $(".toggleResponsive").click(function (e) {
         e.preventDefault();
         $(this).find("i").toggleClass("icon-resize-small icon-resize-full");
         var currentHref = $("#responsiveCss").attr("href");

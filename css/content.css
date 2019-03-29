@@ -2,7 +2,7 @@
 body, nav, article, p, h, footer {
     -webkit-font-smoothing: antialiased;
     font: normal 15px Roboto, Helvetica, "Helvetica Neue", Arial, sans-serif;
-    padding-top: 0; 
+    padding-top: 0;
 }
 
 .article p {
@@ -431,11 +431,11 @@ img:hover {
     opacity: 0.9;
 }
 
-.main-stats > h4 { 
+.main-stats > h4 {
     color: #888888;
     text-align: center;
 }
 
-.stat-number{
+.stat-number {
     text-align: center;
 }
