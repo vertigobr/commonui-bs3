@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0e16d1d7-c68f-478f-819f-29202b92117e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/page/cadastro-ciencia-cidada.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/cadastro-ciencia-cidada.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/cadastro-colecoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/cadastro-colecoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/colecoes-biologicas.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/colecoes-biologicas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/como-usar-sibbr.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/como-usar-sibbr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/comunidade-ala.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/comunidade-ala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/dados-espaciais.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/dados-espaciais.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/evento-amostragem.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/evento-amostragem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/licenca-uso.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/licenca-uso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/listas-especies.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/listas-especies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/o-que-sibbr.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/o-que-sibbr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/outros.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/outros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/quem-somos.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/quem-somos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/rede-parceiros.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/rede-parceiros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/sugestao.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/sugestao.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -101,8 +114,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/page/colecoes-biologicas.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-7026">
-                  <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+                <state relative-caret-position="46">
+                  <caret line="420" column="29" selection-start-line="420" selection-start-column="29" selection-end-line="420" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -159,6 +172,7 @@
       <find>commonui-bs3/</find>
       <find>ala-bie/search</find>
       <find>&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;./js/jquery-3.3.1.min.js&quot;&gt;&lt;/script&gt;</find>
+      <find>commonui-bs3/page/</find>
       <find>commonui-bs3/page/&quot;</find>
     </findStrings>
     <replaceStrings>
@@ -171,6 +185,7 @@
       <replace>::searchServer::::searchPath::</replace>
       <replace>&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;</replace>
       <replace>commonui-bs3/&quot;</replace>
+      <replace>commonui-bs3&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\angelica\Documents\commonui-bs3</dir>
@@ -206,7 +221,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/page/cadastro-colecoes.html" />
-        <option value="$PROJECT_DIR$/page/colecoes-biologicas.html" />
         <option value="$PROJECT_DIR$/page/como-citar.html" />
         <option value="$PROJECT_DIR$/page/como-usar-sibbr.html" />
         <option value="$PROJECT_DIR$/page/comunidade-ala.html" />
@@ -224,6 +238,7 @@
         <option value="$PROJECT_DIR$/page/rede-parceiros.html" />
         <option value="$PROJECT_DIR$/page/sugestao.html" />
         <option value="$PROJECT_DIR$/page/cadastro-ciencia-cidada.html" />
+        <option value="$PROJECT_DIR$/page/colecoes-biologicas.html" />
       </list>
     </option>
   </component>
@@ -289,7 +304,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553882059811</updated>
-      <workItem from="1553882061828" duration="7302000" />
+      <workItem from="1553882061828" duration="7749000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;correção de links menus paginas internas&quot;">
       <created>1553884010763</created>
@@ -302,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7302000" />
+    <option name="totallyTimeSpent" value="7749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -535,8 +550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page/colecoes-biologicas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7026">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="46">
+          <caret line="420" column="29" selection-start-line="420" selection-start-column="29" selection-end-line="420" selection-end-column="29" />
         </state>
       </provider>
     </entry>
