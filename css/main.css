@@ -309,3 +309,10 @@ footer {
 .contato p {
     margin-bottom: 0;
 }
+ 
+.container.container-navbar{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
