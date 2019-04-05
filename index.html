@@ -161,7 +161,7 @@
 
             <div>
                 <div class="pesquisar">
-                    <form class="col-md-9 banner" id="global-search"
+                    <form class="col-lg-9 col-md-9 col-sm-102 " id="global-search"
                         action="https://ala-bie.ala-dev.vertigo.com.br/ala-bie/search" method="get" name="search-form">
                         <div class="icon-addon addon-lg">
                             <input type="text" placeholder="Pesquisar ..." class="form-control autocomplete ac_input"
@@ -172,7 +172,7 @@
                     </form>
                 </div>
 
-                <div class="col-md-3 no-gbif">nó brasileiro do GBIF
+                <div class="col-lg-3 col-md-3 col-sm-0 no-gbif">nó brasileiro do GBIF
                     <img src="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/img/gbif.png" class="logo-gbif"
                         alt="SiBBr" />
                 </div>
@@ -202,22 +202,22 @@
             <div class="main-stats row">
                 <div class="main-stats col-lg-3 col-md-3 col-sm-6">
                     <h4>Registro de Ocorrências</h4>
-                    <div class="stat-number" id="allOccurrence"> 0</div>
-                </div>
-
-                <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                    <h4>Espécies</h4>
-                    <div class="stat-number" id="allSpecies">0</div>
-                </div>
-
-                <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                    <h4>Downloads</h4>
-                    <div class="stat-number" id="allInstitution">0</div>
+                    <div class="stat-number" id="allOcorrencias"> 0</div>
                 </div>
 
                 <div class="main-stats col-lg-3 col-md-3 col-sm-6">
                     <h4>Coleções</h4>
-                    <div class="stat-number" id="allCollectories">0</div>
+                    <div class="stat-number" id="allColecoes">0</div>
+                </div>
+
+                <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+                    <h4>Instituições</h4>
+                    <div class="stat-number" id="allInstituicoes">0</div>
+                </div>
+
+                <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+                    <h4>Conjunto de Dados</h4>
+                    <div class="stat-number" id="allConjuntos">0</div>
                 </div>
             </div><!-- End main stats -->
         </div>
@@ -456,41 +456,41 @@
 
     <script>
 
-        $('#allInstitution').empty(); 
-        $('#allSpecies').empty(); 
-        $('#allDowloads').empty(); 
-        $('#allCollectories').empty(); 
+        $('#allOcorrencias').empty(); 
+        $('#allColecoes').empty(); 
+        $('#allInstituicoes').empty(); 
+        $('#allConjuntos').empty(); 
 
         $(document).ready(function () {  
             $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/institution/count"})
             .done(function(data) { 
-                $('#allInstitution').append(data.total); 
+                $('#allInstituicoes').append(data.total); 
             }).fail(function(data){
-                $('#allInstitution').append("0"); 
+                $('#allInstituicoes').append("0"); 
             }); 
         });
         $(document).ready(function () {    
             $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/collection/count"})
             .done(function(data) { 
-                $('#allSpecies').append(data.total); 
+                $('#allColecoes').append(data.total); 
             }).fail(function(data){
-                $('#allSpecies').append("0"); 
+                $('#allColecoes').append("0"); 
             });
         });
         $(document).ready(function () {  
             $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/dataResource/count"})
             .done(function(data) { 
-                $('#allDowloads').append(data.total); 
+                $('#allConjuntos').append(data.total); 
             }).fail(function(data){
-                $('#allDowloads').append("0"); 
+                $('#allConjuntos').append("0"); 
             });
         }); 
         $(document).ready(function () {  
-            $.ajax({url: "http://ala.sibbr.rnp.br/collectory/ws/dataResource/count"})
+            $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/ws/dataResource/count"})
             .done(function(data) { 
-                $('#allCollectories').append(data.total); 
+                $('#allOcorrencias').append(data.total); 
             }).fail(function(data){
-                $('#allCollectories').append("0"); 
+                $('#allOcorrencias').append("0"); 
             });
         });   
     </script>
