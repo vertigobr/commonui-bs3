@@ -316,3 +316,7 @@ footer {
     margin-right: auto;
     margin-left: auto;
 }
+
+#barra-brasil a { 
+    font-size: .9em !important; 
+}

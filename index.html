@@ -34,7 +34,7 @@
 <body>
 
     <!-- Menus Governo Brasileiro-->
-    <div id="barra-brasil" style="background:#7F7F7F; max-height: 20px; padding:0 0 0 10px; display:block;"></div>
+    <div id="barra-brasil" style="font-size: 1em;"></div>
 
     <!-- Navbar start -->
     <nav class="navbar navbar-default">
@@ -49,8 +49,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/">
-                    <img alt="Brand" src="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/img/logo.svg" class="img-responsive logo"
-                        alt="SiBBr">
+                    <img alt="Brand" src="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/img/logo.svg"
+                        class="img-responsive logo" alt="SiBBr">
                 </a>
             </div>
 
@@ -194,19 +194,6 @@
         </div>
     </div>
 
-    <!-- Promotional alert -->
-    <!-- <div class="alert alert-promotional alert-dismissible hidden-print" role="alert">
-  <div class="container">
-    <div class="row-fluid">
-      <div class="col-md-12">
-        <button type="button" class="close alert-dismissable-button" data-dismiss="alert" aria-label="Close" title="Close"><span aria-hidden="true">&times;</span></button>
-        <p class="alert-text">
-          We will be updating our website over the next couple of months. <a href="#">Read about our Continuous Delivery methodology</a> and you can also <a href="#">read our release notes</a> for our test site.
-        </p>
-      </div>
-    </div>
-  </div>
-</div> -->
     <!-- End promotional alert -->
 
     <!-- Main stats -->
@@ -215,30 +202,22 @@
             <div class="main-stats row">
                 <div class="main-stats col-lg-3 col-md-3 col-sm-6">
                     <h4>Registro de Ocorrências</h4>
-                    <div class="stat-number" id="allRecords">
-                        00,000,000
-                    </div>
+                    <div class="stat-number" id="allOccurrence"> 0</div>
                 </div>
 
                 <div class="main-stats col-lg-3 col-md-3 col-sm-6">
                     <h4>Espécies</h4>
-                    <div class="stat-number" id="allSpecies">
-                        000,000
-                    </div>
+                    <div class="stat-number" id="allSpecies">0</div>
                 </div>
 
                 <div class="main-stats col-lg-3 col-md-3 col-sm-6">
                     <h4>Downloads</h4>
-                    <div class="stat-number" id="allDownloads">
-                        000,000
-                    </div>
+                    <div class="stat-number" id="allInstitution">0</div>
                 </div>
 
                 <div class="main-stats col-lg-3 col-md-3 col-sm-6">
                     <h4>Coleções</h4>
-                    <div class="stat-number" id="allUsers">
-                        000
-                    </div>
+                    <div class="stat-number" id="allCollectories">0</div>
                 </div>
             </div><!-- End main stats -->
         </div>
@@ -468,10 +447,7 @@
             <img src="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/img/rodape2.png" class="img-responsive"
                 alt="...">
         </div>
-    </footer>
-
-    <!-- JavaScript funcionamento da barra governo brasileiro -->
-    <script type="text/javascript" charset="utf-8" defer="defer" src="https://barra.brasil.gov.br/barra_2.0.js"></script>
+    </footer> 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -479,16 +455,48 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script>
-        (function () {
-            jQuery.getJSON("http://ala.sibbr.rnp.br/collectory/ws/institution/count")
-                .done(function (data) {
-                    $("#allUsers").append(data.total);
-                })
-                .fail(function (jqxhr, textStatus, error) {
-                    $("#allUsers").append("0");
-                });
+
+        $('#allInstitution').empty(); 
+        $('#allSpecies').empty(); 
+        $('#allDowloads').empty(); 
+        $('#allCollectories').empty(); 
+
+        $(document).ready(function () {  
+            $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/institution/count"})
+            .done(function(data) { 
+                $('#allInstitution').append(data.total); 
+            }).fail(function(data){
+                $('#allInstitution').append("0"); 
+            }); 
         });
+        $(document).ready(function () {    
+            $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/collection/count"})
+            .done(function(data) { 
+                $('#allSpecies').append(data.total); 
+            }).fail(function(data){
+                $('#allSpecies').append("0"); 
+            });
+        });
+        $(document).ready(function () {  
+            $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/dataResource/count"})
+            .done(function(data) { 
+                $('#allDowloads').append(data.total); 
+            }).fail(function(data){
+                $('#allDowloads').append("0"); 
+            });
+        }); 
+        $(document).ready(function () {  
+            $.ajax({url: "http://ala.sibbr.rnp.br/collectory/ws/dataResource/count"})
+            .done(function(data) { 
+                $('#allCollectories').append(data.total); 
+            }).fail(function(data){
+                $('#allCollectories').append("0"); 
+            });
+        });   
     </script>
+
+    <!-- JavaScript funcionamento da barra governo brasileiro -->
+    <script type="text/javascript" charset="utf-8" defer="defer" src="https://barra.brasil.gov.br/barra_2.0.js"></script>
 
 </body>
 
