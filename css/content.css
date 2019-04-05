@@ -440,3 +440,7 @@ img:hover {
 .stat-number {
     text-align: center;
 }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    float: right;
+}
