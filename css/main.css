@@ -320,3 +320,9 @@ footer {
 #barra-brasil a { 
     font-size: .9em !important; 
 }
+
+@media (max-width: 768px){
+    .no-gbif { 
+        font-size: 12px ;
+    }
+}

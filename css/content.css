@@ -168,13 +168,14 @@ img:hover {
     background: #e0e0e0;
     height: 46px;
     font-size: 15px;
-    margin-top: -10px;
-    padding-top: 15px;
+    margin-top: 10px;
+    padding: 15px;
     font-weight: bold;
     text-align: center;
     border: 1px solid #c3c3c3;
     border-width: 1px 1px 1px 0;
     text-transform: uppercase;
+    margin-left: -10px;
 }
 
 .navbar-nav {
