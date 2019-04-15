@@ -473,3 +473,8 @@ img:hover {
     background-color: #eeeeee;
     border-color: #999999;
 }
+
+/* Custumização head pagina especie bie index*/
+.header-inner {
+    padding-bottom: 15px;
+}
