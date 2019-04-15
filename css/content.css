@@ -474,7 +474,23 @@ img:hover {
     border-color: #999999;
 }
 
-/* Custumização head pagina especie bie index*/
+/* Custumização head pagina especie bie index */
 .header-inner {
     padding-bottom: 15px;
+}
+
+/* Custumização paginas internas especies */
+.taxon-tabs .tab-content {
+    border: 1px solid #999;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+}
+
+.main-content.panel.panel-body {
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
