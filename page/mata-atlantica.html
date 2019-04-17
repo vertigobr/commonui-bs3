@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
+    <title>Conexão Mata Atlântica</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SiBBr - Sistemas de Informações sobre s Biodiversidade Brasileira</title>
 
     <!-- Favicon -->
-    <link href="./img/sibbr.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="../img/sibbr.ico" rel="shortcut icon" type="image/x-icon">
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="css/ala-styles.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../css/ala-styles.css" rel="stylesheet">
 
     <!-- FontAwesome -->
     <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom paginas complementares -->
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/content.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,11 +30,10 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
 
 <!-- Menus Governo Brasileiro-->
-<div id="barra-brasil" style="font-size: 1em;"></div>
+<div id="barra-brasil" style="background:#7F7F7F; max-height: 20px; padding:0 0 0 10px; display:block;"></div>
 
 <!-- Navbar start -->
 <nav class="navbar navbar-default">
@@ -160,10 +159,11 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
+
         <div>
             <div class="col-lg-9 col-md-9 col-sm-8 pesquisar">
-                <form id="global-search"
-                      action="https://ala-bie.ala-hml.vertigo.com.br/ala-bie/search" method="get" name="search-form">
+                <form id="global-search" action="https://ala-bie.ala-hml.vertigo.com.br/ala-bie/search" method="get"
+                      name="search-form">
                     <div class="icon-addon addon-lg">
                         <input type="text" placeholder="Pesquisar ..." class="form-control autocomplete ac_input"
                                id="biesearch" name="q" autocomplete="off">
@@ -178,183 +178,118 @@
                      alt="SiBBr"/>
             </div>
         </div>
-
-    </div><!-- /.container-fluid -->
-
+    </div>
 </nav>
-<!-- End Navbar -->
 
-<div class="jumbotron ala-header hidden-print" id="ala-jumbotron"
-     style="background-image: url(./img/main/full.jpg);">
+<!-- Breadcrumb -->
+<section id="breadcrumb">
     <div class="container">
-        <div class="col-lg-8 col-md-10 col-sm-12 promotional">O <strong>Sistema de Informação sobre a Biodiversidade
-            Brasileira</strong> é uma plataforma online que integra dados sobre a biodiversidade e os
-            ecossistemas
-            brasileiros de diversas fontes no Brasil e no exterior.
+        <div class="row">
+            <ul class="breadcrumb-list">
+                <li><a href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3">Home</a></li>
+                <li class="active">Parceiros</li>
+                <li class="active">Conexão Mata Atlântica</li>
+            </ul>
         </div>
     </div>
-</div>
+</section>
 
-<!-- End promotional alert -->
-
-<!-- Main stats -->
+<!-- Conteudo -->
 <div class="container">
-    <div class="col-md-12">
-        <div class="main-stats row">
+    <section class="content-container">
+        <div class="row">
 
-            <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                <h4>Instituições</h4>
-                <div class="stat-number" id="allInstituicoes">0</div>
-            </div>
+            <article class="col-md-12 header-wrap margin-bottom-half-1">
+                <h5 class="subject-category-overline">Parceiros</h5>
+                <h2 class="subject-title">Conexão Mata Atlântica</h2>
+            </article>
 
-            <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                <h4>Coleções</h4>
-                <div class="stat-number" id="allColecoes">0</div>
-            </div>
+            <article class="col-md-12" id="alaEditable">
 
-            <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                <h4>Conjunto de dados</h4>
-                <div class="stat-number" id="allConjuntos">0</div>
-            </div>
+                <p>Projeto GEF Recuperação e Proteção dos Serviços de Clima e Biodiversidade do Corredor Sudeste da Mata
+                    Atlântica</p>
 
-            <div class="main-stats col-lg-3 col-md-3 col-sm-6">
-                <h4>Ocorrências</h4>
-                <div class="stat-number" id="allOcorrencias"> 0</div>
-            </div>
-        </div><!-- End main stats -->
-    </div>
-</div>
+                <h4> O que é?</h4>
+                <img class="col-4 pull-right" style="padding: 5px" src="../img/conteudo/conexao.jpg" alt="">
+                <p >
+                    O projeto é financiado com recursos do
+                    <a href="https://www.mctic.gov.br/mctic/opencms/ciencia/SEPED/Biomas/PROJETOS-CGBI/GEF_MA.html">
+                        GEF (Global Environment Facility)</a>, tendo o Banco Interamericano de Desenvolvimento (BID)
+                    como agência implementadora e a Fundação de Empreendimentos Científicos e Tecnológicos (FINATEC)
+                    como órgão executor dos recursos, em parceria com os governos estaduais do Rio de Janeiro, São
+                    Paulo e Minas Gerais. O Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC), que
+                    também assina o Convênio de financiamento não-reembolsável, é responsável pela coordenação geral do
+                    projeto, além de implementar os sistemas de monitoramento e avaliação e de presidir o Comitê de
+                    Coordenação Institucional (CCI).
 
-<!-- Container -->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="panel panel-default ">
-                    <div class="hvrbox">
-                        <a href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/infografico.html">
-                            <img class="img-responsive img-full img-saturate hvrbox-layer_bottom" alt="Jalapão"
-                                 src="./img/main/jalapao.jpg">
-                        </a>
-                        <div class="hvrbox-layer_top">
-                            <div class="hvrbox-text">Foto: Cassiana Moreira</div>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <h3 class="title-box"><a
-                                href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/infografico.html">Conhecendo
-                            a biodiversidade</a></h3>
-                        <p class="help-block">
-                            Conheça a biodiversidade brasileira em números, por grupos taxonômicos, endemismos e
-                            categorias de ameaça.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="hvrbox">
-                        <a href="http://www.sibbr.gov.br/cienciacidada" target="_blank">
-                            <img class="img-responsive img-full" alt="Ciência cidadã" src="./img/main/sapo.jpg">
-                        </a>
-                        <div class="hvrbox-layer_top">
-                            <div class="hvrbox-text">Foto: José Sabino</div>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <h3 class="title-box">
-                            <a href="http://www.sibbr.gov.br/cienciacidada" target="_blank">Ciência cidadã</a></h3>
-                        <p class="help-block"> Conheça os projetos de ciência cidadã relativos à conservação da
-                            biodiversidade e do meio ambiente.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="hvrbox">
-                        <a href="https://ferramentas.sibbr.gov.br/ficha/bin/view/FN" target="_blank">
-                            <img class="img-responsive img-full" alt="Buriti" src="./img/main/buriti.jpg"></a>
-                        <div class="hvrbox-layer_top">
-                            <div class="hvrbox-text">Foto: Fernando Tatagiba</div>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <h3 class="title-box">
-                            <a href="https://ferramentas.sibbr.gov.br/ficha/bin/view/FN" target="_blank">
-                                Biodiversidade &amp; Nutrição</a>
-                        </h3>
-                        <p class="help-block">
-                            A ferramenta permite conhecer a composição nutricional de alimentos bem como receitas de
-                            espécies nativas da biodiversidade brasileira.</p>
-                    </div>
-                </div>
-            </div>
+                </p>
+
+                <p>O objetivo do projeto é recuperar e preservar serviços ecossistêmicos associados à biodiversidade e
+                    captura de carbono da floresta, em zonas prioritárias do Corredor Sudeste da Mata Atlântica
+                    brasileira. O projeto complementará esforços dos governos estaduais de proteção de unidades de
+                    conservação e incentivará a participação de proprietários de terras privadas num manejo sustentável
+                    da paisagem florestal, através da promoção de atividades de restauração ecológica de florestas
+                    nativas e regeneração natural assistida da floresta. As atividades do projeto estarão dirigidas a
+                    aumentar os estoques de carbono, promover a conservação de habitat necessário para a conservação da
+                    biodiversidade mediante a reconexão de fragmentos florestais, fortalecer a resiliência dos
+                    ecossistemas, e fortalecer a capacitação institucional dos organismos públicos e privados que
+                    participam do projeto. O projeto está organizado em 03 (três) componentes:</p>
+                <ul>
+                    <li><b>Componente 1:</b> Fortalecimento da capacitação institucional para manejo e monitoramento dos
+                        estoques de carbono e da biodiversidade. O projeto irá apoiar a adoção de modelos de mensuração,
+                        capacitação para atualizar bases de dados e operacionalização de monitoramento do uso da terra.
+                        O componente 1 irá focar no desenvolvimento da pesquisa necessária para gerar modelos práticos
+                        de manejo de estoques de carbono, gerar dados confiáveis sobre:
+                        <ul>
+                            <li>(i) estoques e sumidouros de carbono em paisagens antrópicas;</li>
+                            <li>(ii) biodiversidade</li>
+                            <li>(iii) gestão de recursos hídricos</li>
+                            <li>(iv) iniciativas de mudanças do clima, biodiversidade e manejo florestal sustentado na
+                                área do
+                                projeto
+                            </li>
+                        </ul>
+
+                        Para monitorar as mudanças ocorridas na área do projeto este componente irá desenvolver
+                        e implementar um sistema de monitoramento de carbono e um de biodiversidade que sejam
+                        compatíveis entre si de forma a fornecer resultados das ações do projeto em ambos sistemas que
+                        sejam comparáveis. Técnicos estaduais serão capacitados a utilizar estes sistemas, garantindo a
+                        sua permanência como instrumento de gestão e integração de políticas públicas de clima e
+                        biodiversidade. Este componente irá também estabelecer um sistema de monitoramento por
+                        resultados para avaliar os métodos e estratégias utilizadas no projeto como um todo.
+                    </li>
+                    <br>
+                    <li><b>Componente 2:</b> Incremento dos estoques de carbono na Bacia do Rio Paraíba do Sul (BRPS):
+                        este
+                        componente será implantado na BRPS enfocando áreas de maior potencial para aumento de estoques
+                        de carbono. As atividades propostas envolvem a restauração de florestas nativas e paisagens
+                        produtivas voltadas ao sequestro de carbono e, ao mesmo tempo, conectando fragmentos florestais
+                        remanescentes para aumentar o fluxo genético e a conservação da biodiversidade.Componente 2:
+                        Incremento dos estoques de carbono na Bacia do Rio Paraíba do Sul (BRPS): este componente será
+                        implantado na BRPS enfocando áreas de maior potencial para aumento de estoques de carbono. As
+                        atividades propostas envolvem a restauração de florestas nativas e paisagens produtivas voltadas
+                        ao sequestro de carbono e, ao mesmo tempo, conectando fragmentos florestais remanescentes para
+                        aumentar o fluxo genético e a conservação da biodiversidade.
+                    </li>
+                    <br>
+                    <li><b>Componente 3:</b> Incremento da efetividade e sustentabilidade financeira das unidades de
+                        conservação no Corredor Sudeste da Mata Atlântica do Brasil: Este componente terá como objetivo
+                        aumentar a efetividade da conservação da MA em existentes e novas unidades de conservação
+                        localizadas no Corredor Sudeste da Mata Atlântica, porém fora da BRPS. Os recursos do GEF serão
+                        usados para assistência técnica, treinamento e equipamentos para melhorar a efetividade de
+                        unidades de conservação participantes, aumentar as paisagens de produção manejadas de forma
+                        sustentável mediante sistemas de certificação e a implantação de sistemas de Pagamentos por
+                        Serviços Ambientais em zonas com potencial para serem convertidas em reservas naturais privadas.
+                    </li>
+                </ul>
+
+                <h4 id="comunidade"> Catálogo de Metadados</h4>
+                <a href="http://hmg.sibbr.rnp.br/geonetwork/srv/eng/catalog.search#/search?resultType=details&sortBy=relevance&from=1&to=20">
+                    Acesso aos dados projeto conexão Catalálogo de Metadados
+                </a>
+            </article>
         </div>
-        <div class="col-md-12">
-
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="hvrbox">
-                        <a href="https://portal-espacial-hub.ala-hml.vertigo.com.br/spatial-hub">
-                            <img class="img-responsive img-full box-map" alt="Portal espacial"
-                                 src="img/main/portal.png"></a>
-                        <div class="hvrbox-layer_top">
-                            <div class="hvrbox-text">Foto: SiBBr</div>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <h3 class="title-box"><a
-                                href="https://portal-espacial-hub.ala-hml.vertigo.com.br/spatial-hub">Portal
-                            espacial</a></h3>
-                        <p class="help-block">
-                            Acesse ao portal espacial e visualize os registros de ocorrências de espécies junto com
-                            outras informações e camadas ambientais.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="hvrbox">
-                        <a href="#">
-                            <img class="img-responsive img-full" alt="Conexão Mata Atlântica"
-                                 src="./img/main/conexao-mata-atlantica.jpg"></a>
-                        <div class="hvrbox-layer_top">
-                            <div class="hvrbox-text">Foto: MCTIC</div>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <h3 class="title-box"><a href="./page/mata-atlantica.html">Conexão Mata Atlântica</a></h3>
-                        <p class="help-block">
-                            Projeto visa recuperar e preservar os serviços ecossistêmicos associados à
-                            biodiversidade e captura de carbono da Mata Atlântica.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="hvrbox">
-                        <a href="#">
-                            <img class="img-responsive img-full" alt="Koala" src="./img/main/suarana.jpg"></a>
-                        <div class="hvrbox-layer_top">
-                            <div class="hvrbox-text">Foto: José Sabino</div>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <h3 class="title-box"><a href="#">Notícias</a></h3>
-                        <p class="help-block">
-                            Confira as últimas novidades, atualizações do SiBBr e da agenda nacional sobre
-                            biodiversidade e meio ambiente.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 </div>
 
 <footer>
@@ -370,9 +305,7 @@
             </div>
 
             <div class="item">Comunidade</div>
-            <div class="subitem"><a
-                    href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/comunidade-ala.html">Conheça
-                comunidade do ALA</a></div>
+            <div class="subitem"><a href="#">Conheça comunidade do ALA</a></div>
         </div>
         <div class="col-sm-3">
             <div class="item">Busque e analise</div>
@@ -400,12 +333,10 @@
                     Cadastre uma coleção biológica</a>
             </div>
             <div class="subitem">
-                <a
-                        href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/cadastro-ciencia-cidada.html">
+                <a href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/cadastro-ciencia-cidada.html">
                     Projetos de ciência cidadã</a></div>
             <div class="subitem">
-                <a
-                        href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/publique-conjunto-dados.html">
+                <a href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/publique-conjunto-dados.html">
                     Publique um conjunto de dados</a></div>
             <div class="subitem">
                 <a href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/enviar-media-ao-sibbr.html">
@@ -417,8 +348,7 @@
                 <a href="#">
                     Política de dados do SiBBr</a>
             </div>
-            <div class="subitem"><a
-                    href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/sugestao.html">Sugestões</a>
+            <div class="subitem"><a href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/sugestao.html">Sugestões</a>
             </div>
         </div>
         <div class="col-sm-3">
@@ -427,8 +357,8 @@
                     href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/o-que-sibbr.html">O
                 que é o SiBBr</a></div>
             <div class="subitem"><a
-                    href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/como-usar-sibbr.html">Como
-                usar o
+                    href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/como-usar-sibbr.html">Como usar
+                o
                 SiBBr</a></div>
             <div class="subitem"><a
                     href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/rede-parceiros.html">Rede
@@ -450,55 +380,11 @@
     </div>
 </footer>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
 
-<script>
-
-    $('#allOcorrencias').empty();
-    $('#allColecoes').empty();
-    $('#allInstituicoes').empty();
-    $('#allConjuntos').empty();
-
-    $(document).ready(function () {
-        $.ajax({url: "https://collectory.ala-hml.vertigo.com.br/collectory/ws/institution/count"})
-            .done(function (data) {
-                $('#allInstituicoes').append(data.total);
-            }).fail(function (data) {
-            $('#allInstituicoes').append("0");
-        });
-    });
-    $(document).ready(function () {
-        $.ajax({url: "https://collectory.ala-hml.vertigo.com.br/collectory/ws/collection/count"})
-            .done(function (data) {
-                $('#allColecoes').append(data.total);
-            }).fail(function (data) {
-            $('#allColecoes').append("0");
-        });
-    });
-    $(document).ready(function () {
-        $.ajax({url: "https://collectory.ala-hml.vertigo.com.br/collectory/ws/dataResource/count"})
-            .done(function (data) {
-                $('#allConjuntos').append(data.total);
-            }).fail(function (data) {
-            $('#allConjuntos').append("0");
-        });
-    });
-    $(document).ready(function () {
-        $.ajax({url: "https://biocache-service.ala-hml.vertigo.com.br/biocache-service/explore/groups"})
-            .done(function (data) {
-                $('#allOcorrencias').append(data[0].count);
-            }).fail(function (data) {
-            $('#allOcorrencias').append("0");
-        });
-    });
-</script>
-
-<!-- JavaScript funcionamento da barra governo brasileiro -->
+<!-- Script Bootstrap, Jquery e Barra Brasil -->
 <script type="text/javascript" charset="utf-8" defer="defer" src="https://barra.brasil.gov.br/barra_2.0.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
