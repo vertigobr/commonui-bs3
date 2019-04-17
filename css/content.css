@@ -22,9 +22,10 @@ a {
     border-radius: 0px;
     background-color: white;
     border-top: 4px solid #72B05F;
-    border-bottom: 2px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
     margin-bottom: 0px;
 }
+
 
 section#breadcrumb {
     padding: 12px 0 15px 19px;
@@ -33,7 +34,18 @@ section#breadcrumb {
 }
 
 .breadcrumb-list li a {
-    color: #72B05F;
+    color: #3c843e;
+}
+
+#alaInnerEditable {
+    padding-left: 0 !important;
+}
+
+
+article h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: .6em;
 }
 
 .partners-list {
@@ -151,7 +163,7 @@ img:hover {
 
 .content-container {
     padding: 40px 20px 20px;
-    text-align: justify;
+    text-align: inherit;
 }
 
 .help-block {
@@ -266,9 +278,18 @@ img:hover {
 }
 
 .toc-floating-menu.affix {
-    position: fixed;
-    top: 240px !important;
+    position: relative;
+    top: 0px !important;
 }
+
+.subject-subtitle, .subject-subtitle p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
 
 .title-teste {
     font-size: 20px;
