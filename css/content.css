@@ -405,14 +405,14 @@ img:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 6em;
-    height: 7em;
-    margin: -3em;
+    width: 8em;
+    height: 9em;
+    margin: -4em;
 }
 
 .circle-container > *:hover {
 
-    height: 7.2em;
+    height: 9.2em;
 }
 
 .circle-container > :nth-of-type(1) {
@@ -436,11 +436,11 @@ img:hover {
 }
 
 .circle-container > :nth-of-type(6) {
-    transform: rotate(250deg) translate(15em) rotate(-250deg);
+    transform: rotate(256deg) translate(15em) rotate(-256deg);
 }
 
 .circle-container > :nth-of-type(7) {
-    transform: rotate(300deg) translate(15em) rotate(-300deg);
+    transform: rotate(305deg) translate(15em) rotate(-305deg);
 }
 
 
