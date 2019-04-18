@@ -487,9 +487,9 @@
         });
     });
     $(document).ready(function () {
-        $.ajax({url: "https://biocache-service.ala-hml.vertigo.com.br/biocache-service/explore/groups"})
+        $.ajax({url: "https://biocache-service.ala-hml.vertigo.com.br/biocache-service/occurrences"})
             .done(function (data) {
-                $('#allOcorrencias').append(data[0].count);
+                $('#allOcorrencias').append(data.totalRecords);
             }).fail(function (data) {
             $('#allOcorrencias').append("0");
         });
