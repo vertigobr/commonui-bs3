@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e16d1d7-c68f-478f-819f-29202b92117e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/publique-conjunto-dados.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/publique-conjunto-dados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/o-que-sibbr.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/o-que-sibbr.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +28,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/content.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="652">
               <caret line="442" column="62" selection-start-line="442" selection-start-column="62" selection-end-line="442" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page/o-que-sibbr.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="253" column="25" lean-forward="true" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,11 +154,11 @@
         <option value="$PROJECT_DIR$/page/comunidade-ala.html" />
         <option value="$PROJECT_DIR$/page/como-citar.html" />
         <option value="$PROJECT_DIR$/page/rede-parceiros.html" />
-        <option value="$PROJECT_DIR$/page/o-que-sibbr.html" />
         <option value="$PROJECT_DIR$/page/mata-atlantica.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/page/publique-conjunto-dados.html" />
         <option value="$PROJECT_DIR$/css/content.css" />
+        <option value="$PROJECT_DIR$/page/o-que-sibbr.html" />
       </list>
     </option>
   </component>
@@ -220,7 +234,7 @@
       <workItem from="1555261379662" duration="1219000" />
       <workItem from="1555337497952" duration="801000" />
       <workItem from="1555350057278" duration="2421000" />
-      <workItem from="1555448503415" duration="28842000" />
+      <workItem from="1555448503415" duration="29547000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;correção de links menus paginas internas&quot;">
       <created>1553884010763</created>
@@ -233,7 +247,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44481000" />
+    <option name="totallyTimeSpent" value="45186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -428,19 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/o-que-sibbr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="281" column="79" selection-start-line="281" selection-start-column="79" selection-end-line="281" selection-end-column="79" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/comunidade-ala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -492,6 +493,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
           <caret line="442" column="62" selection-start-line="442" selection-start-column="62" selection-end-line="442" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/o-que-sibbr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="253" column="25" lean-forward="true" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
