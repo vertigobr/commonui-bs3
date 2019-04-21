@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e16d1d7-c68f-478f-819f-29202b92117e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -260,7 +259,7 @@
       <workItem from="1555337497952" duration="801000" />
       <workItem from="1555350057278" duration="2421000" />
       <workItem from="1555448503415" duration="31353000" />
-      <workItem from="1555784515864" duration="936000" />
+      <workItem from="1555784515864" duration="1540000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;correção de links menus paginas internas&quot;">
       <created>1553884010763</created>
@@ -273,7 +272,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47928000" />
+    <option name="totallyTimeSpent" value="48532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -534,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
         </state>
       </provider>
     </entry>
