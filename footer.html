@@ -89,6 +89,11 @@
     </div>
 </footer>
 
+<script>
+    var replaced = $("body").html().replace(/&quot;/g,'"');
+    $("body").html(replaced);
+</script>
+
 <!-- JavaScript funcionamento da barra governo brasileiro -->
 <script type="text/javascript" charset="utf-8" defer="defer" src="https://barra.brasil.gov.br/barra_2.0.js"></script>
 
@@ -121,10 +126,4 @@
     });
 </script>
 
-<script>
-
-    var replaced = $("body").html().replace(/&quot;/g,'"');
-    $("body").html(replaced);
-
-</script>
 <!-- end ALA support widget -->
