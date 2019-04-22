@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e16d1d7-c68f-478f-819f-29202b92117e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/cadastro-ciencia-cidada.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/cadastro-ciencia-cidada.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/cadastro-colecoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/cadastro-colecoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/colecoes-biologicas.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/colecoes-biologicas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/como-citar.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/como-citar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/como-usar-sibbr.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/como-usar-sibbr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/comunidade-ala.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/comunidade-ala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/conjunto-metadados.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/conjunto-metadados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/dados-espaciais.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/dados-espaciais.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/enviar-media-ao-sibbr.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/enviar-media-ao-sibbr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/evento-amostragem.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/evento-amostragem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/infografico.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/infografico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/licenca-uso.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/licenca-uso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/listas-especies.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/listas-especies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/mata-atlantica.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/mata-atlantica.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/o-que-sibbr.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/o-que-sibbr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/outros.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/outros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/publique-conjunto-dados.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/publique-conjunto-dados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/quem-somos.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/quem-somos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/rede-parceiros.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/rede-parceiros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/sugestao.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/sugestao.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,17 +52,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="357">
+              <caret line="150" column="115" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="115" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state relative-caret-position="289">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -51,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/banner.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1904">
-              <caret line="112" column="73" selection-start-line="112" selection-start-column="73" selection-end-line="112" selection-end-column="87" />
+              <caret line="112" column="135" selection-start-line="112" selection-start-column="135" selection-end-line="112" selection-end-column="149" />
             </state>
           </provider>
         </entry>
@@ -68,12 +88,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/o-que-sibbr.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="107" column="63" selection-start-line="107" selection-start-column="63" selection-end-line="107" selection-end-column="63" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page/mata-atlantica.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="115" column="52" selection-start-line="115" selection-start-column="52" selection-end-line="115" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#article#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -93,10 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>./imgs/</find>
-      <find>ala.rnp</find>
-      <find>ala.sibb</find>
-      <find>http://ala.sibbr.rnp.br/collectory</find>
       <find>&lt;a href=&quot;https://collectory.ala-dev.vertigo.com.br/collectory/&quot;&gt;Busque por conjuntos de dados&lt;/a&gt;</find>
       <find>&quot;./img</find>
       <find>index-origin.html</find>
@@ -122,6 +150,11 @@
       <find>https://portal-espacial-hub.ala-hml.vertigo.com.br/spatial-hub</find>
       <find>portal es</find>
       <find>alaInnerEditable</find>
+      <find>comunidade-ala</find>
+      <find>href=&quot;./page/comunidade-ala.html&quot;</find>
+      <find>comunidade</find>
+      <find>href=&quot;comunidade-ala.html&quot;</find>
+      <find>href=&quot;./page/comunidade-ala.html&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;./img/</replace>
@@ -138,9 +171,11 @@
       <replace>#</replace>
       <replace>https://barra.brasil.gov.br/barra_2.0.js</replace>
       <replace>ala-hml.vertigo.com.br</replace>
-      <replace />
       <replace>http://hmg.sibbr.rnp.br/geonetwork/srv/eng/catalog.search#/search?resultType=details&amp;sortBy=relevance&amp;from=1&amp;to=20</replace>
       <replace>https://portal-espacial.ala-hml.vertigo.com.br/spatial-hub</replace>
+      <replace>href=&quot;./page/comunidade-ala.html&quot;</replace>
+      <replace />
+      <replace>href=&quot;https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/comunidade-ala.html&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\angelica\Documents\commonui-bs3</dir>
@@ -190,13 +225,13 @@
         <option value="$PROJECT_DIR$/page/comunidade-ala.html" />
         <option value="$PROJECT_DIR$/page/como-citar.html" />
         <option value="$PROJECT_DIR$/page/rede-parceiros.html" />
-        <option value="$PROJECT_DIR$/page/mata-atlantica.html" />
         <option value="$PROJECT_DIR$/page/publique-conjunto-dados.html" />
         <option value="$PROJECT_DIR$/css/content.css" />
-        <option value="$PROJECT_DIR$/page/o-que-sibbr.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/head.html" />
         <option value="$PROJECT_DIR$/footer.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/page/o-que-sibbr.html" />
+        <option value="$PROJECT_DIR$/page/mata-atlantica.html" />
       </list>
     </option>
   </component>
@@ -219,6 +254,11 @@
             <path>
               <item name="commonui-bs3" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonui-bs3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonui-bs3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonui-bs3" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +309,7 @@
       <workItem from="1555337497952" duration="801000" />
       <workItem from="1555350057278" duration="2421000" />
       <workItem from="1555448503415" duration="31353000" />
-      <workItem from="1555784515864" duration="3412000" />
+      <workItem from="1555784515864" duration="5158000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;correção de links menus paginas internas&quot;">
       <created>1553884010763</created>
@@ -282,7 +322,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50404000" />
+    <option name="totallyTimeSpent" value="52150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -477,18 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/mata-atlantica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="291" column="14" selection-start-line="291" selection-start-column="14" selection-end-line="291" selection-end-column="14" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#article#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/publique-conjunto-dados.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2006">
@@ -507,30 +535,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/o-que-sibbr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/banner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1904">
-          <caret line="112" column="73" selection-start-line="112" selection-start-column="73" selection-end-line="112" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <caret line="112" column="135" selection-start-line="112" selection-start-column="135" selection-end-line="112" selection-end-column="149" />
         </state>
       </provider>
     </entry>
@@ -543,8 +551,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="150" column="115" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/o-que-sibbr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="107" column="63" selection-start-line="107" selection-start-column="63" selection-end-line="107" selection-end-column="63" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/mata-atlantica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="115" column="52" selection-start-line="115" selection-start-column="52" selection-end-line="115" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#article#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
