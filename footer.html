@@ -16,7 +16,7 @@
             <div class="item">Comunidade</div>
             <div class="subitem">
                 <a href="https://commonui-bs3.ala-hml.vertigo.com.br/commonui-bs3/page/comunidade-ala.html">Conheça
-                comunidade do ALA</a></div>
+                    comunidade do ALA</a></div>
         </div>
         <div class="col-sm-3">
             <div class="item">Busque e analise</div>
@@ -32,7 +32,8 @@
                 <a href=" https://portal-espacial.ala-hml.vertigo.com.br/spatial-hub/" target="_blank">Portal
                     espacial</a></div>
             <div class="subitem">
-                <a href="http://hmg.sibbr.rnp.br/geonetwork/srv/eng/catalog.search#/search?resultType=details&sortBy=relevance&from=1&to=20" target="_blank">Catálogo de metadados</a>
+                <a href="http://hmg.sibbr.rnp.br/geonetwork/srv/eng/catalog.search#/search?resultType=details&sortBy=relevance&from=1&to=20"
+                   target="_blank">Catálogo de metadados</a>
             </div>
         </div>
         <div class="col-sm-3">
@@ -88,6 +89,13 @@
              alt="...">
     </div>
 </footer>
+
+<!-- Correção de nomes &quot; exibidos no breadcrumb -->
+<scrip>
+    let breadcrumb = $(".breadcrumb-list>.active");
+    let corrigido = breadcrumb.text().replace(/&quot;/g,'"');
+    breadcrumb.text(corrigido);
+</scrip>
 
 <!-- JavaScript funcionamento da barra governo brasileiro -->
 <script type="text/javascript" charset="utf-8" defer="defer" src="https://barra.brasil.gov.br/barra_2.0.js"></script>
