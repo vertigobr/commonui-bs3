@@ -400,7 +400,6 @@ img:hover {
 }
 
 .circle-container > * {
-    /* 4 */
     display: block;
     position: absolute;
     top: 50%;
@@ -409,6 +408,7 @@ img:hover {
     height: 9em;
     margin: -4em;
 }
+
 
 .circle-container > *:hover {
 
@@ -465,6 +465,13 @@ img:hover {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     float: right;
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.428571429;
+    border: 1px solid #d0d0cc;
+    border-radius: 0;
 }
 
 /* Custumização paginação*/
