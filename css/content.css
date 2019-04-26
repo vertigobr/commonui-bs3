@@ -187,12 +187,14 @@ img:hover {
     border: 1px solid #c3c3c3;
     border-width: 1px 1px 1px 0;
     text-transform: uppercase;
-    margin-left: -10px;
+    margin-left: -12px;
 }
 
-.navbar-nav {
+.navbar-nav { 
     float: right !important;
+    margin: 0 12px 0 5px;
 }
+
 
 .pesquisar {
     padding: 10px;
