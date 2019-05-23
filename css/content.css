@@ -190,7 +190,7 @@ img:hover {
     margin-left: -12px;
 }
 
-.navbar-nav { 
+.navbar-nav {
     float: right !important;
     margin: 0 12px 0 5px;
 }
@@ -314,6 +314,11 @@ img:hover {
     background: #bfbfbf;
     padding: 5px 10px;
     border: 1px solid #b7b7b7 !important;
+}
+
+/*..... Modulo collectory .....*/
+.collectory-content.row {
+    margin: 0px;
 }
 
 /*..... Direitos Autorais fotos .....*/
