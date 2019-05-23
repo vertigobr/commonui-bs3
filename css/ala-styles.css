@@ -60,8 +60,7 @@ body {
 }
 
 #main {
-    padding-top: 30px;
-    padding-bottom: 5em;
+    padding: 30px 0 5em;
 }
 
 body.background-white {
