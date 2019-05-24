@@ -255,6 +255,12 @@ footer {
     color: #666;
 }
 
+/*.... Custom buttons .....*/
+input#locationSearch {
+    background: #689a3f;
+    border: 1px solid #507532;
+}
+
 /*.... Pagina principal .....*/
 .panel {
     border: 0px solid #ffffff !important;
@@ -309,20 +315,20 @@ footer {
 .contato p {
     margin-bottom: 0;
 }
- 
-.container.container-navbar{
+
+.container.container-navbar {
     padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
 }
 
-#barra-brasil a { 
-    font-size: .9em !important; 
+#barra-brasil a {
+    font-size: .9em !important;
 }
 
-@media (max-width: 768px){
-    .no-gbif { 
-        font-size: 12px ;
+@media (max-width: 768px) {
+    .no-gbif {
+        font-size: 12px;
     }
 }
