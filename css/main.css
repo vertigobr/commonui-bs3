@@ -260,7 +260,16 @@ input#locationSearch {
     background: #689a3f;
     border: 1px solid #507532;
 }
+/*.... specie profile .....*/
 
+.pull-right.json a {
+    background: #dbdbdb;
+    border: 1px solid #d1d1d1;
+    color: #626262;
+    font-weight: 500;
+    text-shadow: 0 1px 0 #fff;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0);
+}
 /*.... Pagina principal .....*/
 .panel {
     border: 0px solid #ffffff !important;
