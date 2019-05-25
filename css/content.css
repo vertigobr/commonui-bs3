@@ -2,7 +2,7 @@
 body, nav, article, p, h, footer {
     -webkit-font-smoothing: antialiased;
     font: normal 15px Roboto, Helvetica, "Helvetica Neue", Arial, sans-serif;
-    padding-top: 0;
+    padding: 0;
 }
 
 .article p {
