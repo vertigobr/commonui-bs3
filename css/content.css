@@ -105,6 +105,10 @@ article h4 {
     text-transform: uppercase;
 }
 
+#main h2{
+    margin-top: 15px;
+}
+
 .subject-category-overline {
     border-top: 2px solid #72b05f;
 }
