@@ -259,6 +259,8 @@ footer {
 input#locationSearch {
     background: #689a3f;
     border: 1px solid #507532;
+    color: white;
+    text-shadow: 0 0px 0 #fff0;
 }
 /*.... specie profile .....*/
 
