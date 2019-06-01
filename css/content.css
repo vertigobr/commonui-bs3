@@ -26,7 +26,6 @@ a {
     margin-bottom: 0px;
 }
 
-
 section#breadcrumb {
     padding: 12px 0 15px 19px;
     border-bottom: 1px solid #DBDBDB;
@@ -105,7 +104,7 @@ article h4 {
     text-transform: uppercase;
 }
 
-#main h2{
+#main h2 {
     margin-top: 15px;
 }
 
@@ -517,6 +516,12 @@ img:hover {
     color: #659d54;
     background-color: #eeeeee;
     border-color: #999999;
+}
+
+/* Custom ALA Hub*/
+.margin-bottom-half-1 {
+    margin-bottom: .5em;
+    margin-top: 1rem;
 }
 
 /* Custumização head pagina especie bie index */
