@@ -582,6 +582,6 @@ span.commonNameSummary {
     line-height: 10px;
 }
 
-.panel-default > .panel-heading h3 {
-    margin-bottom: 0;
+.panel-default > .panel-heading .painel-title {
+    margin-bottom: 0 !important;
 }
