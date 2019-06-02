@@ -537,10 +537,31 @@ img:hover {
 }
 
 .main-content.panel.panel-body {
-    margin-bottom: 25px;
-    background-color: #ffffff;
-    border: 1px solid transparent;
-    border-radius: 0;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+}
+
+.panel-body {
+    border: 0 solid #ececec;
+}
+
+/*... Tab Collectory ...*/
+.nav-tabs li a {
+    background-color: #e7e7e7;
+}
+
+.nav-tabs > li > a {
+    border: 1px solid #c7c7c7;
+}
+
+/*... Pesquisar ALA Bie ...*/
+.scientific-name.rank-kingdom .name {
+
+}
+
+.scientific-name.rank-kingdom .author {
+    color: #606060;
+}
+
+.summary-actions.list-inline li a {
+    color: #8c8c8c;
 }

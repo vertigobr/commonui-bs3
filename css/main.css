@@ -279,10 +279,7 @@ input#locationSearch {
 }
 
 .panel-body {
-    border: 0px solid #ececec !important;
-}
-
-.panel-body {
+    border: 0px solid #ececec;
     padding: 10px;
 }
 
