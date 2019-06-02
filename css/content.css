@@ -583,5 +583,5 @@ span.commonNameSummary {
 }
 
 .panel-default > .panel-heading .painel-title, .panel-heading .panel-title {
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
 }
