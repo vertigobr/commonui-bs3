@@ -587,6 +587,10 @@ span.commonNameSummary {
     border: 1px solid #c2c2c2;
 }
 
+.nav-tabs {
+    border-bottom: 1px solid #c2c2c2;
+}
+
 .taxon-tabs .tab-content {
     border: solid #c2c2c2;
     border-width: 0 1px 1px;
@@ -596,4 +600,5 @@ span.commonNameSummary {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
     border: 1px solid #c2c2c2;
+    border-bottom-color: transparent;
 }
