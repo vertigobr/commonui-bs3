@@ -186,7 +186,7 @@ img:hover {
 }
 
 .no-gbif {
-    background: #e0e0e0;
+    background: #e7e7e7;
     height: 46px;
     font-size: 15px;
     margin-top: 10px;
@@ -546,18 +546,15 @@ img:hover {
 
 /*... Tab Collectory ...*/
 .nav-tabs li a {
-    background-color: #f2f2f2;
+    background-color: #e7e7e7;
 }
 
+c2
 .nav-tabs > li > a {
-    border: 1px solid #c7c7c7;
+    border: 1px solid #d1d1d1;
 }
 
 /*... Pesquisar ALA Bie ...*/
-.scientific-name.rank-kingdom .name {
-
-}
-
 .scientific-name.rank-kingdom .author {
     color: #606060;
 }
@@ -584,4 +581,26 @@ span.commonNameSummary {
 
 .panel-default > .panel-heading .painel-title, .panel-heading .panel-title {
     margin-bottom: 0px !important;
+}
+
+.well.refine-box {
+    border: 1px solid #c2c2c2;
+}
+
+.taxon-tabs .tab-content {
+    border: 1px solid #c2c2c2;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: #eeeeee #eeeeee #c2c2c2;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border: 1px solid #c2c2c2;
 }
