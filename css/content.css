@@ -602,3 +602,10 @@ span.commonNameSummary {
     border: 1px solid #c2c2c2;
     border-bottom-color: transparent;
 }
+
+button.btn.btn-sm.btn-default.btn-primary.expand-image-gallery {
+    background: #5d893c;
+    border: 1px solid #578039;
+    text-shadow: 0 1px 0 #fff0;
+    color: white;
+}
