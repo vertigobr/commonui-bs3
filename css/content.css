@@ -582,3 +582,18 @@ span.commonNameSummary {
 .panel-default > .panel-heading .painel-title, .panel-heading .panel-title {
     margin-bottom: 0px !important;
 }
+
+.well.refine-box {
+    border: 1px solid #c2c2c2;
+}
+
+.taxon-tabs .tab-content {
+    border: solid #c2c2c2;
+    border-width: 0 1px 1px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border: 1px solid #c2c2c2;
+}
