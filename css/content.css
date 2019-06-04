@@ -602,3 +602,7 @@ span.commonNameSummary {
     border: 1px solid #c2c2c2;
     border-bottom-color: transparent;
 }
+
+.box-destaque {
+    border: 1px solid #ececec;
+}
