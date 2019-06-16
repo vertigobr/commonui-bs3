@@ -614,6 +614,17 @@ button.btn.btn-sm.btn-default.btn-primary.expand-image-gallery {
     border: 1px solid #ececec;
 }
 
+/*... ALA Bie pesquisa sinonimos*/
+
+/*.synonym-name .accepted-name {*/
+/*    padding-left: 5px;*/
+/*}*/
+
+
+/*ol#search-results-list li a {*/
+/*    color: #8c8c8c;*/
+/*}*/
+
 /* Esconder temporariamente overview aba resumo especie profile*/
 
 div#descriptiveContent {
