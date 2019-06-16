@@ -613,3 +613,9 @@ button.btn.btn-sm.btn-default.btn-primary.expand-image-gallery {
 .box-destaque {
     border: 1px solid #ececec;
 }
+
+/* Esconder temporariamente overview aba resumo especie profile*/
+
+div#descriptiveContent {
+    display: none;
+}
