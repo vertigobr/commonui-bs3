@@ -632,7 +632,7 @@ div#descriptiveContent {
 }
 
 .beta {
-    position: fixed;
+    position: absolute;
     top: 45px;
     right: 0;
     width: 110px;
