@@ -630,3 +630,19 @@ button.btn.btn-sm.btn-default.btn-primary.expand-image-gallery {
 div#descriptiveContent {
     display: none;
 }
+
+.beta {
+    position: fixed;
+    top: 45px;
+    right: 0;
+    width: 110px;
+    height: 35px;
+    z-index: 999999;
+    background: #72b05e;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid #4caa0c;
+    border-width: 0 0 1px 1px;
+}
