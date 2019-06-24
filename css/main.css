@@ -263,6 +263,14 @@ input#locationSearch {
     text-shadow: 0 0px 0 #fff0;
 }
 
+/*.... Quem Somos .....*/
+
+.text-bold-green {
+    color: #72b05e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
 /*.... specie profile .....*/
 
 .pull-right.json a {
