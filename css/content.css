@@ -632,17 +632,19 @@ div#descriptiveContent {
 }
 
 .beta {
-    position: absolute;
-    top: 45px;
+    position: fixed;
+    top: 540px;
     right: 0;
-    width: 110px;
-    height: 35px;
+    width: 35px;
+    height: 110px;
     z-index: 999999;
-    background: #72b05e;
+    background: #f99e16;
     text-align: center;
-    line-height: 32px;
+    line-height: 35px;
     color: white;
     font-weight: 500;
-    border: 1px solid #4caa0c;
+    border: 1px solid #da890f;
     border-width: 0 0 1px 1px;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
 }
