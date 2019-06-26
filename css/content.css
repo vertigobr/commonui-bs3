@@ -650,8 +650,7 @@ div#descriptiveContent {
 }
 
 /*...  Destaque cores texto filtro sinonimos ...*/
-
-.inferred-name.synonym-name .accepted-name {
+.synonym-name .accepted-name {
     color: #f78d18cc;
 }
 
