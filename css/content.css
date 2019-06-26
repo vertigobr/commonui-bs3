@@ -652,7 +652,7 @@ div#descriptiveContent {
 /*...  Destaque cores texto filtro sinonimos ...*/
 .synonym-name .accepted-name {
     color: #f78d18cc;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .search-results-list li:not(.search-result) a {
