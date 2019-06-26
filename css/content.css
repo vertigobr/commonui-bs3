@@ -661,6 +661,7 @@ div#descriptiveContent {
 
 .search-result {
     margin-top: 10px;
+    padding-bottom: 0px;
 }
 
 .search-results-list li:last-child {
