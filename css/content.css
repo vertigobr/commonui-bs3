@@ -648,3 +648,17 @@ div#descriptiveContent {
     writing-mode: vertical-lr;
     text-orientation: mixed;
 }
+
+/*...  Destaque cores texto filtro sinonimos ...*/
+
+.inferred-name.synonym-name .accepted-name {
+    color: #f78d18cc;
+}
+
+.search-results-list li:not(.search-result) a {
+    color: #8c8c8c;
+}
+
+.search-result {
+    margin-top: 10px;
+}
