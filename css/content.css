@@ -667,3 +667,11 @@ div#descriptiveContent {
 .search-results-list li:last-child {
     padding-bottom: 10px;
 }
+
+/*... Página de noticias ...*/
+
+.panel.panel-default.panel-blog {
+    background: #e7e7e78f;
+    border: 1px solid #e7e7e7 !important;
+    padding: 15px;
+}
