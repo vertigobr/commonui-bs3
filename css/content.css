@@ -346,6 +346,7 @@ img:hover {
 
 .hvrbox img {
     max-width: 100%;
+    height: 200px;
 }
 
 .hvrbox .hvrbox-layer_bottom {
@@ -427,7 +428,6 @@ img:hover {
 
 
 .circle-container > *:hover {
-
     height: 9.2em;
 }
 
