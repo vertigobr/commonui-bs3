@@ -671,7 +671,7 @@ div#descriptiveContent {
 /*... Página de noticias ...*/
 
 .panel.panel-default.panel-blog {
-    background: #e7e7e78f;
+    background: #fff;
     border: 1px solid #e7e7e7 !important;
     padding: 15px;
 }
