@@ -546,10 +546,9 @@ img:hover {
 
 /*... Tab Collectory ...*/
 .nav-tabs li a {
-    background-color: #e7e7e7;
+    background-color: #f5f5f5;
 }
 
-c2
 .nav-tabs > li > a {
     border: 1px solid #d1d1d1;
 }
