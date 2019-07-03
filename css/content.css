@@ -180,8 +180,8 @@ img:hover {
 }
 
 .box-map {
-    background: #aadaff;
-    border: solid #96c5ea;
+    background: #31909e61;
+    border: solid rgba(36, 105, 115, 0.38);
     border-width: 1px 1px 0 1px;
 }
 
