@@ -674,3 +674,9 @@ div#descriptiveContent {
     border: 1px solid #e7e7e7 !important;
     padding: 15px;
 }
+
+.img-noticias {
+    height: 250px;
+    width: auto;
+    float: right;
+}
