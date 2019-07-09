@@ -704,4 +704,6 @@ div#descriptiveContent {
 
 .card-body {
     padding: 10px;
+    line-height: 22px;
+    font-weight: 200;
 }
