@@ -693,14 +693,11 @@ div#descriptiveContent {
     border: 1px solid #64943d;
 }
 
-.card-header button {
-    color: #fff;
-    font-weight: bold;
-}
-
+.card-header button,
 .card-header button:focus,
 .card-header button:hover {
-    color: #3c843e;
+    color: #fff;
+    font-weight: bold;
 }
 
 .card-body {
