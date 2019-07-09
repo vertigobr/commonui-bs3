@@ -689,12 +689,17 @@ div#descriptiveContent {
 }
 
 .card-header {
-    background: whitesmoke;
+    background: #64943dd4;
 }
 
 .card-header button {
-    color: #3c843e;
+    color: #fff;
     font-weight: bold;
+}
+
+.card-header button:focus,
+.card-header button:hover {
+    color: #3c843e;
 }
 
 .card-body {
