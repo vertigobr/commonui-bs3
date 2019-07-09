@@ -680,3 +680,18 @@ div#descriptiveContent {
     width: auto;
     float: right;
 }
+
+/*... Menu collpase ...*/
+.card {
+    border: 1px solid #e2e2e2;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    background: whitesmoke;
+}
+
+.card-body {
+    padding: 10px;
+}
