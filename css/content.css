@@ -691,6 +691,8 @@ div#descriptiveContent {
 .card-header {
     background: #64943dd4;
     border: 1px solid #64943d;
+    line-height: 22px;
+    font-weight: 200;
 }
 
 .card-header button,
