@@ -690,6 +690,7 @@ div#descriptiveContent {
 
 .card-header {
     background: #64943dd4;
+    border: 1px solid #64943d;
 }
 
 .card-header button {
