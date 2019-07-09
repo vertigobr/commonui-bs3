@@ -692,6 +692,11 @@ div#descriptiveContent {
     background: whitesmoke;
 }
 
+.card-header button {
+    color: #3c843e;
+    font-weight: bold;
+}
+
 .card-body {
     padding: 10px;
 }
