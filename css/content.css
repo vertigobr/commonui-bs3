@@ -620,19 +620,24 @@ button.btn.btn-sm.btn-default.btn-primary.expand-image-gallery {
 }
 
 h5.inline-head.taxon-rank:before {
-    content: "Nível táxon: ";
+    content: "Nível: ";
     color: #4e4e4e;
     font-weight: normal;
 }
 
-h5.inline-head taxonomic-status {
-    content: "Status táxon: ";
+h5.inline-head.taxonomic-status:before {
+    content: "Status: ";
     color: #4e4e4e;
     font-weight: normal;
 }
 
-h5.inline-head.name-authority .name-authority {
+h5.inline-head.name-authority strong {
     font-weight: normal;
+}
+
+.taxon-row .panel-actions .panel-body {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .taxon-row .panel .panel-body {
@@ -644,8 +649,13 @@ h5.inline-head.name-authority .name-authority {
     border-width: 0 1px 1px;
 }
 
-.panel-footer {
+.taxon-row .panel .panel-footer {
     border: 1px solid #e4e4e4;
+    border-width: 0px 1px 1px;
+}
+
+.content > .specieslist-table > thead > tr > th, .content > .specieslist-table > tbody > tr > td {
+    border-top: 1px solid #dcdcdc;
 }
 
 div#descriptiveContent {
