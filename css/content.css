@@ -668,10 +668,83 @@ h2.commonName {
     font-weight: normal;
 }
 
+/*... Status conservation ...*/
+span.iucn {
+    height: 40px;
+    width: 40px;
+    margin: 0 6px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 40px;
+    color: #333a3f;
+    text-align: center;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+    font-variant: small-caps;
+    border: 1px solid #3d464c;
+    background-color: #fff;
+}
+
+span.iucn.ne {
+    background-color: #ffffff;
+    border-color: #4e4e4e;
+    color: #4e4e4e;
+}
+
+span.iucn.dd {
+    background-color: #dfdfdf;
+    border-color: #dfdfdf;
+    color: #4e4e4e;
+}
+
+span.iucn.green {
+    background-color: #007764;
+    border-color: #007764;
+    color: #fff;
+}
+
+span.iucn.near-threatened {
+    background-color: #779641;
+    border-color: #779641;
+    color: #ffffff;
+}
+
+span.iucn.yellow {
+    background-color: #febc11;
+    border-color: #febc11;
+    color: #ffc;
+}
+
+span.iucn.orange {
+    background-color: #f47920;
+    border-color: #f47920;
+    color: #fff;
+}
+
+span.iucn.red {
+    background-color: #d2232a;
+    border-color: #d2232a;
+    color: #fcc;
+}
+
+span.iucn.black {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+span.iucn.extinct {
+    background-color: black;
+    border-color: black;
+    color: #d22121;
+}
+
 div#descriptiveContent {
     display: none;
 }
 
+/* Stick info versão beta*/
 .beta {
     position: fixed;
     top: 280px;
