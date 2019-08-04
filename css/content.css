@@ -669,9 +669,15 @@ h2.commonName {
 }
 
 /*... Status conservation ...*/
+
+ul.conservationList a {
+    color: #5a5a5a;
+}
+
 span.iucn {
     height: 40px;
     width: 40px;
+    font-size: 12px;
     margin: 0 6px 12px 0;
     display: inline-block;
     font-weight: bold;
