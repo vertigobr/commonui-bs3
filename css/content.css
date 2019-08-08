@@ -567,7 +567,7 @@ span.commonNameSummary {
 }
 
 #leafletMap {
-    border: 1px solid #c9c9c9;
+    border: 1px solid #e4e4e4;
 }
 
 .panel-default > .panel-heading {
@@ -613,23 +613,144 @@ button.btn.btn-sm.btn-default.btn-primary.expand-image-gallery {
     border: 1px solid #ececec;
 }
 
-/*... ALA Bie pesquisa sinonimos*/
+/*... ALA Bie exibição nomes vernaculares */
 
-/*.synonym-name .accepted-name {*/
-/*    padding-left: 5px;*/
-/*}*/
+.accepted-name .scientific-name {
+    font-size: 0.9em;
+}
 
+h5.inline-head.taxon-rank:before {
+    content: "Nível: ";
+    color: #4e4e4e;
+    font-weight: normal;
+}
 
-/*ol#search-results-list li a {*/
-/*    color: #8c8c8c;*/
-/*}*/
+h5.inline-head.taxonomic-status:before {
+    content: "Status: ";
+    color: #4e4e4e;
+    font-weight: normal;
+}
 
-/* Esconder temporariamente overview aba resumo especie profile*/
+h5.inline-head.name-authority strong {
+    font-weight: normal;
+}
+
+.taxon-row .panel-actions .panel-body {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.taxon-row .panel .panel-body {
+    border: 1px solid #ececec;
+}
+
+.taxon-row .panel .panel-heading + .panel-body {
+    border: 1px solid #ececec;
+    border-width: 0 1px 1px;
+}
+
+.taxon-row .panel .panel-footer {
+    border: 1px solid #e4e4e4;
+    border-width: 0px 1px 1px;
+}
+
+.content > .specieslist-table > thead > tr > th, .content > .specieslist-table > tbody > tr > td {
+    border-top: 1px solid #dcdcdc;
+}
+
+h1.main.scientificName {
+    margin-bottom: 15px !important;
+}
+
+h2.commonName {
+    font-size: 20px;
+    color: #3e3e3e;
+    font-weight: normal;
+}
+
+/*... Status conservation ...*/
+
+ul.conservationList a {
+    color: #5a5a5a;
+}
+
+span.iucn {
+    height: 40px;
+    width: 40px;
+    font-size: 12px;
+    margin: 0 6px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 40px;
+    color: #333a3f;
+    text-align: center;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+    font-variant: small-caps;
+    border: 1px solid #3d464c;
+    background-color: #fff;
+}
+
+span.iucn.ne {
+    background-color: #ffffff;
+    border-color: #4e4e4e;
+    color: #4e4e4e;
+}
+
+span.iucn.dd {
+    background-color: #dfdfdf;
+    border-color: #dfdfdf;
+    color: #4e4e4e;
+}
+
+span.iucn.green {
+    background-color: #007764;
+    border-color: #007764;
+    color: #fff;
+}
+
+span.iucn.near-threatened {
+    background-color: #779641;
+    border-color: #779641;
+    color: #ffffff;
+}
+
+span.iucn.yellow {
+    background-color: #febc11;
+    border-color: #febc11;
+    color: #ffc;
+}
+
+span.iucn.orange {
+    background-color: #f47920;
+    border-color: #f47920;
+    color: #fff;
+}
+
+span.iucn.red {
+    background-color: #d2232a;
+    border-color: #d2232a;
+    color: #fcc;
+}
+
+span.iucn.black {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+span.iucn.extinct {
+    background-color: black;
+    border-color: black;
+    color: #d22121;
+}
 
 div#descriptiveContent {
     display: none;
 }
 
+/* Stick info versão beta*/
 .beta {
     position: fixed;
     top: 280px;
@@ -707,6 +828,11 @@ div#descriptiveContent {
     font-weight: 200;
     border: 1px solid #e2e2e2;
     border-width: 0 1px 1px 1px;
+}
+
+/* Ajuste link quebra linha */
+.recordsLink {
+    display: block;
 }
 
 /*... Dash board ...*/
