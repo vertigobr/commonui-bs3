@@ -708,3 +708,12 @@ div#descriptiveContent {
     border: 1px solid #e2e2e2;
     border-width: 0 1px 1px 1px;
 }
+
+/*... Dash board ...*/
+.dashboard .panel {
+    border: 1px solid #dcdcdc !important;
+}
+
+.dashboard .panel-heading {
+    border-bottom: 1px solid #dcdcdc !important;
+}
