@@ -845,7 +845,7 @@ div#descriptiveContent {
 }
 
 /* Separador menus*/
-.menu hr {
+.dropdown-menu hr {
     margin-top: 5px;
     margin-bottom: 5px;
 }
