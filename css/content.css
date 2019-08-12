@@ -843,3 +843,9 @@ div#descriptiveContent {
 .dashboard .panel-heading {
     border-bottom: 1px solid #dcdcdc !important;
 }
+
+/* Separador menus*/
+.dropdown-menu hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
