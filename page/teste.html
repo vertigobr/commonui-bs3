@@ -1,0 +1,1079 @@
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="app.version" content="3.2">
+    <meta name="description" content="SiBBr">
+    <meta name="author" content="SiBBr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/css/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/css/ala-styles.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" media="all" href="/assets/core-b723a29fac7a87ba1773e821f0390498.css">
+    <link rel="stylesheet" media="all" href="/assets/core-screen-print-33302e79a81ebc2dea940c077b2450f1.css">
+    <link rel="stylesheet" media="all" href="/assets/application-d0276424c1b4cb670e1e2e3356c2a461.css">
+    <link href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/img/sibbr.ico " rel="shortcut icon" type="image/x-icon">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/assets/html5.js" ></script>
+    <![endif]-->
+    <script type="text/javascript" src="/assets/head-8c8036233f3a7101077bd2c1b799e348.js"></script>
+    <script type="text/javascript" src="/assets/jquery-extensions-b5f1076582a99a61469aa06875a93075.js"></script>
+
+
+    <meta charset="utf-8">
+    <!--
+    <link href="{{ header_and_footer_baseurl }}/css/bootstrap.css" type="text/css" rel="stylesheet" media="screen, projection, print" />
+    <link href="{{ header_and_footer_baseurl }}/css/bootstrap-theme.css" type="text/css" rel="stylesheet" media="screen, projection, print" />
+    <script type="text/javascript" src="{{ header_and_footer_baseurl }}/js/bootstrap.js"> </script>
+    -->
+
+    <link href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/img/sibbr.ico" rel="shortcut icon" type="image/x-icon">
+
+    <link href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/css/ala-styles.css" type="text/css" rel="stylesheet" media="screen, projection, print">
+    <!-- Custom paginas complementares -->
+    <link href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/css/main.css" type="text/css" rel="stylesheet" media="screen, projection, print">
+    <link href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/css/content.css" type="text/css" rel="stylesheet" media="screen, projection, print">
+    <title>Species list items | SiBBr</title>
+
+    <meta name="layout" content="main">
+    <meta name="breadcrumb" content="Espécies icônicas">
+    <script language="JavaScript" type="text/javascript" src="/assets/facets-eb28dc04f35ecba5fc0b6258297c5a85.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/assets/getQueryParam-ee1b64b22cba525da29f58b53ca7b30d.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/assets/jquery-ui-1.8.17.custom.min-a67dd49404933ef6c8ef1fb9671bbae4.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/assets/jquery.doubleScroll-56e5aa832159ad205ecfd2ff53cbac12.js"></script>
+
+    <style type="text/css">
+        #buttonDiv {display: none;}
+        #refine {display:none;}
+        .bs-docs-sidenav {
+            width: 228px;
+            margin: 15px 0 0;
+            padding: 0;
+            background-color: #fff;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+            -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+            box-shadow: 0 1px 4px rgba(0,0,0,.065);
+        }
+        .bs-docs-sidenav > li > a {
+            display: block;
+            width: 190px \9;
+            margin: 0 0 -1px;
+            padding: 8px 14px;
+            border: 1px solid #e5e5e5;
+        }
+        .bs-docs-sidenav > li:first-child > a {
+            -webkit-border-radius: 6px 6px 0 0;
+            -moz-border-radius: 6px 6px 0 0;
+            border-radius: 6px 6px 0 0;
+        }
+        .bs-docs-sidenav > li:last-child > a {
+            -webkit-border-radius: 0 0 6px 6px;
+            -moz-border-radius: 0 0 6px 6px;
+            border-radius: 0 0 6px 6px;
+        }
+        .bs-docs-sidenav > .active > a {
+            padding: 9px 15px;
+            text-shadow: 0 1px 0 rgba(0,0,0,.15);
+            -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+            -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+            box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+        }
+        /* Chevrons */
+        .bs-docs-sidenav .glyphicon-chevron-right {
+            float: right;
+            margin-top: 2px;
+            margin-right: -6px;
+            opacity: .25;
+        }
+        .bs-docs-sidenav > li > a:hover {
+            background-color: #f5f5f5;
+        }
+        .bs-docs-sidenav a:hover .glyphicon-chevron-right {
+            opacity: .5;
+        }
+        .bs-docs-sidenav .active .glyphicon-chevron-right,
+        .bs-docs-sidenav .active a:hover .glyphicon-chevron-right {
+            opacity: 1;
+        }
+        .bs-docs-sidenav.affix {
+            top: 50px;
+        }
+        .bs-docs-sidenav.affix-bottomX {
+            position: absolute;
+            top: auto;
+            bottom: 270px;
+        }
+
+        .general-search {
+            width: 500px;
+        }
+
+        /* Responsive
+        -------------------------------------------------- */
+
+        /* Desktop large
+        ------------------------- */
+        @media (min-width: 1200px) {
+            .bs-docs-container {
+                max-width: 970px;
+            }
+            .bs-docs-sidenav {
+                width: 258px;
+            }
+            .bs-docs-sidenav > li > a {
+                width: 230px \9; /* Override the previous IE8-9 hack */
+            }
+            .general-search {
+                width: 500px;
+            }
+        }
+
+        /* Desktop
+        ------------------------- */
+        @media (max-width: 980px) {
+            /* When affixed, space properly */
+            .bs-docs-sidenav {
+                top: 0;
+                width: 215px;
+                margin-top: 30px;
+                margin-right: 0;
+            }
+            .general-search {
+                width: 400px;
+            }
+        }
+
+        /* Tablet to desktop
+        ------------------------- */
+        @media (min-width: 768px) and (max-width: 979px) {
+
+            /* Adjust sidenav width */
+            .bs-docs-sidenav {
+                width: 160px;
+                margin-top: 20px;
+            }
+            .bs-docs-sidenav.affix {
+                top: 0;
+            }
+            .general-search {
+                width: 300px;
+            }
+        }
+
+        /* Tablet
+        ------------------------- */
+        @media (max-width: 767px) {
+            /* Sidenav */
+            .bs-docs-sidenav {
+                width: auto;
+                margin-bottom: 20px;
+            }
+            .bs-docs-sidenav.affix {
+                position: static;
+                width: auto;
+                top: 0;
+            }
+            .input-group .general-search {
+                width: 100%;
+            }
+        }
+
+        .imgCon img {
+            height: 140px;
+        }
+
+        #content p.lead {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+
+
+
+
+    <style type="text/css" media="all">#barra-brasil div,#barra-brasil a,#barra-brasil ul,#barra-brasil li{margin:0;padding:0;font-size:100%;font-family:inherit;vertical-align:baseline;font-size:1rem}#barra-brasil ul{list-style:none}@font-face{font-family:"Raleway";font-weight:bold;src:url("//barra.brasil.gov.br/static/Raleway-Bold.woff") format("woff")}.conteudo-escondido{display:block;background:transparent;background-image:none;background-image:none;border:none;height:0.1em;overflow:hidden;padding:0;margin:-0.1em 0 0 -0.1em;width:1px}#barra-brasil div,#barra-brasil a,#barra-brasil ul,#barra-brasil li{margin:0;padding:0;font-size:100%;font-family:inherit;vertical-align:baseline;font-size:1rem}#barra-brasil ul{list-style:none}#barra-brasil{background-color:#071D41;box-sizing:content-box;display:flex;flex-direction:column-reverse;align-items:center}#barra-brasil .conteudo-barra-brasil{height:40px;width:95%;max-width:1150px;margin:0 auto;height:40px;display:flex;flex-flow:row nowrap;align-items:center;justify-content:space-between}#barra-brasil .pic-gov{background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2250%22%20height%3D%2219%22%20version%3D%221.1%22%20viewBox%3D%220%200%2019%2050%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22matrix(.232%200%200%20.232%20-153%20-147)%22%20fill%3D%22%23fff%22%3E%3Cg%20transform%3D%22matrix(1.29%200%200%201.29%20-200%20-209)%22%3E%3Cpath%20d%3D%22m576%20765c0%2034.4-16.7%2045.5-50.5%2045.5-13.8%200-25.2-2.89-32-5.3l1.45-22.8c8.85%204.34%2016.2%206.92%2028.3%206.92%2016.7%200%2025.7-7.88%2025.7-24.3v-4.5h-0.323c-6.92%209.81-16.6%2014.3-28.2%2014.3-23%200-37.3-17.4-37.3-42.2%200-24.9%2011.8-43.6%2037.8-43.6%2012.4%200%2022.4%206.76%2028.5%2017h0.32v-15.1h26.2v74m-46.5-12.4c10.3%200%2018.5-8.68%2018.5-21.6%200-9.33-5.47-19.8-18.5-19.8-10.8%200-16.4%209.49-16.4%2020.9%200%2013%207.72%2020.4%2016.4%2020.4z%22%2F%3E%3Cpath%20d%3D%22m662%20684h28l21.9%2061.8%2021.8-61.8h28.1l-34.6%2089.4h-30.8l-34.5-89.4%22%2F%3E%3Cpath%20d%3D%22m576%20732c0-27.8%2021.1-43.9%2048.8-43.9s48.7%2016.1%2048.7%2043.9c0%2027.7-21.1%2043.8-48.7%2043.8-27.7%200-48.8-16.1-48.8-43.8m67.6%200c0-12.6-5.47-23.6-18.8-23.6s-18.8%2011.1-18.8%2023.6c0%2012.4%205.47%2023.5%2018.8%2023.5s18.8-11.1%2018.8-23.5z%22%2F%3E%3Cpath%20d%3D%22m760%20762c0%207.59-6.16%2013.7-13.8%2013.7-7.59%200-13.7-6.15-13.7-13.7%200-7.59%206.15-13.8%2013.7-13.8%207.59%200%2013.8%206.16%2013.8%2013.8z%22%2F%3E%3Cpath%20d%3D%22m762%20654h29.1v47.6h0.323c7.4-9.33%2017.2-12.7%2028.8-12.7%2023.2%200%2035.9%2022%2035.9%2042.3%200%2024.8-13.4%2045.4-38.3%2045.4-13.4%200-25.1-7.56-28.8-16.9h-0.322v15h-26.7v-121m46.7%2057.1c-10.6%200-17.7%209.33-17.7%2021.9%200%2012.2%208.04%2021.4%2017.7%2021.4%2010.9%200%2017.5-9.17%2017.5-22.5%200-11.1-6.28-20.8-17.5-20.8z%22%2F%3E%3Cpath%20d%3D%22m916%20714c-3.22-0.967-6.44-0.967-9.82-0.967-13.5%200-21.1%209.82-21.1%2026.2v35.4h-29v-83.8h26.4v15.4h0.32c4.99-10.6%2012.2-17.4%2024.8-17.4%203.38%200%206.92%200.483%209.82%200.965l-1.45%2024.1z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E");display:block;height:19px;min-width:50px;margin-right:10px;line-height:0;font-size:0;color:transparent}#barra-brasil .conteudo-barra-brasil nav{overflow-x:auto}#barra-brasil .conteudo-barra-brasil nav ul{display:flex;flex-flow:row nowrap;justify-content:flex-start;align-items:center;width:auto;max-width:none}#barra-brasil .conteudo-barra-brasil nav ul li.list-item{flex-shrink:0}#barra-brasil .conteudo-barra-brasil nav ul li.espacador{height:20px;width:1px;border-right:1px solid rgba(151,151,151,0.3);margin:0 7px 0 20px}#barra-brasil a{text-decoration:none;color:#fff;font-weight:bold;font-size:0.7em;font-family:Raleway,Arial,Helvetica,sans-serif;text-transform:uppercase;transition-property:all;transition-duration:0.1s;transition-timing-function:ease-in-out}#barra-brasil .conteudo-barra-brasil nav a.link-externo-barra::before{content:"";display:inline-block;width:11px;height:10px;margin-right:6px;background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2211%22%20height%3D%2210%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M10.174.169l-.003%204.002L6.173.173z%22%2F%3E%3Cpath%20d%3D%22M4%204.51L7.91.6l1.768%201.768-3.91%203.91zM0%200h3.5v2.5H0z%22%2F%3E%3Cpath%20d%3D%22M0%202h2.5v5H0zM7.5%206H10v3H7.5z%22%2F%3E%3Cpath%20d%3D%22M0%207h10v2.5H0z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");opacity:0;transition-property:all;transition-duration:0.1s;transition-timing-function:ease-in-out}#barra-brasil .conteudo-barra-brasil nav a.link-discreto,#barra-brasil .conteudo-barra-brasil nav a.link-discreto-fixo,#barra-brasil .conteudo-barra-brasil nav:hover li:not(:hover)>a{opacity:0.3}#barra-brasil .conteudo-barra-brasil nav a:hover{opacity:1}#barra-brasil .conteudo-barra-brasil nav a.link-externo-barra:hover::before{opacity:1}#barra-brasil .conteudo-barra-brasil nav a.link-interno-barra{margin-left:13px}#barra-brasil .conteudo-barra-brasil nav a.link-baixo-barra::after{content:"";display:inline-block;width:13px;height:13px;margin-left:6px;background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2214%22%20height%3D%229%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M1.9.033L8.4%206.531%206.63%208.3.133%201.801z%22%2F%3E%3Cpath%20d%3D%22M11.395%200L5.03%206.364l1.767%201.768%206.364-6.364z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-repeat:no-repeat;background-position:center;background-size:8px 6px;background-color:#3b3b3b;border-radius:50%}#barra-brasil .conteudo-barra-brasil nav a.link-baixo-barra.link-cima-barra::after{background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2214%22%20height%3D%229%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M1.9%208.967L8.4%202.469%206.63.7.133%207.199z%22%2F%3E%3Cpath%20d%3D%22M11.395%209L5.03%202.636%206.798.868l6.364%206.364z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")}#barra-brasil .conteudo-barra-brasil a.botao-seta-direita{display:none;width:9px;min-width:9px;margin-left:10px;height:13px;background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%2213%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M.533%2011.232L7.03%204.734%208.8%206.502%202.301%2013z%22%2F%3E%3Cpath%20d%3D%22M.5%201.738l6.364%206.364%201.768-1.768L2.268-.03z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");line-height:0;font-size:0;color:transparent}#barra-brasil .orgaos-governo-barra{width:100%;border-bottom:0.5px solid rgba(255,255,255,0.3);max-height:0;overflow-y:hidden;transition-property:all;transition-duration:0.5s;transition-timing-function:ease-in-out}#barra-brasil .orgaos-governo-barra.mostra-orgaos{max-height:calc(90vh - 40px)}#barra-brasil .orgaos-governo-barra>div{width:100%;max-width:1150px;margin:0 auto}#barra-brasil .orgaos-governo-barra ul{margin-top:25px;width:calc(100% + 25px);display:flex;flex-flow:row wrap}#barra-brasil .orgaos-governo-barra ul li{width:168px;text-align:left;margin:0 25px 25px 0}#barra-brasil .orgaos-governo-barra ul li a{font-size:0.75em;text-transform:none;font-weight:bold}#barra-brasil .orgaos-governo-barra ul:hover li:not(:hover) a{opacity:0.3}#barra-brasil .orgaos-governo-barra ul li a:hover{font-weight:bold}@media only screen and (max-width: 600px){#barra-brasil .orgaos-governo-barra{overflow-y:auto}#barra-brasil .orgaos-governo-barra ul{width:100%;flex-flow:column nowrap}#barra-brasil .orgaos-governo-barra ul li{width:100%;margin:0 0 25px 0}#barra-brasil .conteudo-barra-brasil a.botao-seta-direita{display:block}}</style><style type="text/css" media="all">#footer-brasil{background-color:#F1F1F1;width:100%}#footer-brasil #wrapper-footer-brasil{width:95%;max-width:1150px;margin:0 auto;display:flex;flex-flow:row nowrap;align-items:center;justify-content:flex-end;padding:40px 0}#footer-brasil .logo-acesso-a-informacao,#footer-brasil .logo-governo-federal{line-height:0;font-size:0;color:transparent}#footer-brasil .logo-acesso-footer{width:117px;height:49px;margin-right:45px;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20117%2049%22%20height%3D%2249%22%20width%3D%22117%22%20shape-rendering%3D%22geometricPrecision%22%20text-rendering%3D%22geometricPrecision%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%3C!%5BCDATA%5B.a%20%7Bfont%3A%20normal%20bold%2011px%20Open%20Sans%2C%20sans-serif%3B%7D%5D%5D%3E%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%2223%22%20r%3D%2222%22%20fill%3D%22%23222%22%2F%3E%3Cpath%20style%3D%22stroke%3A%23fff%3Bstroke-width%3A9%3Bstroke-linecap%3Around%3B%22%20d%3D%22m%2022%2C23%20v%2013%22%2F%3E%3Cpath%20style%3D%22stroke%3A%23222%3Bstroke-width%3A4%3Bstroke-linejoin%3Around%3B%22%20d%3D%22m%204%2C43%203%2C-6%204%2C3%20z%22%2F%3E%3Ccircle%20r%3D%224.5%22%20cy%3D%2211%22%20cx%3D%2222%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill%3D%22%23222%22%3E%3Ctext%20x%3D%2247%22%20y%3D%2222%22%3E%3Ctspan%20class%3D%22a%22%20y%3D%2218%22%3EAcesso%20%C3%A0%3C%2Ftspan%3E%3Ctspan%20class%3D%22a%22%20x%3D%2247%22%20y%3D%2231%22%3EInforma%C3%A7%C3%A3o%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E")}#footer-brasil .logo-governo-federal{width:149px;height:42px;background-repeat:no-repeat;background-position:bottom right;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%20496.2%20143.8%22%3E%3Cstyle%3E.st0%7Bfill%3A%23575756%7D%3C%2Fstyle%3E%3Cpath%20d%3D%22M220.5%2054.5c14.5%200%2021.4%206%2021.4%2016%200%205.6-3.7%2010.4-9.2%2012.4%206.7%201.8%2012.5%207.9%2012.5%2015.5%200%209.8-7.1%2017.2-23.4%2017.2-8%200-14.4-.2-21.7-.3l-.6-.6V55.4l.6-.6c7.2-.1%2013.9-.3%2020.4-.3zm-10.7%2025.4h10.3c9.2%200%2011.3-4.9%2011.3-9.1%200-4.3-1.9-9.1-11.1-9.1-2.8%200-7.4%200-10.5-.1v18.3zm0%207.2v21.4c4.1%200%208.3-.1%2011.9-.1%2010.6%200%2012.8-6.1%2012.8-10.6%200-4.4-2.9-10.7-13.4-10.7h-11.3zM284.5%2088.7c3.2%201.1%205.6%204.1%207%207.5l4.3%2010.3c1%202.4%202.2%204.8%204.4%206.4-1.4%201.9-4.4%202.9-7.1%202.9-3.9%200-5.3-1.9-6.9-5.7l-4.9-11.9c-1.7-4.1-3.8-7.2-9.9-7.2h-8.1v24.3c-1.6.3-3.5.4-5.2.4-1.6%200-3.6-.1-5.1-.4V55.4l.6-.6c7.4-.1%2014.5-.3%2021.1-.3%2013.7%200%2022.3%206.4%2022.3%2018.1.1%208.1-5.3%2014.1-12.5%2016.1zm-21.1-5.3c3.8-.1%208.2-.2%2010.9-.2%209.6%200%2012-5.5%2012-10.6%200-5.4-2.4-10.7-12-10.7-2.9%200-7.6%200-10.9-.1v21.6zM320.8%20100.5l-5.2%2014.8c-1.3.3-2.9.4-4.5.4-1.9%200-3.7-.3-5.1-.6l-.3-.4L327.9%2055c1.6-.3%204.3-.4%206-.4%201.7%200%204.4.1%205.9.4l22%2059.7c-1.5.9-3.8%201.2-6.1%201.2-3.2%200-4.9-1.1-6.2-4.9l-3.6-10.3c-1.7%200-5.1.1-5.9.1h-13.5c-.8-.2-4-.3-5.7-.3zm2.6-7.6c1.6%200%204.2-.1%205-.1h9.8c.7%200%203.3.1%204.9.1l-4.5-12.8c-1.8-5.1-3.8-11.3-5.2-16h-.4c-1%204-2.8%209.5-3.8%2012.8l-5.8%2016zM371.1%20102.5c5.7%203.4%2013%206%2019.8%206%208%200%2012.5-3.4%2012.6-8.3%200-4.2-3.2-7.3-8.9-9.5L383%2086.2c-8.3-3.2-13.5-7.8-13.5-15.3%200-9.6%209-17.1%2022.2-17.1%208.2%200%2015.7%202.3%2020.8%204.6-.1%202.7-1.7%205.6-3.8%207.3-5.1-2.3-11.8-4.2-16.8-4.2-7.3%200-11.8%203.6-11.8%208.3%200%203.9%203.3%206.1%208.2%208l11.4%204.4c8.5%203.2%2014.7%208.6%2014.7%2016.4%200%2010.2-7.9%2017.8-24.1%2017.8-8.2%200-17-2.5-23.6-6.6.3-2.8%202.2-5.7%204.4-7.3zM426.6%2054.9c1.5-.3%203.6-.4%205.2-.4s3.6.1%205.2.4v60.3c-1.6.3-3.6.4-5.2.4s-3.7-.1-5.2-.4V54.9zM492.9%20107.1c0%201-.1%202.6-.3%203.7-.6%203-3%204.5-6.8%204.5h-25.7c-3.5%200-6.1-2-6.1-5.8V55l.7-.5h3.9c4.3%200%205.9%201.9%205.9%206v46.9c3-.3%206.1-.4%208.7-.4h19.7zM209.6%2034.6h-4.1v10.1c-.9.2-2.1.2-3%20.2-.8%200-2%200-3-.2V14.5l.3-.3c3.6-.1%206.5-.2%209.7-.2%206.1%200%2010.6%203.3%2010.6%2010.3%200%206.8-4.4%2010.3-10.5%2010.3zm-4.1-4.6c1.5%200%203.1-.1%203.7-.1%204%200%204.8-3.2%204.8-5.6%200-2.4-.8-5.6-4.8-5.6h-3.7V30zM227.2%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.7%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1H227.2zm1.5-4.7H236.4l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM252.3%2022.5v-3.3H244.7c-.2-.9-.2-1.8-.2-2.5s0-1.6.2-2.5H266c.2.6.3%201.6.3%202.3%200%202-1%202.7-3.2%202.7H258.3v25.5c-1%20.2-2.1.2-3%20.2-.8%200-2%200-3-.2V22.5zM285.4%2031.6c1.6.6%202.7%202.1%203.3%203.9l1.6%204.5c.4%201.2%201.1%202.4%202.1%203.2-.8%201.1-2.4%201.8-4%201.8-2.2%200-2.9-1.2-3.8-3.5l-1.9-5.3c-.7-1.8-1.6-3.2-4.1-3.2H276v11.7c-1%20.2-2.1.2-3%20.2-.8%200-2%200-2.9-.2V14.5l.3-.3c3.6-.1%206.9-.2%2010.2-.2%206.2%200%2010.5%203.1%2010.5%209.4-.1%204.3-2.8%207.2-5.7%208.2zm-9.4-3.2c1.6-.1%203.2-.1%204.1-.1%203.9%200%204.8-2.4%204.8-4.8%200-2.5-.9-4.8-4.8-4.8H276v9.7zM297.3%2014.3c.9-.2%202.2-.2%203-.2.8%200%202%200%203%20.2v30.4c-1%20.2-2.1.2-3%20.2-.8%200-2.1%200-3-.2V14.3zM315.4%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.8%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1h-10.7zm1.5-4.7H324.6l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM353.1%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.7%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1H353.1zm1.4-4.7H362.2l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM377.7%2014.3c1.3-.2%203-.3%204-.3%201.1%200%202.5.1%203.8.3l3.4%2012.3c.3%201.2%201.4%205.8%201.7%207.6h.3c.3-1.8%201.4-6.4%201.7-7.6l3.4-12.3c1.3-.2%202.8-.3%203.8-.3%201.1%200%202.7.1%204.1.3l2.4%2030.3c-.8.2-2%20.3-3%20.3-.9%200-1.8%200-2.6-.2l-.8-14.3c-.2-2.8-.4-6.9-.4-9.7h-.3L394%2040.1c-.9.1-2.2.2-3.1.2-.8%200-2.1-.1-3-.2l-5.2-19.4h-.3c0%202.8-.2%206.9-.4%209.7l-1%2014.3c-.8.1-1.7.2-2.7.2-.9%200-2.1-.1-3-.3l2.4-30.3zM417.4%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.7%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1H417.4zm1.5-4.7H426.6l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM459.4%2042.7c-2%201.6-5.6%202.2-8%202.2-3.7%200-6.6-.1-10.5-.2l-.3-.3v-30l.3-.3c3.8-.1%206.8-.2%2010.5-.2%202.4%200%206%20.6%208%202.2%204.1%203.3%204.9%208%204.9%2013.2-.1%205.4-.8%2010.1-4.9%2013.4zm-8-23.9h-4.9v21.5h4.9c5.8%200%206.7-5.8%206.7-10.7%200-5-.9-10.8-6.7-10.8zM474%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.8%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1H474zm1.5-4.7H483.2l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM238.2%203.9c.9.5%202.1%201.9%202.4%203.2l-7.4%204.4c-.7-.3-1.4-1.3-1.6-2l6.6-5.6z%22%2F%3E%3Cg%3E%3Cpath%20d%3D%22M206.9%20133.7h3.4c1.5%200%202.3.7%202.3%202.2v5.7c-1.9.6-3.8.9-5.9.9-1%200-2-.2-2.8-.5-.8-.3-1.5-.8-2-1.5-.5-.6-.9-1.4-1.2-2.4-.3-.9-.4-2-.4-3.2%200-1.3.2-2.5.6-3.4s.9-1.8%201.5-2.4c.6-.6%201.4-1.1%202.2-1.5.8-.3%201.7-.5%202.6-.5%201.9%200%203.6.5%205.3%201.6%200%20.2-.1.5-.2.7-.1.2-.2.5-.3.7-.1.2-.3.4-.5.6-.2.2-.4.3-.6.5-1.2-.8-2.4-1.2-3.6-1.2-2.4%200-3.5%201.6-3.5%204.9%200%203.3%201.2%204.9%203.6%204.9h1c.3%200%20.6-.1.9-.1v-1.4-.9-.6h-1.1c-.6%200-1-.1-1.3-.4-.2-.2-.4-.6-.4-1.1.1-.6.2-1.1.4-1.6zM224.2%20141.1c-1.5-1.3-2.3-3.4-2.3-6.3%200-1.3.1-2.4.4-3.3.3-1%20.7-1.8%201.3-2.4.6-.6%201.2-1.1%202-1.5.8-.3%201.7-.5%202.7-.5%201%200%201.9.2%202.7.5.8.3%201.5.8%202%201.5.6.7%201%201.5%201.3%202.4.3%201%20.4%202.1.4%203.3%200%201.3-.1%202.4-.4%203.3-.3%201-.7%201.8-1.3%202.4-.6.6-1.2%201.1-2%201.5-.8.3-1.7.5-2.7.5-1.7-.1-3-.5-4.1-1.4zm1.7-3c.4%201.1%201.2%201.7%202.4%201.7.6%200%201.1-.1%201.4-.4.4-.3.7-.7.9-1.1.2-.5.3-1%20.4-1.5.1-.6.1-1.1.1-1.7%200-.5%200-1.1-.1-1.7%200-.6-.1-1.2-.3-1.7-.2-.5-.4-1-.8-1.4-.4-.4-.9-.6-1.6-.6-.7%200-1.2.2-1.6.5-.4.4-.6.8-.8%201.3-.2.5-.3%201.1-.3%201.7%200%20.6-.1%201.1-.1%201.5%200%20.7%200%201.3.1%201.8%200%20.5.1%201%20.3%201.6zM249.6%20139.2l2.8-11.9c.3-.1.8-.1%201.3-.1.8%200%201.3.1%201.8.2l.1.2-4%2014.5c-.8.1-1.6.1-2.5.1-.8%200-1.4-.1-1.8-.3-.4-.2-.6-.6-.8-1.2l-3.6-13.1c.8-.3%201.4-.5%201.9-.5.6%200%201.1.1%201.3.4.3.3.5.7.7%201.3l1.7%206.2c.3%201%20.5%202.3.8%203.9.1.2.1.3.3.3zM268.3%20137.7v1.6h6.6c0%20.5%200%20.9-.1%201.2-.2%201.1-.9%201.7-2.2%201.7h-5.8c-.6%200-1.1-.2-1.5-.5-.4-.4-.5-.9-.5-1.5v-12.7l.2-.2h9.3c.1.4.1.9.1%201.4s-.1%201-.3%201.5h-5.9v3.1h4.8c.1.4.2.9.2%201.4%200%20.5-.1%201-.2%201.4h-4.8v1.6zM295.3%20131.9c0%20.5-.1.9-.2%201.4-.1.4-.3.8-.6%201.1-.2.3-.5.6-.8.9-.3.3-.7.4-1%20.6.8.3%201.3.9%201.7%202l.6%201.8c.2.7.6%201.3%201.1%201.6-.2.3-.5.5-1%20.7-.4.2-.9.3-1.4.3-.5%200-.9-.1-1.2-.4-.3-.3-.6-.8-.8-1.5l-.8-2.3c-.2-.4-.4-.8-.6-1-.3-.2-.7-.3-1.2-.3h-.9v5.4c-.5.1-1%20.1-1.7.1s-1.3%200-1.7-.1v-14.7l.2-.2c1.3%200%202.3%200%203.2-.1h2c.8%200%201.5.1%202.2.3.6.2%201.2.5%201.7.9s.8.9%201.1%201.5c0%20.5.1%201.2.1%202zm-7.1-2.1v4.3h1.7c.5%200%20.8-.1%201.1-.3.3-.2.5-.4.6-.6.1-.3.2-.7.2-1.2%200-1.4-.7-2.1-2-2.1h-.9c-.3-.1-.5-.1-.7-.1zM317.1%20127.2l.2.2V142c-.6.1-1.3.2-2%20.2s-1.5%200-2.1-.1l-3.4-7.7c-.4-.9-.8-1.9-1.2-3.1h-.1c.2%202.1.3%204.3.3%206.5v4.3c-.4.1-1%20.1-1.6.1-.6%200-1.2%200-1.6-.1v-14.7c.5-.1%201.2-.2%202-.2s1.5%200%202.1.1l3.4%207.7c.6%201.4%201.1%202.5%201.3%203.3h.1c-.2-2-.3-4.1-.3-6.4v-2.6c0-.8.2-1.3.5-1.6.3-.3.8-.5%201.5-.5h.9zM329.4%20141.1c-1.5-1.3-2.3-3.4-2.3-6.3%200-1.3.1-2.4.4-3.3.3-1%20.7-1.8%201.3-2.4.6-.6%201.2-1.1%202-1.5.8-.3%201.7-.5%202.7-.5%201%200%201.9.2%202.7.5.8.3%201.5.8%202%201.5.6.7%201%201.5%201.3%202.4.3%201%20.4%202.1.4%203.3%200%201.3-.1%202.4-.4%203.3-.3%201-.7%201.8-1.3%202.4-.6.6-1.2%201.1-2%201.5-.8.3-1.7.5-2.7.5-1.6-.1-3-.5-4.1-1.4zm1.7-3c.4%201.1%201.2%201.7%202.4%201.7.6%200%201.1-.1%201.4-.4.4-.3.7-.7.9-1.1.2-.5.3-1%20.4-1.5.1-.6.1-1.1.1-1.7%200-.5%200-1.1-.1-1.7%200-.6-.1-1.2-.3-1.7-.2-.5-.4-1-.8-1.4-.4-.4-.9-.6-1.6-.6-.7%200-1.2.2-1.6.5-.4.4-.6.8-.8%201.3-.2.5-.3%201.1-.3%201.7%200%20.6-.1%201.1-.1%201.5%200%20.7%200%201.3.1%201.8s.2%201%20.3%201.6zM365.4%20130.3V133.4h4.7c.1.4.2.9.2%201.4%200%20.5-.1%201-.2%201.4h-4.7v6c-.5.1-1%20.1-1.7.1s-1.3%200-1.7-.1v-14.7l.2-.1h9.3c.1.4.1.8.1%201.4s-.1.9-.4%201.2c-.3.3-.8.4-1.4.4h-4.4zM384.4%20137.7v1.6h6.6c0%20.5%200%20.9-.1%201.2-.2%201.1-.9%201.7-2.2%201.7H383c-.6%200-1.1-.2-1.5-.5-.4-.4-.5-.9-.5-1.5v-12.7l.2-.2h9.3c.1.4.1.9.1%201.4s-.1%201-.3%201.5h-5.9v3.1h4.8c.1.4.2.9.2%201.4%200%20.5-.1%201-.2%201.4h-4.8v1.6zM410.4%20141.2c-.5.4-1.1.6-1.8.8-.8.2-1.6.3-2.5.3h-1.9c-.8%200-1.9%200-3.2-.1l-.2-.2v-14.6l.2-.2c.8%200%201.7%200%202.6-.1h2.8c1.2%200%202.3.2%203.1.6.8.4%201.5.9%202%201.6s.8%201.5%201%202.4c.2.9.3%201.9.3%203%200%201.4-.2%202.7-.5%203.7-.3%201.1-1%202-1.9%202.8zm-4-1.7c1.9%200%202.9-1.6%202.9-4.8%200-3.2-1-4.8-2.9-4.8h-2.1v9.7h.9c.3-.1.7-.1%201.2-.1zM426.1%20137.7v1.6h6.6c0%20.5%200%20.9-.1%201.2-.2%201.1-.9%201.7-2.2%201.7h-5.8c-.6%200-1.1-.2-1.5-.5-.4-.4-.5-.9-.5-1.5v-12.7l.2-.2h9.3c.1.4.1.9.1%201.4s-.1%201-.3%201.5H426v3.1h4.8c.1.4.2.9.2%201.4%200%20.5-.1%201-.2%201.4H426v1.6zM453.1%20131.9c0%20.5-.1.9-.2%201.4s-.3.8-.6%201.1c-.2.3-.5.6-.8.9-.3.3-.7.4-1%20.6.8.3%201.3.9%201.7%202l.6%201.8c.2.7.6%201.3%201.1%201.6-.2.3-.5.5-1%20.7-.4.2-.9.3-1.4.3-.5%200-.9-.1-1.2-.4-.3-.3-.6-.8-.8-1.5l-.8-2.3c-.2-.4-.4-.8-.6-1-.3-.2-.7-.3-1.2-.3h-.9v5.4c-.5.1-1%20.1-1.7.1s-1.3%200-1.7-.1v-14.7l.2-.2c1.3%200%202.3%200%203.2-.1h2c.8%200%201.5.1%202.2.3.6.2%201.2.5%201.7.9s.8.9%201.1%201.5c0%20.5.1%201.2.1%202zm-7.2-2.1v4.3h1.7c.5%200%20.8-.1%201.1-.3.3-.2.5-.4.6-.6.1-.3.2-.7.2-1.2%200-1.4-.7-2.1-2-2.1h-.9c-.2-.1-.5-.1-.7-.1zM466.8%20139h-.9l-.9%203.1c-.3.1-.8.1-1.4.1-.7%200-1.3-.1-1.7-.2l-.1-.2%204.8-14.5c.6-.1%201.2-.1%202-.1.9%200%201.5.1%202%20.2l4.7%2014.5c-.5.3-1.1.4-1.7.4-.8%200-1.3-.1-1.6-.4-.3-.3-.6-.8-.8-1.5l-.4-1.4h-4zm0-2.7h3.3l-.4-1.3c-.3-1.2-.7-2.7-1.2-4.5h-.1c-.1.6-.5%202-1%204.1l-.6%201.7zM489.9%20139.2h3.8c0%20.6%200%201.1-.1%201.5-.1.4-.3.8-.7%201.1-.4.3-.9.4-1.5.4h-4.9c-.6%200-1.1-.2-1.5-.5-.4-.4-.5-.9-.5-1.5v-12.8l.2-.2h1.3c1.3%200%202%20.7%202%202.2v9.9c.5-.1%201.2-.1%201.9-.1z%22%2F%3E%3C%2Fg%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M.7%2014v69.8l72.1-58.2%20109.1%2048.1V14z%22%2F%3E%3Cpath%20d%3D%22M.7%2083.8v49.4s5.8-5%2016.5-12.2C22.4%2089.1%2050%2064.8%2083.3%2064.8c15.1%200%2029%205%2040.2%2013.4%2017.9-3.3%2037.4-5.1%2058.3-4.5l-109-48.1L.7%2083.8z%22%20fill%3D%22%23c6c6c6%22%2F%3E%3Cpath%20d%3D%22M83.3%2064.8c-33.3%200-60.9%2024.3-66%2056.2%2019.9-13.2%2057-33.7%20106.3-42.8-11.2-8.4-25.2-13.4-40.3-13.4z%22%2F%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M140.2%2096.5C79.3%20100%2037.4%20119.4%2016.4%20131.8%206%20137.9.7%20142.3.7%20142.3h181.1V96.6c-14.7-.9-28.5-.9-41.6-.1z%22%2F%3E%3C%2Fsvg%3E")}</style></head>
+<body class="yui-skin-sam nav-species" id="" onload="">
+
+
+
+<!-- Header -->
+<!-- Menus Governo Brasileiro-->
+<div class="beta">Versão Beta</div>
+<div id="barra-brasil"><div class="conteudo-escondido"> <a accesskey="1" href="#conteudo">Ir para o conteúdo</a> </div><div class="conteudo-barra-brasil"> <a href="https://gov.br/" class="pic-gov" title="GovBR">GovBR</a> <nav id="menu-barra-brasil" onscroll="checkScrollBarra(this);"> <ul class="lista-barra-brasil"> <li class="list-item"> <a href="http://www.acessoainformacao.gov.br" class="link-barra link-externo-barra">Acesso à informação</a> </li> <li class="espacador"></li> <li class="list-item"> <a href="http://participa.br" class="link-barra link-externo-barra">Participe</a> </li> <li class="espacador"></li> <li class="list-item"> <a href="http://www4.planalto.gov.br/legislacao/" class="link-barra link-externo-barra">Legislação</a> </li> <li class="espacador"></li> <li class="list-item"> <a href="javascript:toggleOrgaosGoverno();" id="link-orgaos" class="link-barra link-interno-barra link-baixo-barra">Órgãos do Governo</a> </li> </ul> </nav> <a href="javascript:scrollBarra();" id="botao-seta-direita" class="botao-seta-direita"><i class="arrow right">Navegar para direita</i></a> </div><div class="orgaos-governo-barra" id="orgaos-governo-barra"> <div> <ul> <li class="orgao-barra"> <a href="http://www.casacivil.gov.br/">Casa Civil</a> </li> <li class="orgao-barra"> <a href="http://www.justica.gov.br/">Ministério da Justiça e Segurança Pública</a> </li> <li class="orgao-barra"> <a href="https://www.defesa.gov.br/">Ministério da Defesa</a> </li> <li class="orgao-barra"> <a href="http://www.itamaraty.gov.br/">Ministério das Relações Exteriores</a> </li> <li class="orgao-barra"> <a href="http://www.fazenda.gov.br/">Ministério da Economia</a> </li> <li class="orgao-barra"> <a href="http://www.infraestrutura.gov.br/">Ministério da Infraestrutura</a> </li> <li class="orgao-barra"> <a href="http://www.agricultura.gov.br/">Ministério da Agricultura</a> </li> <li class="orgao-barra"> <a href="http://www.mec.gov.br/">Ministério da Educação</a> </li> <li class="orgao-barra"> <a href="http://mds.gov.br/">Ministério da Cidadania</a> </li> <li class="orgao-barra"> <a href="http://portalms.saude.gov.br/">Ministério da Saúde</a> </li> <li class="orgao-barra"> <a href="http://www.mme.gov.br/">Ministério de Minas e Energia</a> </li> <li class="orgao-barra"> <a href="http://www.mctic.gov.br/">Ministério da Ciência, Tecnologia e Comunicação</a> </li> <li class="orgao-barra"> <a href="http://www.mma.gov.br/">Ministério do Meio Ambiente</a> </li> <li class="orgao-barra"> <a href="http://www.turismo.gov.br/">Ministério do Turismo</a> </li> <li class="orgao-barra"> <a href="http://www.integracao.gov.br/">Ministério do Desenvolvimento Regional</a> </li> <li class="orgao-barra"> <a href="http://www.cgu.gov.br/">Controladoria-Geral da União</a> </li> <li class="orgao-barra"> <a href="http://www.mdh.gov.br/">Ministério da Mulher, da Família e dos Direitos Humanos</a> </li> <li class="orgao-barra"> <a href="http://www.secretariageral.gov.br/">Secretaria-Geral da Presidência da República</a> </li> <li class="orgao-barra"> <a href="http://www.secretariadegoverno.gov.br/">Secretaria de Governo</a> </li> <li class="orgao-barra"> <a href="http://www.gsi.gov.br/">Gabinete de Segurança Institucional</a> </li> <li class="orgao-barra"> <a href="http://www.agu.gov.br/">Advocacia-Geral da União</a> </li> <li class="orgao-barra"> <a href="http://www.bcb.gov.br/">Banco Central do Brasil</a> </li> <li class="orgao-barra"> <a href="http://www.gov.br/planalto">Planalto</a> </li></ul> </div></div></div>
+<nav class="navbar navbar-default">
+    <div class="container container-navbar">
+        <div class="row">
+            <div class="navbar-header col-lg-4 col-md-4 col-sm-12">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/">
+                    <img alt="Brand" src="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/img/logo.svg" class="img-responsive logo">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse col-lg-8 col-md-8 col-sm-12" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <!-- <li class="active"><a href="#">Home</a></li> -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Explore <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://ala-hub.ala.sibbr-prod.rnp.br/ala-hub">Explore ocorrências</a></li>
+                            <li><a href="https://ala-hub.ala.sibbr-prod.rnp.br/ala-hub/explore/your-area">Explore sua
+                                área</a></li>
+                            <!-- <li><a href="https://bie.ala.org.au/">Search species</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Busque e analise <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li> <a href="https://specieslist.ala.sibbr-prod.rnp.br/iconic-species">Espécies icônicas</a> </li>
+                            <li><hr class="menu-separator"></li>
+                            <li>
+                                <a href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/search?q=*">Busque por
+                                    espécies</a></li>
+                            <li>
+                                <a href="https://collectory.ala.sibbr-prod.rnp.br/collectory/">Busque por coleções</a>
+                            </li>
+                            <li>
+                                <a href="https://collectory.ala.sibbr-prod.rnp.br/collectory/datasets">Busque por
+                                    conjuntos                                    de dados</a></li>
+                            <li>
+                                <hr class="menu-separator">
+                            </li>
+                            <li><a href="http://www.sibbr.gov.br/cienciacidada" target="_blank">Projetos ciência
+                                cidadã</a>
+                            </li>
+                            <li><a href=" https://portal-espacial.ala.sibbr-prod.rnp.br/spatial-hub/" target="_blank">Portal
+                                espacial</a></li>
+                            <li>
+                                <a href="http://hmg.sibbr.rnp.br/geonetwork/srv/eng/catalog.search#/search?resultType=details&amp;sortBy=relevance&amp;from=1&amp;to=20" target="_blank">
+                                    Catálogo de metadados</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Participe
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/cadastro-colecoes.html">Cadastre
+                                    uma coleção biológica</a></li>
+                            <li>
+                                <a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/cadastro-ciencia-cidada.html">Projetos
+                                    de ciência cidadã</a></li>
+                            <li>
+                                <a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/publique-conjunto-dados.html">Publique
+                                    um conjunto de dados</a></li>
+                            <li>
+                                <a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/enviar-media-ao-sibbr.html">Envio
+                                    de mídias ao SiBBr</a></li>
+                            <li>
+                                <a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/licenca-uso.html">Licença
+                                    para uso dos dados</a></li>
+                            <li><a href="#">Política
+                                de dados do SiBBr</a></li>
+                            <li>
+                                <a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/sugestao.html">Sugestões</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Conheça o SiBBr <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/o-que-sibbr.html">O
+                                que é
+                                o SiBBr</a></li>
+                            <li><a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/como-usar-sibbr.html">Como
+                                usar o SiBBr</a></li>
+                            <li><a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/rede-parceiros.html">Rede
+                                de parceiros</a></li>
+                            <li><a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/como-citar.html">Como
+                                citar</a></li>
+                            <li><a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/quem-somos.html">Quem
+                                somos</a></li>
+                            <li>
+                                <a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/canais-contato.html">Canais
+                                    de Contato</a></li>
+                            <li><a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/noticias.html">Notícias</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/page/comunidade-ala.html" role="button">
+                            Comunidade ALA
+                        </a>
+                    </li>
+                </ul>
+                <!--<ul class="nav navbar-nav navbar-right visible-xs">-->
+                <!--<li>-->
+                <!--<a href="https://wpprod2017.ala.org.au/wp-login.php?redirect_to=https%3A%2F%2Fwpprod2017.ala.org.au">-->
+                <!--<span class="nav-login">Log in</span></a>-->
+                <!--</li>-->
+                <!--</ul>-->
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <div>
+            <div class="col-lg-9 col-md-9 col-sm-8 pesquisar">
+                <form id="global-search" action="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/search" method="get" name="search-form">
+                    <div class="icon-addon addon-lg">
+                        <input type="text" placeholder="Pesquisar ..." class="form-control autocomplete ac_input" id="biesearch" name="q" autocomplete="off">
+                        <label for="biesearch" class="glyphicon glyphicon-search" rel="tooltip" title="search"></label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 no-gbif">nó brasileiro do GBIF
+                <img src="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/img/gbif.png" class="logo-gbif" alt="SiBBr">
+            </div>
+        </div>
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Abertura tag container para remoção layout conteudo fluido para centralizado -->
+<!--  <div class="container">  -->
+
+
+<!-- End header -->
+<!-- Breadcrumb -->
+
+<section id="breadcrumb">
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb-list">
+                <li><a href="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3">Home </a></li>
+
+                <li class="active">Espécies icônicas</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- End Breadcrumb -->
+<!-- Container -->
+<div class="container" id="main">
+
+
+
+
+    <div id="content">
+
+        <div class="inner row">
+            <div class="col-md-12">
+                <h2 class="subject-title">Espécie icônicas</h2>
+                <p class="lead">
+                    Abaixo está uma lista de algumas das espécies mais reconhecidas do Brasil. Além da listagem abaixo, você pode
+                    <a href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/search?q=*" class="">
+                        pesquise espécies dentro da plataforma SiBBr
+                    </a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="inner row">
+            <div class="col-md-3">
+                <ul id="groupsNav" class="nav bs-docs-sidenav ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <li class=""><a href="?fq=kvp group:Anfíbios">Anfíbios (12)<i class="glyphicon glyphicon-chevron-right"></i> </a></li>
+
+
+                    <li class="active"><a href="?fq=kvp group:Aves">Aves (32)<i class="glyphicon glyphicon-chevron-right"></i> </a></li>
+
+
+                    <li class=""><a href="?fq=kvp group:Insetos">Insetos (3)<i class="glyphicon glyphicon-chevron-right"></i> </a></li>
+
+
+                    <li class=""><a href="?fq=kvp group:Mamíferos">Mamíferos (28)<i class="glyphicon glyphicon-chevron-right"></i> </a></li>
+
+
+                    <li class=""><a href="?fq=kvp group:Peixes">Peixes (8)<i class="glyphicon glyphicon-chevron-right"></i> </a></li>
+
+
+                    <li class=""><a href="?fq=kvp group:Plantas">Plantas (20)<i class="glyphicon glyphicon-chevron-right"></i> </a></li>
+
+
+                    <li class=""><a href="?fq=kvp group:Répteis">Répteis (13)<i class="glyphicon glyphicon-chevron-right"></i> </a></li>
+
+
+
+                </ul>
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-9">
+                <div id="gridView" class="">
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/263191" data-id="165346"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=6e4a9b44-b9c4-4507-a3a9-9aec86c74722" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Automolus melanopezus
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/213998" data-id="165349"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=d44151bf-2f19-4fb1-9f70-573f1cb9fc26" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Pato-Mergulhão
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/114353" data-id="165360"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=1f366971-a90b-492e-b4f0-b4a46378f7d2" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Chiroxiphia caudata
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/175381" data-id="165361"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=3367daf1-7ec5-44a8-b0bb-3407de3136f7" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Saíra-Carijó
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/202632" data-id="165365"><img src="/assets/infobox_info_icon.png" style="opacity:0.5" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Tangara desmaresti
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/149352" data-id="165368"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=93911d7a-c424-4e24-b2df-dbd53c996d69" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Alectrurus tricolor
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/189837" data-id="165371"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=ef1b1e65-85d5-4e66-a262-5b254b8d5171" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Icterus jamacaii
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/124786" data-id="165372"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=efa3732d-45fb-44ed-8a32-a4684a2bb606" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Glaucidium hardyi
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/138882" data-id="165374"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=a6e2f192-a61a-49ba-a8e3-2dec0b105628" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Tiriba-Fura-Mata
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/246872" data-id="165378"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=4c60f01d-5cf8-45ca-a7b6-e30369f61edd" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Papa-Lagarta-De-Bico-Preto
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/206380" data-id="165379"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=3cac4bed-f5f9-477d-97b0-365dfa1430cb" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Saíra-Ouro
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/146529" data-id="165380"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=63a0e104-2834-44cb-b17b-c6ea70164d11" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Antilophia bokermanni
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/211716" data-id="165384"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=7660cd6e-a4a4-43d0-9836-a961100a450d" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Piru-Piru
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/148880" data-id="165390"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=d51d0a00-e00a-4b8d-abaf-aa58a2fd3b36" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Japu
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/115573" data-id="165391"><img src="/assets/infobox_info_icon.png" style="opacity:0.5" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Selenidera maculirostris
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/115548" data-id="165393"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=28f10b9f-54d9-48de-8e40-415d0307cae1" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Araçari-Banana
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/120009" data-id="165401"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=a2f94dc9-b780-4554-b496-ec80bc42a601" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Anu-Coroca
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/200163" data-id="165404"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=949d1060-5fd7-4d5e-bfa1-5e60791f3d8e" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Uirapuru-Estrela
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/131471" data-id="165407"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=6a0bfb27-741a-4c8c-a20d-175a4e745939" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Caracara plancus
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/154568" data-id="165409"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=c9a478ac-716f-4371-84d2-869e673e5803" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Cyanocorax cyanopogon
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/178001" data-id="165410"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=db4fac66-2dd4-43fd-9f52-1b1ca6ad065a" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Arapaçu-Ocelado-Do-Norte
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/183869" data-id="165415"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=57df16bf-2920-4c58-bd6f-cc656e3cff02" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Patagioenas picazuro
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/238116" data-id="165420"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=234c2b2c-3abb-4cd9-b2eb-ee9465986a91" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+                            Cavalaria
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/210240" data-id="165424"><img src="https://images.ala.sibbr-prod.rnp.br/images/image/proxyImageThumbnailLarge?imageId=0ca7bd51-3346-424e-94a7-e2ea1d9ed274" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Rupornis magnirostris
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="imgCon">
+                        <a class="thumbImage viewRecordButton" rel="thumbs" title="click to view detailed page" href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/species/206580" data-id="165427"><img src="/assets/infobox_info_icon.png" style="opacity:0.5" alt="thumbnail species image">
+                        </a>
+
+
+                        <div class="meta brief">
+
+
+                            <i>
+                                Celeus flavescens
+                            </i>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div><!-- /#iconView -->
+
+                <div class="searchWidgets">
+                    Itens por página:
+                    <select id="maxItems" onchange="reloadWithMax(this)">
+
+                        <option>10</option>
+
+                        <option selected="&quot;selected&quot;">25</option>
+
+                        <option>50</option>
+
+                        <option>100</option>
+
+                    </select>
+                </div>
+
+                <div class="pagination listPagination" id="searchNavBar">
+
+                    <nav aria-label="Page navigation"><ul class="pagination"><li class="disabled"><span>«</span></li><li class="active"><span>1</span></li><li><a href="/iconic-species?fq=kvp+group%3AAves&amp;offset=25&amp;max=25&amp;sort=itemOrder&amp;id=drt1564516860133" class="step">2</a></li><li><a href="/iconic-species?fq=kvp+group%3AAves&amp;offset=25&amp;max=25&amp;sort=itemOrder&amp;id=drt1564516860133" class="step">»</a></li></ul></nav>
+
+                </div>
+
+            </div> <!-- .col-md-9 -->
+
+        </div>
+    </div> <!-- content div -->
+    <script type="text/javascript" src="/assets/amplify-4174dcb7214409394f6109f222d1b20b.js"></script>
+
+</div><!-- End container #main  -->
+
+<!-- Footer -->
+<!-- </div> -->
+<!-- Finalizar tag container para remoção layout conteudo fluido para centralizado aberto no  arquivo banner -->
+
+
+<footer>
+    <!-- Navegação -->
+    <div class="container menu-bottom">
+        <div class="col-sm-3">
+            <div class="item">Explore</div>
+            <div class="subitem">
+                <a href="https://ala-hub.ala.sibbr-prod.rnp.br/ala-hub">Explore ocorrências</a>
+            </div>
+            <div class="subitem">
+                <a href="https://ala-hub.ala.sibbr-prod.rnp.br/ala-hub/explore/your-area">Explore sua área</a>
+            </div>
+            <div class="subitem">
+                <a href="https://specieslist.ala.sibbr-prod.rnp.br/iconic-species">Espécies icônicas</a>
+            </div>
+            <br>
+            <div class="item">Comunidade</div>
+            <div class="subitem">
+                <a href="/commonui-bs3/page/comunidade-ala.html"> Conheça comunidade do ALA</a>
+            </div>
+
+        </div>
+        <div class="col-sm-3">
+            <div class="item">Busque e analise</div>
+            <div class="subitem">
+                <a href="https://ala-bie.ala.sibbr-prod.rnp.br/ala-bie/search?q=*">Busque por espécies</a>
+            </div>
+            <div class="subitem">
+                <a href="https://collectory.ala.sibbr-prod.rnp.br/collectory/">Busque por coleções</a>
+            </div>
+            <div class="subitem">
+                <a href="https://collectory.ala.sibbr-prod.rnp.br/collectory/datasets">Busque por conjuntos de
+                    dados</a>
+            </div>
+            <div class="subitem">
+                <a href=" https://portal-espacial.ala.sibbr-prod.rnp.br/spatial-hub/">Portal espacial</a>
+            </div>
+            <div class="subitem">
+                <a href="http://hmg.sibbr.rnp.br/geonetwork/srv/eng/catalog.search#/search?resultType=details&amp;sortBy=relevance&amp;from=1&amp;to=20">Catálogo
+                    de metadados</a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="item">Participe</div>
+
+            <div class="subitem">
+                <a href="/commonui-bs3/page/cadastro-colecoes.html">
+                    Cadastre uma coleção biológica</a>
+            </div>
+            <div class="subitem">
+                <a href="/commonui-bs3/page/cadastro-ciencia-cidada.html">
+                    Projetos de ciência cidadã</a></div>
+            <div class="subitem">
+                <a href="/commonui-bs3/page/publique-conjunto-dados.html">
+                    Publique um conjunto de dados</a></div>
+            <div class="subitem">
+                <a href="https://specieslist.ala.sibbr-prod.rnp.br">
+                    Publique uma lista de espécie</a></div>
+            <div class="subitem">
+                <a href="/commonui-bs3/page/enviar-media-ao-sibbr.html">
+                    Envio de mídias ao SiBBr</a></div>
+            <div class="subitem">
+                <a href="/commonui-bs3/page/licenca-uso.html">
+                    Licença para uso dos dados</a></div>
+            <div class="subitem">
+                <a href="#">
+                    Política de dados do SiBBr</a>
+            </div>
+            <div class="subitem"><a href="/commonui-bs3/page/sugestao.html">Sugestões</a>
+            </div>
+
+        </div>
+        <div class="col-sm-3">
+            <div class="item">Conheça o SiBBr</div>
+            <div class="subitem"><a href="/commonui-bs3/page/o-que-sibbr.html">O
+                que é o SiBBr</a></div>
+            <div class="subitem"><a href="/commonui-bs3/page/como-usar-sibbr.html">Como
+                usar o
+                SiBBr</a></div>
+            <div class="subitem"><a href="/commonui-bs3/page/rede-parceiros.html">Rede
+                de parceiros</a></div>
+            <div class="subitem"><a href="/commonui-bs3/page/como-citar.html">Como
+                citar</a></div>
+            <div class="subitem"><a href="/commonui-bs3/page/quem-somos.html">Quem
+                somos</a>
+            </div>
+            <div class="subitem">
+                <a href="/commonui-bs3/page/canais-contato.html">Canais de contato</a>
+            </div>
+            <div class="subitem">
+                <a href="/commonui-bs3/page/noticias.html">Notícias</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Parceiros -->
+    <div class="container-fluid partners-list parceiros">
+        <img src="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/img/rodape2.png" class="img-responsive" alt="...">
+    </div>
+</footer>
+
+<!-- Correção de nomes &quot; exibidos no breadcrumb -->
+<script>
+    let breadcrumb = $(".breadcrumb-list>.active");
+    let corrigido = breadcrumb.text().replace(/&quot;/g, '"');
+    breadcrumb.text(corrigido);
+</script>
+
+<!-- JavaScript funcionamento da barra governo brasileiro -->
+<script type="text/javascript" charset="utf-8" defer="defer" src="https://barra.brasil.gov.br/barra_2.0.js"></script>
+<!-- End footer -->
+
+<script type="text/javascript" src="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/js/application.js"></script>
+
+
+<script type="text/javascript" src="https://commonui-bs3.ala.sibbr-prod.rnp.br/commonui-bs3/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    function reloadWithMax(el) {
+        var max = $(el).find(":selected").val();
+        var params = {
+            max: max,
+            sort: "itemOrder",
+            order: "",
+            offset: "0",
+            fq: "kvp group:Aves"
+        }
+        var paramStr = jQuery.param(params);
+        window.location.href =  '?' + paramStr;
+    }
+</script>
+
+</body></html>
