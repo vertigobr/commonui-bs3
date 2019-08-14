@@ -615,7 +615,8 @@ button.btn.btn-sm.btn-default.btn-primary.expand-image-gallery {
 
 /*... ALA Bie exibição nomes vernaculares */
 
-.accepted-name .scientific-name {
+.accepted-name .scientific-name,
+.synonym-name .scientific-name {
     font-size: 0.9em;
 }
 
@@ -845,7 +846,15 @@ div#descriptiveContent {
 }
 
 /* Separador menus*/
+
 .dropdown-menu hr {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+/*... Tabelas da lista de especies exibidas na pagina de especies ...*/
+table.table.specieslist-table td:first-child {
+    text-transform: capitalize;
+}
+
+.panel.panel-default.panel-actions{display: none}
