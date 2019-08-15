@@ -857,4 +857,7 @@ table.table.specieslist-table td:first-child {
     text-transform: capitalize;
 }
 
-.panel.panel-default.panel-actions{display: none}
+.panel.panel-default.panel-actions {
+    display: none
+}
+
