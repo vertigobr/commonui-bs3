@@ -1,6 +1,8 @@
 <?php
 if (isset($_POST['email'])) {
 
+    session_start();
+
     $email_to = "sibbr.brasil@gmail.com";
     $email_subject = "Contato encaminhado portal LA SiBBr";
 
@@ -40,7 +42,6 @@ if (isset($_POST['email'])) {
     }
 
     if (strlen($error_message) > 0) {
-        session_start();
         $_SESSION['error'] = died($error_message);
         header("Location: ./contato.php");
         exit();
@@ -58,7 +59,6 @@ if (isset($_POST['email'])) {
     $headers = 'From: ' . $email_de . "\r\n Reply-To: ' . $email_de . \"\r\n" . 'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 
-    session_start();
     $_SESSION['sucesso'] = "Agrademos pela sua mensagem, retornaremos seu contato em breve";
     header("Location: ./contato.php");
     exit();
