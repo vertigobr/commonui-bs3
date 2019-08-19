@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -49,7 +50,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/">
-                    <img alt="Brand" src="../img/logo.svg"
+                    <img alt="Brand" src="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/img/logo.svg"
                          class="img-responsive logo" alt="SiBBr">
                 </a>
             </div>
@@ -73,13 +74,20 @@
                             Busque e analise <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://specieslist.ala-dev.vertigo.com.br/iconic-species">Espécies
+                                    icônicas</a></li>
+                            <li>
+                                <hr class="menu-separator">
+                            </li>
                             <li><a href="https://ala-bie.ala-dev.vertigo.com.br/ala-bie/search?q=*">Busque por
                                     espécies</a></li>
                             <li><a href="https://collectory.ala-dev.vertigo.com.br/collectory/">Busque por coleções</a>
                             </li>
                             <li><a href="https://collectory.ala-dev.vertigo.com.br/collectory/datasets">Busque por
-                                    conjuntos
-                                    de dados</a>
+                                    conjuntos de dados</a></li>
+                            <li>
+                                <hr class="menu-separator">
+                            </li>
                             <li><a href="http://www.sibbr.gov.br/cienciacidada" target="_blank">Projetos ciência
                                     cidadã</a>
                             </li>
@@ -107,6 +115,8 @@
                             <li>
                                 <a href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/publique-conjunto-dados.html">Publique
                                     um conjunto de dados</a></li>
+                            <li><a href="https://specieslist.ala-dev.vertigo.com.br"> Publique uma lista de espécie</a>
+                            </li>
                             <li>
                                 <a href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/enviar-media-ao-sibbr.html">Envio
                                     de mídias ao SiBBr</a></li>
@@ -166,7 +176,7 @@
         <div>
             <div class="col-lg-9 col-md-9 col-sm-8 pesquisar">
                 <form id="global-search"
-                      action="https://ala-bie.ala-dev.vertigo.com.br/ala-bie/search?q=*search" method="get"
+                      action="https://ala-bie.ala-dev.vertigo.com.br/ala-bie/search?q=*" method="get"
                       name="search-form">
                     <div class="icon-addon addon-lg">
                         <input type="text" placeholder="Pesquisar ..." class="form-control autocomplete ac_input"
@@ -211,7 +221,7 @@
             </article>
 
             <article class="col-md-12" id="alaEditable">
-                <p>Conheça canais de contato do SiBBr.</p>
+                <p>Conheça os canais de contato do SiBBr.</p>
 
                 <div class="contato">
                     <h5>Redes Sociais</h5>
@@ -264,23 +274,26 @@
 
             </article>
         </div>
-
-
     </section>
 
     <section class="content-container">
-
         <h2 class="subject-title">Entre em contato</h2>
         <p>Texto texto Texto texto Texto texto Texto texto Texto texto Texto texto Texto texto Texto texto Texto texto
             Texto texto Texto texto Texto texto Texto texto Texto texto Texto texto Texto texto Texto texto Texto texto
             Texto texto Texto texto Texto texto Texto texto
             Texto texto </p>
-
         <br>
         <?php
-        if (isset($_GET['error'])) {
-            echo $_GET['error'];
-        } ?>
+        if (isset($_SESSION['error'])) {
+            echo '<div class="message-error">' . $_SESSION['error'] . '</div>';
+            unset($_SESSION['error']);
+        }
+
+        if (isset($_SESSION['sucesso'])) {
+            echo '<div class="message-sucesso">' . $_SESSION['sucesso'] . '</div>';
+            unset($_SESSION['sucesso']);
+        }
+        ?>
         <form class="form-horizontal" name="contactform" method="post" action="enviar.php">
             <div class="form-group">
                 <label for="inputEmail3" class="col-sm-2 control-label heading-medium">Nome</label>
@@ -341,10 +354,12 @@
                 <a href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/comunidade-ala.html"> Conheça
                     comunidade do ALA</a>
             </div>
-
         </div>
         <div class="col-sm-3">
             <div class="item">Busque e analise</div>
+            <div class="subitem">
+                <a href="https://specieslist.ala-dev.vertigo.com.br/iconic-species">Espécies icônicas</a>
+            </div>
             <div class="subitem">
                 <a href="https://ala-bie.ala-dev.vertigo.com.br/ala-bie/search?q=*">Busque por espécies</a>
             </div>
@@ -377,44 +392,48 @@
                 <a href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/publique-conjunto-dados.html">
                     Publique um conjunto de dados</a></div>
             <div class="subitem">
+                <a href="https://specieslist.ala-dev.vertigo.com.br">
+                    Publique uma lista de espécie</a></div>
+            <div class="subitem">
                 <a href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/enviar-media-ao-sibbr.html">
                     Envio de mídias ao SiBBr</a></div>
             <div class="subitem">
-                <a href="/commonui-bs3/page/licenca-uso.html">
+                <a href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/licenca-uso.html">
                     Licença para uso dos dados</a></div>
             <div class="subitem">
                 <a href="#">
                     Política de dados do SiBBr</a>
             </div>
             <div class="subitem"><a
-                        href="/commonui-bs3/page/sugestao.html">Sugestões</a>
+                        href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/sugestao.html">Sugestões</a>
             </div>
 
         </div>
         <div class="col-sm-3">
             <div class="item">Conheça o SiBBr</div>
             <div class="subitem"><a
-                        href="/commonui-bs3/page/o-que-sibbr.html">O
+                        href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/o-que-sibbr.html">O
                     que é o SiBBr</a></div>
             <div class="subitem"><a
-                        href="/commonui-bs3/page/como-usar-sibbr.html">Como
+                        href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/como-usar-sibbr.html">Como
                     usar o
                     SiBBr</a></div>
             <div class="subitem"><a
-                        href="/commonui-bs3/page/rede-parceiros.html">Rede
+                        href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/rede-parceiros.html">Rede
                     de parceiros</a></div>
             <div class="subitem"><a
-                        href="/commonui-bs3/page/como-citar.html">Como
+                        href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/como-citar.html">Como
                     citar</a></div>
             <div class="subitem"><a
-                        href="/commonui-bs3/page/quem-somos.html">Quem
+                        href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/quem-somos.html">Quem
                     somos</a>
             </div>
             <div class="subitem">
-                <a href="/commonui-bs3/page/canais-contato.html">Canais de contato</a>
+                <a href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/canais-contato.html">Canais de
+                    contato</a>
             </div>
             <div class="subitem">
-                <a href="/commonui-bs3/page/noticias.html">Notícias</a>
+                <a href="https://commonui-bs3.ala-dev.vertigo.com.br/commonui-bs3/page/noticias.html">Notícias</a>
             </div>
         </div>
 

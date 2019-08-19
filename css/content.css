@@ -861,3 +861,19 @@ table.table.specieslist-table td:first-child {
     display: none
 }
 
+/*... Mensagem error form ...*/
+.message-error {
+    background: rgba(255, 0, 0, 0.24);
+    border: 1px solid #ff000070;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0 20px;
+}
+
+.message-sucesso {
+    background: rgba(146, 193, 123, 0.24);
+    border: 1px solid rgb(192, 208, 184);
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0 20px;
+}
