@@ -95,12 +95,6 @@
                 </div>
 
                 <div class="contato">
-                    <p>Coordenadora de Componente e Monitoramento & Avaliação</p>
-                    <p>Keila Elizabeth Macfadem Juarez</p>
-                    <a href="mailto:keila.juarez@mctic.gov.br">keila.juarez@mctic.gov.br</a>
-                </div>
-
-                <div class="contato">
                     <p>Captação de Dados</p>
                     <a href="mailto:captacao@sibbr.gov.br">captacao@sibbr.gov.br</a>
                 </div>
