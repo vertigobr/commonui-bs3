@@ -210,8 +210,45 @@
 <script type="text/javascript" charset="utf-8"
         src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="./js/bootstrap.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/statistics.js"></script>
 <script type="text/javascript" charset="utf-8">
+    $('#allOcorrencias').empty();
+    $('#allColecoes').empty();
+    $('#allInstituicoes').empty();
+    $('#allConjuntos').empty();
+
+    $(document).ready(function () {
+        $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/institution/count"})
+            .done(function (data) {
+                $('#allInstituicoes').append(data.total.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."));
+            }).fail(function (data) {
+            $('#allInstituicoes').append("0");
+        });
+    });
+    $(document).ready(function () {
+        $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/collection/count"})
+            .done(function (data) {
+                $('#allColecoes').append(data.total.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."));
+            }).fail(function (data) {
+            $('#allColecoes').append("0");
+        });
+    });
+    $(document).ready(function () {
+        $.ajax({url: "https://collectory.ala-dev.vertigo.com.br/collectory/ws/dataResource/count"})
+            .done(function (data) {
+                $('#allConjuntos').append(data.total.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."));
+            }).fail(function (data) {
+            $('#allConjuntos').append("0");
+        });
+    });
+    $(document).ready(function () {
+        $.ajax({url: "https://biocache-service.ala-dev.vertigo.com.br/biocache-service/occurrences"})
+            .done(function (data) {
+                $('#allOcorrencias').append(data.totalRecords.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."));
+            }).fail(function (data) {
+            $('#allOcorrencias').append("0");
+        });
+    });
+
     $(function () {
         var includes = $('[data-include]');
         jQuery.each(includes, function () {
