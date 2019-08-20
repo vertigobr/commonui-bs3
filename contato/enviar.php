@@ -59,7 +59,7 @@ if (isset($_POST['email'])) {
     $headers = 'From: ' . $email_de . "\r\n Reply-To: ' . $email_de . \"\r\n" . 'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 
-    $_SESSION['sucesso'] = "Agrademos pela sua mensagem, retornaremos seu contato em breve";
+    $_SESSION['sucesso'] = "Agradecemos pela sua mensagem, retornaremos seu contato em breve";
     header("Location: ./contato.php");
     exit();
 }
