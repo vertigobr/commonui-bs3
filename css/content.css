@@ -877,3 +877,8 @@ table.table.specieslist-table td:first-child {
     border-radius: 4px;
     margin: 5px 0 20px;
 }
+
+/*... Painel ALA-HUB ...*/
+#searchTabs li a[href="#taxaUpload"]{
+    display: none;
+}
