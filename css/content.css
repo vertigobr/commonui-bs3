@@ -879,6 +879,7 @@ table.table.specieslist-table td:first-child {
 }
 
 /*... Painel ALA-HUB ...*/
-#searchTabs li a[href="#taxaUpload"]{
+#searchTabs li a[href="#taxaUpload"],
+#searchTabs li a[href="#catalogUpload"] {
     display: none;
 }
