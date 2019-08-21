@@ -99,11 +99,20 @@
 </footer>
 
 <!-- Correção de nomes &quot; exibidos no breadcrumb -->
+<!--<script>-->
+<!--    let breadcrumb = $(".breadcrumb-list>.active");-->
+<!--    let corrigido = breadcrumb.text().replace(/&quot;/g, '"');-->
+<!--    breadcrumb.text(corrigido);-->
+<!--</script>-->
+
+<!-- Google Analytics -->
 <script>
-    let breadcrumb = $(".breadcrumb-list>.active");
-    let corrigido = breadcrumb.text().replace(/&quot;/g, '"');
-    breadcrumb.text(corrigido);
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-146145504-1', 'auto');
+    ga('send', 'pageview');
 </script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
 
 <!-- JavaScript funcionamento da barra governo brasileiro -->
 <script type="text/javascript" charset="utf-8" defer="defer" src="https://barra.brasil.gov.br/barra_2.0.js"></script>

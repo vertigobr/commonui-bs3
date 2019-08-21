@@ -884,112 +884,111 @@ table.table.specieslist-table td:first-child {
     display: none;
 }
 
-
 /*... Painel ConservationList ...*/
 .conservationList .status[data-status="CR"]:after {
-    content: ": Criticamente em Perigo";
+    content: "- Criticamente em Perigo";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="CR (PEW)"]:after {
-    content: ": Possivelmente Extinta na Natureza";
+    content: "- Possivelmente Extinta na Natureza";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="CR (PEX)"]:after {
-    content: ": Possivelmente Extinta";
+    content: "- Possivelmente Extinta";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="DD"]:after {
-    content: ": Dados Insuficientes";
+    content: "- Dados Insuficientes";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="E"]:after {
-    content: ": Em Perigo";
+    content: "- Em Perigo";
     font-weight: 500;
 }
 .conservationList .status[data-status="EN"]:after {
-    content: ": Em Perigo";
+    content: "- Em Perigo";
     font-weight: 500;
 }
 .conservationList .status[data-status="EP"]:after {
-    content: ": Em Perigo";
+    content: "- Em Perigo";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="EW"]:after {
-    content: ": Extinta na natureza";
+    content: "- Extinta na natureza";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="EX"]:after {
-    content: ": Extinta";
+    content: "- Extinta";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="I"]:after {
-    content: ": Indeterminado";
+    content: "- Indeterminado";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="K"]:after {
-    content: ": Insuficientemente conhecido";
+    content: "- Insuficientemente conhecido";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="LC"]:after {
-    content: ": Pouco Preocupante";
+    content: "- Pouco Preocupante";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="LR/cd"]:after {
-    content: ": Dependente de medidas de conservação";
+    content: "- Dependente de medidas de conservação";
     font-weight: 500;
 }
 
 .conservationList .status[data-status="LR/lc"]:after {
-    content: ": Segura ou pouco preocupante";
+    content: "- Segura ou pouco preocupante";
     font-weight: 500;
 }
 .conservationList .status[data-status="LR/nt"]:after {
-    content: ": Quase ameaçada";
+    content: "- Quase ameaçada";
     font-weight: 500;
 }
 .conservationList .status[data-status="NE"]:after {
-    content: ": Não Avaliado";
+    content: "- Não Avaliado";
     font-weight: 500;
 }
 .conservationList .status[data-status="NR"]:after {
-    content: ": Não reconhecido";
+    content: "- Não reconhecido";
     font-weight: 500;
 }
 .conservationList .status[data-status="NT"]:after {
-    content: ": Quase Ameaçada";
+    content: "- Quase Ameaçada";
     font-weight: 500;
 }
 .conservationList .status[data-status="PE"]:after {
-    content: ": Possivelmente extinta";
+    content: "- Possivelmente extinta";
     font-weight: 500;
 }
 .conservationList .status[data-status="R"]:after {
-    content: ": Rara";
+    content: "- Rara";
     font-weight: 500;
 }
 .conservationList .status[data-status="RE"]:after {
-    content: ": Regionalmente Extinto";
+    content: "- Regionalmente Extinto";
     font-weight: 500;
 }
 .conservationList .status[data-status="T"]:after {
-    content: ": Ameaçada";
+    content: "- Ameaçada";
     font-weight: 500;
 }
 .conservationList .status[data-status="V"]:after {
-    content: ": Vulnerável";
+    content: "- Vulnerável";
     font-weight: 500;
 }
 .conservationList .status[data-status="VU"]:after {
-    content: ": Vulnerável";
+    content: "- Vulnerável";
     font-weight: 500;
 }
