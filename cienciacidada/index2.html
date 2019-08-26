@@ -1,0 +1,601 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="SiBBr - Ciência Cidadã">
+<meta name="keywords" content="">
+<meta name="author" content="Jurandir Junior">
+<title>SiBBr - Ciência Cidadã</title>
+
+<!-- FAV and TOUCH ICONS -->
+<link rel="shortcut icon" href="images/ico/favicon.ico">
+<link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
+
+<!-- FONTS -->
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+<script src="js/modernizr.custom.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- STYLES -->
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="js/nprogress/nprogress.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/fonts/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
+<link rel="stylesheet" type="text/css" href="js/google-code-prettify/prettify.css">
+<link rel="stylesheet" type="text/css" href="css/uniform.default.css">
+<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+<link rel="stylesheet" type="text/css" href="js/mediaelement/mediaelementplayer.css">
+<link rel="stylesheet" type="text/css" href="css/tooltipster.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<!--[if lte IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+            <script src="js/selectivizr-min.js"></script>
+        <![endif]-->
+
+<!-- HEADER SiBBr -->
+
+<!-- Bootstrap core CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- CSS - Barra do SiBBr -->
+<link href="https://cdn.sibbr.gov.br/css/nav-bar.css" media="all" rel="stylesheet" type="text/css" />
+
+<!-- regra de cores para a barra do SiBBr-->
+<style type="text/css">
+:root {
+ --cor: #5B2F82;
+ --cor-font: #fff;
+ --cor-linha: #805D9E;
+ --cor-sep: #805D9E;
+ --logo: url(https://cdn.sibbr.gov.br/img/logo-w.svg) no-repeat left bottom;
+ --logo-semtexto: url(https://cdn.sibbr.gov.br/img/logo-w-semtexto.svg) no-repeat left bottom;
+}
+.credito {
+	position: relative;
+	font-size: 10px;
+	color: #666;
+	font-style: italic;
+	float: right;
+	padding-right: 6px;
+	text-align: right;
+	top: 13px;
+}
+.credito2 {
+	position: absolute;
+	font-size: 10px;
+	color: #666;
+	font-style: italic;
+	float: right;
+	padding-right: 6px;
+	text-align: left;
+}
+</style>
+
+<!-- invocando a Barra do Governo Federal-->
+<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"></div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
+<!-- Script Barra SiBBr -->
+<script type="text/javascript" charset="utf-8" src="https://cdn.sibbr.gov.br/js/menu-global.js"></script>
+<!-- Script Barra Governo Federal -->
+<script defer="defer" src="https://cdn.sibbr.gov.br/js/barra.js" type="text/javascript"></script>
+
+<!-- END HEADER SiBBr -->
+
+</head>
+
+<body>
+
+<!-- CONTAINER -->
+<div class="container" id="container" style="width:100%;">
+
+  <!-- HEADER -->
+  <header class="header" >
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8" style="background: transparent url(http://www.sibbr.gov.br/cienciacidada/images/site/bg-cc.png) no-repeat scroll 100% 27px;"> <a href="http://sibbr.gov.br/cienciacidada/"><img style="padding-left: 50px;" src="images/logo.svg" alt="avatar"></a> </div>
+      <div class="col-md-1"></div>
+    </div>
+
+    <!-- NAV MENU -->
+    <ul class="vs-nav">
+      <li><a href="#/portfolio">projetos</a></li>
+      <li><a href="#/resume">participe</a></li>
+      <li><a href="#/about">ciência cidadã</a></li>
+      <!--
+      <li><a href="#/contact">contato</a></li>
+      <li><a href="#/blog">notícias</a></li>
+      -->
+    </ul>
+    <!-- NAV MENU -->
+
+    <!-- SEARCH
+    <div class="header-search">
+      <form role="search" method="get" id="search-form" action="#">
+        <input type="text" value="" name="s" id="search" placeholder="Enter Keyword">
+        <input type="submit" id="search-submit" title="Search" value="→">
+      </form>
+    </div>
+ -->
+
+  </header>
+  <!-- HEADER -->
+
+  <!-- WRAPPER -->
+  <div class="wrapper">
+
+    <!-- PAGE : PORTFOLIO -->
+    <section id="portfolio" class="portfolio page">
+      <div class="content">
+        <h2 class="section-title center"><span><i class="icon-leaf"></i>PROJETOS</span></h2>
+
+        <!-- CATEGORIAS
+        <ul id="filters" class="filters">
+          <li class="current"><a href="#" data-filter="*">TODAS</a></li>
+          <li><a href="#" data-filter=".cat1">CATEGORIA 1</a></li>
+          <li><a href="#" data-filter=".cat2">CATEGORIA 2</a></li>
+          <li><a href="#" data-filter=".cat3">CATEGORIA 3</a></li>
+        </ul>
+-->
+
+        <!-- PORTFOLIO -->
+        <div class="portfolio-items media-grid" data-layout="masonry">
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/19.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/ara/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>Atlas de Registros de Aves Brasileira</h3>
+              <p class="category"> O ARA é um atlas de registros de ocorrência de aves brasileiras, que reúne também
+informações referentes à biologia das espécies e ações de conservação. O objetivo é,
+além de facilitar o acesso à informação através da sistematização dos dados,
+conseguir a colaboração de observadores e pesquisadores para ampliar o
+conhecimento das aves brasileiras.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/18.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/brydesdobrasil/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>Brydes do Brasil</h3>
+              <p class="category">Brydes do Brasil é um projeto  que visa elaborar uma base de dados sobre as baleias-de-bryde identificadas individualmente a partir de fotos da espécie em águas brasileiras. Esse acervo fotográfico ajudará a ampliar o conhecimento sobre distribuição, área de vida e fidelidade de área, colaborando para a formulação de políticas públicas para a conservação dessas baleias.<br>
+              O site do projeto conta com espaços interativos para compartilhar fotografias, vídeos, artigos, textos de divulgação científica, notícias na mídia e outras informações relevantes sobre a espécie.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/17.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/portaldezoologia/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>Portal de Zoologia de Pernambuco</h3>
+              <p class="category">O Portal de Zoologia de Pernambuco é uma ferramenta colaborativa que permite o compartilhamento de informações sobre animais selvagens com o objetivo comum de realizar um inventário da biodiversidade de forma lúdica e divertida.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/16.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/euviumaaveusandopulseira/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>Eu vi uma ave usando pulseira?!</h3>
+              <p class="category">O projeto tem dois objetivos:
+
+1. Compreender qual a aptidão e perfil dos atuais observadores de aves brasileiros aptos a realizar suas observações em remanescentes florestais localizados em paisagens agrícolas.
+
+2. Em três remanescentes florestais do interior paulista diversas aves silvestres foram marcadas com anilhas coloridas (as "pulseiras"). Os observadores que visitam um destes remanescentes são instruídos a anotar a localização de cada ave anilhada visualizada em campo. Tais informações são usadas para compreender qual é o tamanho da área de vida de cada ave na paisagem agrícola.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/15.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/bluechange/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>Blue Change</h3>
+              <p class="category">A BLUE CHANGE é uma iniciativa para desenvolver projetos de ciência cidadã no Brasil, relacionados à conservação dos ambientes marinhos e costeiros. Para tanto, auxilia pesquisadores, instituições e organizações sociais a estruturar e executar projetos dentro do modelo da ciência cidadã. Em uma abordagem bottom-up, também atua conectando pessoas com a ciência, levando demandas da sociedade para que os pesquisadores as transformem em objeto de investigação.    </p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+                    <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/14.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/exoss/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>Exoss</h3>
+              <p class="category">Registro de meteoros na atmosfera, através de videomonitoramento do céu noturno, utilizando uma rede de voluntários, em grande parte do território brasileiro, para a pesquisa de chuvas de meteoros e identificação de seus corpos parentais.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/07.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/cidadaocientista/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>Cidadão Cientista</h3>
+              <p class="category">Projeto Cidadão Cientista é um projeto da SAVE Brasil que tem o objetivo de realizar monitoramentos participativos de aves em Unidades de Conservação e parques urbanos. As atividades ocorrem no mínimo uma vez ao mês em diferentes parques, principalmente de São Paulo, e são abertas a pessoas de todas as idades e níveis de conhecimento sobre aves.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat1 hentry">
+            <div class="media-box"> <img src="images/portfolio/12.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/baleiasgolfinhos/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>Onde estÃo as baleias e os golfinhos?</h3>
+              <p class="category">Se você tem fotos e/ou vídeos de cetáceos (baleias, botos e golfinhos) em águas costeiras do Rio de Janeiro poste no  grupo informando a data, local, hora e número de animais avistados. As imagens  são importantes para a positiva identificação das espécies e podem fornecer  dados científicos valiosos.&nbsp;</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/01.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/urubu/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>Sistema urubu</h3>
+              <p class="category">O Sistema Urubu é uma plataforma tecnológica de ciência cidadã que visa avaliar os efeitos de infraestrutura viária na biodiversidade mundial. Nesta fase o principal foco é o atropelamento de animais selvagens.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/13.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/aetrapp/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>aetrapp</h3>
+              <p class="category">O Projeto AeTrapp possibilita o engajamento de  comunidades no monitoramento de populações de mosquitos <em>Aedes</em>, vetores  de zika, dengue, chikungunya e febre amarela urbana, por meio de uma armadilha  caseira, um aplicativo e um mapa online.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/08.jpg" alt="portfolio-post">
+              <div class="mask"></div>
+              <a href="projetos/ecoa/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>ECOA</h3>
+              <p class="category">O projeto ciência cidadã tem por objetivos auxiliar comunidades tradicionais e assentados da reforma agraria na identificação de áreas com potencial de reflorestamento e/ou restauração florestal e seu monitoramento durante o processo de &quot;melhoria&quot; ambiental; e no mapeamento de arvores frutíferas nativas de relevância ambiental e econômica para atividades de coleta de frutos e sementes para processamento de farinhas, castanhas e geleias, além do processo de produção de mudas. Impacto de curto, médio e longo prazo na economia local e na qualidade dos serviços ecológicos dentro de áreas de reflorestamento. </p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat1 hentry">
+            <div class="media-box"> <img src="images/portfolio/10.jpg" alt="portfolio-post">
+              <div class="mask"></div>
+              <a href="projetos/taxeus/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>TÁXEUS</h3>
+              <p class="category">Táxeus é uma plataforma de ciência cidadã, colaborativa e online, que promove conhecimento da biodiversidade brasileira a partir de listas de espécies. Desenvolvemos ferramentas de tecnologia da informação diretamente aplicáveis a estudos ecológicos.</p>
+            </div>
+          </div>
+
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/02.jpg" alt="portfolio-post">
+              <div class="mask"></div>
+              <a href="projetos/guardioes/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>guardiÕES DA CHAPADA</h3>
+              <p class="category">Guardiões da Chapada é um projeto de ciência cidadã que visa monitorar os visitantes florais e flora associada na Chapada Diamantina, sensibilizar o público acerca da importância do serviço de polinização e comunicar temas relacionados à ecologia e conservação.</p>
+              <p class="category"><br>
+                Para contemplar seus objetivos o projeto convida voluntários para coletar dados sobre a interação planta-visitante floral, desenvolve ações de extensão universitária na Chapada Diamantina para promover o engajamento de atores sociais em questões socioambientais e compartilha notícias nas redes sociais.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item - lightbox gallery -->
+          <div class="media-cell cat1 hentry">
+            <div class="media-box"> <img src="images/portfolio/06.jpg" alt="portfolio-post">
+              <div class="mask"></div>
+              <a href="projetos/cienciacidada/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>CIÊNCIA CIDADÃ - UFABC</h3>
+              <p>O presente projeto visa à implantação de um programa para a educação científica em diferentes contextos, tanto formais quanto informais, com a criação, aplicação e avaliação de protocolos de ciência cidadã. A meta é, a partir dos projetos integrantes do programa, promover a alfabetização científica de diferentes públicos, trabalhar a sua percepção ambiental e, ao mesmo tempo, possibilitar a coleta de dados sobre a biodiversidade brasileira de maneira participativa em diferentes escalas de espaço e tempo.</p>
+            </div>
+          </div>
+          <!-- portfolio-item - lightbox gallery -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat2 hentry">
+            <div class="media-box"> <img src="images/portfolio/09.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="projetos/wikiaves/" class="ajax"></a> </div>
+            <div class="media-cell-desc">
+              <h3>wikiaves</h3>
+              <p class="category">Site de conteúdo interativo, direcionado à comunidade brasileira de observadores de aves, com o objetivo de apoiar, divulgar e promover a atividade de observação de aves, fornecendo gratuitamente ferramentas avançadas para controle de fotos, sons, textos, identificação de espécies, comunicação entre observadores, entre outras.</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+          <!-- portfolio-item -->
+          <div class="media-cell cat1 cat2 cat3 hentry 1x">
+            <div class="media-box"> <img src="images/portfolio/11.jpg" alt="portfolio-post" width="50%">
+              <div class="mask"></div>
+              <a href="mailto:engajamento@sibbr.gov.br?Subject=[SiBBr - Ciência Cidadã] Cadastro de Projeto"></a> </div>
+            <div class="media-cell-desc">
+              <h3>cadastre-se </h3>
+              <p class="category">Nos envie um e-mail</p>
+            </div>
+          </div>
+          <!-- portfolio-item -->
+
+        </div>
+        <!-- PORTFOLIO -->
+
+      </div>
+      <!-- CONTENT -->
+
+    </section>
+    <!-- PAGE : PORTFOLIO -->
+
+    <!-- PAGE : RESUME -->
+    <section id="resume" class="page">
+      <div class="content">
+        <!-- CONTENT -->
+
+        <!-- row -->
+        <div class="row">
+
+          <!-- col 6/12 -->
+          <div class="col-md-6">
+
+            <!-- timeline -->
+            <div class="timeline">
+              <h2><i class="icon-comment"></i>REDES SOCIAIS</h2>
+              <div class="event current"> <span class="date" style="display: block; font-size: 38px; position: absolute; top: 42px; left: -102px;  width: 65px;  line-height: 55px; margin: 0; z-index: 120;"><i class="fa fa-facebook"></i></span>
+                <h4><strong><a href="https://www.facebook.com/WikiAves/" target="_blank">Ciência Cidadã</a></strong></h4>
+                <h5>FACEBOOK</h5>
+                <div class="fb-page" data-href="https://www.facebook.com/WikiAves/"
+data-tabs="timeline"
+data-width="500"
+data-height="200"
+data-small-header="true"
+data-adapt-container-width="false"
+data-hide-cover="true"
+data-show-facepile="false"
+data-hide-cta="true
+"> </div>
+              </div>
+              <div class="event"> <span class="date" style="display: block; font-size: 38px; position: absolute; top: 42px; left: -102px;  width: 65px;  line-height: 55px; margin: 0; z-index: 120;"><i class="fa fa-twitter"></i></span>
+                <h4><strong><a href="https://twitter.com/sistema_urubu" target="_blank">Sistema Urubu</a></strong></h4>
+                <h5>twitter</h5>
+                <a class="twitter-timeline" data-width="500" data-height="210" data-dnt="true" href="https://twitter.com/sistema_urubu"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+              <div class="event"> <span class="date" style="display: block; font-size: 38px; position: absolute; top: 42px; left: -102px;  width: 65px;  line-height: 55px; margin: 0; z-index: 120;"><i class="fa fa-instagram"></i></span>
+                <h4><strong><a href="https://www.instagram.com/guardioesdachapada/" target="_blank">Guardiões da Chapada</a></strong></h4>
+                <h5>INSTAGRAM</h5>
+              <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:60.29411764705882% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BasIQYBglYs/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Uma publicação compartilhada por Guardiões da Chapada (@guardioesdachapada)</a> em <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-10-25T23:31:13+00:00">Out 25, 2017 às 4:31 PDT</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+                <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+                </p>
+              </div>
+            </div>
+            <!-- timeline -->
+            <style>
+.ttimeline-Footer u-cf{
+	 diplay:none!important;
+}
+.timeline-Header timeline-InformationCircle-widgetParent{
+	 diplay:none!important;
+}
+</style>
+
+            <!-- timeline -->
+            <div class="timeline">
+              <h2><i class="fa fa-list"></i>NOTÍCIAS</h2>
+              <div class="event"><span class="date">20 jul</span>
+                <h4><a href="http://www.sibbr.gov.br/internal/?area=comunicacao&subarea=noticias&subarea=noticia_132" target="_blank">Plataforma apresenta projetos de ciência cidadã em biodiversidade</a></h4>
+                <h5>PORTAL SIBBR</h5>
+                <p><a href="http://www.sibbr.gov.br/internal/?area=comunicacao&subarea=noticias&subarea=noticia_132" target="_blank">Hospedada no portal SiBBr, a plataforma reúne projetos brasileiros de ciência cidadã que abordam o tema da biodiversidade.</a></p>
+              </div>
+              <div class="event"> <span class="date">23 fev</span>
+                <h4><a href="http://sibbr.gov.br/internal/?area=comunicacao&subarea=noticias&subarea=noticia_125" target="_blank">SiBBr incentiva criação de Rede Brasileira de Ciência Cidadã em Biodiversidade</a></h4>
+                <h5>PORTAL SiBBr</h5>
+                <p><em><a href="http://sibbr.gov.br/internal/?area=comunicacao&subarea=noticias&subarea=noticia_125" target="_blank">Organizado pelo SiBBr, workshop realizado em Brasília reuniu, pela primeira vez no âmbito do governo federal, representantes de projetos de ciência cidadã em biodiversidade. </a></em></p>
+              </div>
+              <div class="event"><span class="date">22 fev</span>
+                <h4><a href="http://www.mcti.gov.br/noticia/-/asset_publisher/epbV0pr6eIS0/content/sinergia-com-ciencia-cidada-vai-ampliar-base-de-dados-da-biodiversidade-brasileira" target="_blank">Sinergia com ciência cidadã vai ampliar base de dados da biodiversidade brasileira</a></h4>
+                <h5>MCTIC</h5>
+                <p><a href="http://www.mcti.gov.br/noticia/-/asset_publisher/epbV0pr6eIS0/content/sinergia-com-ciencia-cidada-vai-ampliar-base-de-dados-da-biodiversidade-brasileira" target="_blank">Além disso, parceria estimula a participação da sociedade. Iniciativa do MCTIC, Sistema de Informação sobre a Biodiversidade Brasileira já possui 10,5 milhões de registros da fauna e da flora do país.im ad minim veniam, quis nostrud exercitation.</a></p>
+              </div>
+            </div>
+            <!-- timeline -->
+
+          </div>
+          <!-- col 6/12 -->
+
+          <!-- col 6/12 -->
+          <div class="col-md-6">
+            <h2 class="section-title" style="font-size: 20px; font-weight: 300; margin-top: -2px;"><span><i class="fa fa-star" style="width: 86px; line-height: 78px; font-size: 28px;"></i>PROJETO DO MÊS</span></h2>
+
+            <!-- DEV SKILLS -->
+            <div class="skillset"><a href="http://www.sibbr.gov.br/cienciacidada/#/portfolio/projetos/euviumaaveusandopulseira/" target="_blank"><img src="images/img-destaque.png" alt="project" style="    border-radius: 6px;
+    border: 3px solid #EDF1F3;
+    padding: 7px;"></a>
+              <p><span class="category">O projeto tem dois objetivos: 1. Compreender qual a aptidão e perfil dos atuais observadores de aves brasileiros aptos a realizar suas observações em remanescentes florestais localizados em paisagens agrícolas. 2. Em três remanescentes florestais do interior paulista diversas aves silvestres foram marcadas com anilhas coloridas (as "pulseiras"). Os observadores que visitam um destes remanescentes são instruídos a anotar a localização de cada ave anilhada visualizada em campo. Tais informações são usadas para compreender qual é o tamanho da área de vida de cada ave na paisagem agrícola.</span></p>
+            </div>
+            <!-- DEV SKILLS -->
+
+            <h2 class="section-title" style="font-size: 20px; font-weight: 300; "><span><i class="fa fa-bug" style="width: 86px; line-height: 78px; font-size: 28px;"></i><a href="#" target="_blank">DADOS NO EXPLORADOR SiBBr</a></span></h2>
+
+            <!-- DESIGN SKILLS -->
+            <div class="skillset"> <a href="#" target="_blank"><img src="/cienciacidada/images/img-explorador.png" alt="project" style="    border-radius: 6px;
+    border: 3px solid #EDF1F3;
+    padding: 7px;"></a> </div>
+            <!-- DESIGN SKILLS -->
+
+            <h2 class="section-title"  style="font-size: 20px; font-weight: 300; "><span><i class="fa fa-envelope" style="width: 86px; line-height: 78px; font-size: 28px;"></i> INFORMATIVO</span></h2>
+            <p>Increva-se e receba o informativo SiBBr bimestralmente.</p>
+
+            <!-- DOWNLOAD BUTTON -->
+            <div class="download-button"> <a href="http://eepurl.com/bYaGJL" target="_blank" class="button primary">INSCREVA-SE</a> </div>
+            <!-- DOWNLOAD BUTTON -->
+            <!-- FORUM  -->
+
+            <h2 class="section-title"  style="font-size: 20px; font-weight: 300; "><span><i class="fa fa-bullhorn" style="width: 86px; line-height: 78px; font-size: 28px;"></i>FÓRUM</span></h2>
+            <p>Acesse o fórum do SiBBr e participe das discussões da Rede Brasileira da Ciência Cidadã em Biodiversidade.</p>
+
+            <!-- DOWNLOAD BUTTON -->
+            <a href="https://ferramentas.sibbr.gov.br/forum/viewforum.php?f=61&sid=964dfeb5333bf94f17f70cbed30df3be" target="_blank"><img src="/cienciacidada/images/img-forum.png" alt="project" style="    border-radius: 6px;
+    border: 3px solid #EDF1F3;
+    padding: 7px;"></a>
+            <!-- DOWNLOAD BUTTON -->
+
+          </div>
+          <!-- col 6/12 -->
+
+        </div>
+        <!-- row -->
+
+      </div>
+      <!-- CONTENT -->
+
+    </section>
+    <!-- PAGE : RESUME -->
+
+    <!-- PAGE : ABOUT -->
+    <section id="about" class="page">
+      <div class="content">
+
+        <!-- row -->
+        <div class="row">
+
+          <!-- column 8/12 -->
+          <div class="" style="font-size: 1.3em;">
+            <h2 class="section-title"><span><i class="icon-guest"></i>O QUE É CIÊNCIA CIDADÃ?</span></h2>
+
+            <!-- intro -->
+            <div class="intro" style="text-align:left;">
+              <h2> O que é <strong>Ciência Cidadã</strong> ?</h2>
+              <p style="text-align:right; font-size:0.9em;"> <em><br>
+                Por Tatiana Pongiluppi Souza - Consultora de Ciência Cidadã do SiBBr</em> </p>
+              <p class="drop-cap"><span class="credito">Foto: Marina Rehder‎/ Onde estão as Baleias e Golfinhos?</span><br>
+                <img src="images/img-ciencia.png" width="720" height="399" hspace="5" vspace="5" align="right">O conceito de ciência cidadã é  representado por uma parceria entre amadores e cientistas na coleta de dados.  Centenas de milhares de indivíduos ao redor do mundo são &ldquo;cidadãos cientistas&rdquo;,  pessoas que escolheram se dedicar a ciência em seu tempo livre, documentando  padrões ecológicos das espécies, padrões de migração, propagação de doenças  infecciosas, tendências populacionais e impactos em processos ambientais, geralmente  de origem antrópica, como alterações na paisagem e mudanças climáticas (Cohn,  2008, Bonney et al., 2009, Dickinson et al., 2010, Dickinson and Bonney, 2012). </p>
+              <p>O modelo de ciência cidadã envolve  uma rede de voluntários para ajudar na pesquisa científica utilizando  metodologias desenvolvidas por eles ou em colaboração com pesquisadores  profissionais. A ciência cidadã tem o potencial de aumentar a participação do  público na gestão ambiental, através da motivação pela participação do público  na pesquisa científica (Cooper et al. 2007).</p>
+              <p> Os programas de ciência cidadã são  frequentemente utilizados para proporcionar ao público em geral conhecimentos  sobre conservação, ciência e para desenvolver habilidades de pensamento  científico (Jordan et al. 2011). Um benefício importante para os cientistas é  que a participação pública traz as informações necessárias, suplementando  profissionais, especialmente no caso de monitoramentos (Couvet et al. 2008). A  grande vantagem da ciência cidadã é que qualquer pessoa, em qualquer lugar e a  qualquer hora pode submeter as suas informações através da internet e  aplicativos para celular (Wood et al. 2011). Os participantes de projetos de  ciência cidadã variam em idade, de jovens estudantes até idosos com as mais  variadas formações. O que eles têm em comum é um forte interesse nos organismos  foco dos estudos, uma curiosidade sobre o mundo a sua volta e um desejo de  avançar no campo da ciência (Dickinson e Bonney, 2012).</p>
+              <p>Em geral, os dados obtidos  através de programas de ciência cidadã são utilizados para informar os  tomadores de decisão sobre ações de manejo necessárias para a conservação de um  determinado ambiente ou espécie. Grande parte dos projetos de cidadã no mundo  envolve o monitoramento de aves e vários desses programas são gerenciados pelo  Laboratório de Ornitologia da Universidade de Cornell (LOC) (Bonney et al.,  2009).</p>
+              <p>Além da coleta de dados, a  ciência cidadã contribui para a formação de um grupo de aliados para a  conservação, que em muitos casos é necessário para provocar ações no campo  político (Bonter e Hochachka, 2008). Cada vez mais os tomadores de decisão e  organizações não- governamentais (ONGs) estão utilizando a ciência cidadã para  melhorar sua habilidade em gerenciar os recursos naturais e conservar áreas protegidas  (Hilchey and Conrad 2011).</p>
+              <p>A ciência cidadã é uma  ferramenta científica eficiente e, além disso, tem um grande custo-benefício,  pois necessita de uma equipe reduzida na instituição que analisa os dados,  enquanto um trabalho similar conduzido por uma equipe contratada para a coleta  de dados custaria mais de um milhão de euros anualmente (Jiguet et al. 2012). A  ciência cidadã tem o potencial de construir uma ponte entre os cientistas  profissionais e o público, com resultados positivos tanto para ciência quanto  para o aprendizado do público (Dickinson and Bonney, 2012).</p>
+              <p>Garantir que as decisões de  conservação sejam tomadas utilizando os melhores dados disponíveis é o desafio  frente a rápida mudança ambiental que está ocorrendo no planeta. Frequentemente  a ciência não é facilmente ou rapidamente traduzida em ações de conservação. As  abordagens tradicionais para a coleta de dados e desenvolvimento da ciência  podem ser ambas ineficientes e insuficientes, uma vez que os tomadores de  decisão precisam de acesso a dados com credibilidade e legitimados para  implementar ações. Dados de livre acesso podem servir como ferramentas para  ajudar a fazer uma ponte entre a ciência e a ação, provendo aos tomadores de  decisão o acesso a dados relevantes em tempo real. (Sullivan et al. 2016)</p>
+              <h2 class="section-title" style="position: relative; margin-bottom: 1em; font-size: 12px; letter-spacing: 1px; font-weight: 700;"><span><i class="icon-guest"></i>REDE BRASILEIRA DE CIÊNCIA CIDADÃ EM BIODIVERSIDADE</span></h2>
+              <h2><strong>Rede Brasileira de Ciência Cidadã em Biodiversidade</strong></h2>
+              <p style="text-align:right; font-size:0.9em;"> <em><br>
+                Por João Gonçalves - Coordenador de Comunicação SiBBr</em> </p>
+              <p><span class="credito2">Foto: Luiza Correa/ SiBBr</span><br>
+                <img src="images/img-ciencia-2.jpg" width="860" height="501" hspace="10" vspace="10" align="left">Mundo afora, é cada vez maior o número de  pessoas que participam de projetos de coleta e análise de dados científicos de  forma consciente e voluntária. Essa colaboração realizada pelo cidadão comum,  em geral não especialista no tema, é conhecida como ciência cidadã. Para  popularizar e conhecer iniciativas do gênero ligadas à biodiversidade  brasileira, o Sistema de Informação sobre a Biodiversidade Brasileira (SiBBr)  fomentou a criação da Rede Brasileira de Ciência Cidadã em Biodiversidade.</p>
+              <p>Com o objetivo de promover o intercâmbio  entre as iniciativas brasileiras, com a gestão compartilhada de ferramentas de  comunicação e engajamento da sociedade, a rede foi inicialmente criada com os  participantes do 1º Workshop Ciência Cidadã SiBBr, realizado em fevereiro de  2017, em Brasília (DF), com promoção do SiBBr. Ao instituir a rede, na primeira  iniciativa relacionada ao tema no âmbito do governo federal, também se pretende  incentivar a popularização da ciência no país e a maior participação da  população no &ldquo;fazer&rdquo; científico, ampliando a capacitação dos participantes e,  consequentemente, a consciência e sensibilidade para temas ambientais. </p>
+              <p>Como banco de dados referência em  biodiversidade, o SiBBr também pretende, futuramente, publicar e/ou integrar os  dados dos projetos participantes em sua base.  Atualmente composta por dados provenientes de  coleções biológicas, a aproximação com os projetos de ciência cidadã abre uma  possibilidade que pode incrementar o banco de dados do sistema e ampliar as  informações disponíveis, que são utilizadas tanto por pesquisadores, quanto por  gestores da área ambiental e tomadores de decisão.</p>
+              <p>A plataforma de Ciência Cidadã hospedada no  SiBBr é a vitrine inicial desta rede, com ela apresentamos os primeiros  projetos que integram a Rede Brasileira de Ciência Cidadã em Biodiversidade e  deixamos o convite para projetos brasileiros interessados em participar.  </p>
+              <p class="drop-cap"> </p>
+            </div>
+            <!-- intro -->
+
+          </div>
+          <!-- column 8/12 -->
+
+        </div>
+        <!-- row --><!-- SERVICES -->
+        <div class="row"></div>
+        <!-- SERVICES -->
+
+        <!-- PROCESS --><!-- PROCESS -->
+
+        <!-- FUN FACT -->
+        <div class="row"></div>
+        <!-- FUN FACT -->
+        <!-- CLIENTS -->
+        <div class="row"></div>
+        <!-- CLIENTS -->
+        <p>&nbsp;</p>
+      </div>
+    </section>
+    <!-- PAGE : ABOUT -->
+
+  </div>
+  <!-- WRAPPER -->
+
+</div>
+<!-- CONTAINER -->
+
+<!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+<div class="p-overlay"></div>
+<div class="p-overlay"></div>
+
+<!-- ALERT : used for contact form mail delivery alert -->
+<div class="site-alert animated"></div>
+
+<!-- SCRIPTS -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery.address-1.5.min.js"></script>
+<script src="js/triple.layout.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/nprogress/nprogress.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/jquery.imagesloaded.min.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.uniform.min.js"></script>
+<script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="js/jquery.tooltipster.min.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/twitterFetcher_v10_min.js"></script>
+<script src="js/mediaelement/mediaelement-and-player.min.js"></script>
+<script src="js/send-mail.js"></script>
+<script src="js/classie.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script src="js/main.js"></script>
+</body>
+
+
+</html>
