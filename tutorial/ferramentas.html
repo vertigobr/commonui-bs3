@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Portal Espacia | Ferramentas</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SiBBr - Sistemas de Informações sobre a Biodiversidade Brasileira</title>
+
+    <!-- Favicon -->
+    <link href="https://ala-dev.vertigo.com.br/img/sibbr.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://ala-dev.vertigo.com.br/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://ala-dev.vertigo.com.br/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="https://ala-dev.vertigo.com.br/css/ala-styles.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom paginas complementares -->
+    <link rel="stylesheet" href="https://ala-dev.vertigo.com.br/css/main.css">
+    <link rel="stylesheet" href="https://ala-dev.vertigo.com.br/css/content.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div data-include="banner-interno"></div>
+
+<!-- Breadcrumb -->
+<section id="breadcrumb">
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb-list">
+                <li><a href="https://ala-dev.vertigo.com.br">Home</a></li>
+                <li><a href="https://portal-espacial.ala-dev.vertigo.com.br/spatial-hub">Portal Espacial</a></li>
+                <li class="active">Ferramentas</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+<div class="container">
+    <section class="content-container">
+        <div class="row">
+
+            <article class="col-md-12 header-wrap margin-bottom-half-1">
+                <h5 class="subject-category-overline">Portal Espacial Tutorial</h5>
+                <h2 class="subject-title">Ferramentas</h2>
+            </article>
+
+            <article class="col-md-12" id="alaEditable">
+
+                <h2>Relatório de área</h2>
+                <p>Uma vez com uma área definida seja desenhando o polígono, seja importando um shapefile de polígono ,
+                    é possível pedir um relatório para essa área.</p>
+                <p>O relatório pode ser interativo (neste tipo o foco é mostrar as ocorrências de espécies e grupos na
+                    área ) ou detalhado eu pode ser baixado no formato PDF ,onde é levantado além das informações de
+                    espécies , as demais bases de dados (disponíveis pelo menu Adicionar bases de dados) que estão
+                    contidas na área definida.</p>
+
+                <div class="wp-caption alignnone">
+                    <img class="size-full wp-image-37686" src="../img/espacial/tutorial-portal-26.png">
+                </div>
+
+                <p>Selecionando a opção Relatório de área – interativo , a tela seguinte pede que o usuário selecione a
+                    área que desenhou ou a área importada ou ainda pode pedir o relatório para o Brasil. Clique em
+                    próximo para obter o relatório:</p>
+
+                <div class="wp-caption alignnone">
+                    <img class="size-full wp-image-37686" src="../img/espacial/tutorial-portal-27.png">
+                </div>
+
+                <p>A tela seguinte mostra o relatório para a área , como valor da área , número de espécies, número de
+                    espécies endêmicas entre outros.</p>
+
+                <div class="wp-caption alignnone">
+                    <img class="size-full wp-image-37686" src="../img/espacial/tutorial-portal-28.png">
+                </div>
+
+                <h2>Calcular área de ocupação (AOO) e extensão de ocorrência (EOO)</h2>
+
+                <p>Com base em uma solicitação de espécies pelo menu Adicionar > Espécies é possível obter as áreas de
+                    ocupação (AOO) de e extensão de ocorrência (EOO) para uma espécie. A metodologia utilizada para
+                    calculo no ALA é descrita no link
+                    <a href="https://support.ala.org.au/support/solutions/articles/6000208436-area-of-occupancy-and-extent-of-occurrence">
+                        ALA </a>.
+                </p>
+
+                <p>Por exemplo, fazendo uma busca por lobo – guará , o portal apresentará as ocorrências no portal
+                    espacial:</p>
+                <div class="wp-caption alignnone">
+                    <img class="size-full wp-image-37686" src="../img/espacial/tutorial-portal-29.png">
+                </div>
+
+                <p>Para obter a áreas de ocupação (AOO) de e extensão de ocorrência (EOO) para essa espécie , basta ir
+                    no menu Ferramentas > Calcular área de ocupação (AOO) e extensão de ocorrência (EOO):</p>
+
+                <div class="wp-caption alignnone">
+                    <img class="size-full wp-image-37686" src="../img/espacial/tutorial-portal-30.png">
+                </div>
+                <p>Na tela seguinte , o usuário escolhe alguns parâmetros:</p>
+                <ol>
+                    <li>Selecione a área de interesse: Por padrão a opção de área atual (Current extent ) fica
+                        marcada;
+                    </li>
+                    <li>Selecione a espécie : Para esse tutorial foi utilizada a espécie lobo – guará.</li>
+                    <li>AOO grid resolution : Tamanho do grid a se usado para a área de ocupação. O padrão é 2 Km.</li>
+                    <li>O alfa hull a ser usado para determinar a área para inclusão ao calcular a EOO.</li>
+                </ol>
+                <p>Uma vez preenchido os campos clique em próximo para ver o resultado:</p>
+
+                <div class="wp-caption alignnone">
+                    <img class="size-full wp-image-37686" src="../img/espacial/tutorial-portal-31.png">
+                </div>
+                <p>Os resultados são:</p>
+                <ul>
+                    <li>O número de registros usados para os cálculos;</li>
+                    <li>Os taxóns utilizados;</li>
+                    <li>Área de ocupação (AOO: m²);</li>
+                    <li>Extensão da ocorrência (EOO: m²);</li>
+                    <li>Nova camada pontual da ocorrência de táxons (shapefile);</li>
+                    <li>Nova camada de área: AOO (shapefile);</li>
+                    <li>Nova camada de área: EOO (mínimo polígono convexo - shapefile);</li>
+                    <li>Nova camada de área: alpha hull (shapefile)</li>
+                </ul>
+
+
+                <div class="wp-caption alignnone">
+                    <img class="size-full wp-image-37686" src="../img/espacial/tutorial-portal-32.png">
+                </div>
+
+                <div class="wp-caption alignnone">
+                    <img class="size-full wp-image-37686" src="../img/espacial/tutorial-portal-33.png">
+                </div>
+
+                <p>Os resultados são:</p>
+                <ul>
+                    <li>O número de registros usados para os cálculos;</li>
+                    <li>Os táxons utilizados;</li>
+                    <li>Área de ocupação (AOO: m²);</li>
+                    <li>Extensão da ocorrência (EOO: m²);</li>
+                    <li>Nova camada pontual da ocorrência de táxons (shapefile);</li>
+                    <li>Nova camada de área: AOO (shapefile);</li>
+                    <li>Nova camada de área: EOO (mínimo polígono convexo - shapefile);</li>
+                    <li>Nova camada de área: alpha hull (shapefile)</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+</div>
+
+<div data-include="footer"></div>
+
+<script type="text/javascript" charset="utf-8"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/component.js"></script>
+
+</body>
+</html>
