@@ -344,18 +344,10 @@ input#locationSearch {
 #barra-brasil a {
     font-size: .9em !important;
 }
-
 @media (max-width: 768px) {
     .no-gbif {
-        margin: 10px;
-        border-width: 1px;
-        margin-top: -10px;
-    }
-}
-@media (max-width: 768px) {
-    .no-gbif {
-        margin: 10px;
-        border-width: 1px;
-        margin-top: -10px;
+        margin: 10px !important;
+        border-width: 1px !important;
+        margin-top: -10px !important;
     }
 }
