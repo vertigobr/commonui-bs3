@@ -207,6 +207,7 @@ img:hover {
 
 .pesquisar {
     padding: 10px;
+    height: 65px;
 }
 
 .navbar {
@@ -909,10 +910,12 @@ table.table.specieslist-table td:first-child {
     content: "- Em Perigo";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="EN"]:after {
     content: "- Em Perigo";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="EP"]:after {
     content: "- Em Perigo";
     font-weight: 500;
@@ -952,42 +955,52 @@ table.table.specieslist-table td:first-child {
     content: "- Segura ou pouco preocupante";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="LR/nt"]:after {
     content: "- Quase ameaçada";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="NE"]:after {
     content: "- Não Avaliado";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="NR"]:after {
     content: "- Não reconhecido";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="NT"]:after {
     content: "- Quase Ameaçada";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="PE"]:after {
     content: "- Possivelmente extinta";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="R"]:after {
     content: "- Rara";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="RE"]:after {
     content: "- Regionalmente Extinto";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="T"]:after {
     content: "- Ameaçada";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="V"]:after {
     content: "- Vulnerável";
     font-weight: 500;
 }
+
 .conservationList .status[data-status="VU"]:after {
     content: "- Vulnerável";
     font-weight: 500;
