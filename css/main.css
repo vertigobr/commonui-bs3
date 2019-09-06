@@ -346,7 +346,7 @@ input#locationSearch {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .no-gbif {
         margin: 10px !important;
         border-width: 1px !important;
@@ -354,15 +354,15 @@ input#locationSearch {
     }
 
     .jumbotron {
-        background-size: 100% !important;
+        /*background-size: 100% !important;*/
         background-position: top right !important;
-        padding-top: 50px !important;
+        /*padding-top: 50px !important;*/
     }
 
     .jumbotron .promotional {
-        padding: 10px !important;
-        font-size: 12px !important;
-        line-height: 25px !important;
+        /*padding: 10px !important;*/
+        /*font-size: 12px !important;*/
+        /*line-height: 25px !important;*/
     }
 
     .ala-header {
