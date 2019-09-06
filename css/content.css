@@ -1006,7 +1006,7 @@ table.table.specieslist-table td:first-child {
     font-weight: 500;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .no-gbif {
         margin: 10px !important;
         border-width: 1px !important;
