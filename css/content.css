@@ -1005,27 +1005,3 @@ table.table.specieslist-table td:first-child {
     content: "- Vulnerável";
     font-weight: 500;
 }
-
-@media (max-width: 600px) {
-    .no-gbif {
-        margin: 10px !important;
-        border-width: 1px !important;
-        margin-top: -10px !important;
-    }
-
-    .jumbotron {
-        background-size: 100% !important;
-        background-position: 0 0 !important;
-        padding-top: 50px !important;
-    }
-
-    .jumbotron .promotional {
-        padding: 10px !important;
-        font-size: 12px !important;
-        line-height: 25px !important;
-    }
-
-    .ala-header {
-        min-height: 185px;
-    }
-}
