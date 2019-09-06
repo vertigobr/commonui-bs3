@@ -1005,3 +1005,9 @@ table.table.specieslist-table td:first-child {
     content: "- Vulnerável";
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .ala-header {
+        min-height: 185px;
+    }
+}
