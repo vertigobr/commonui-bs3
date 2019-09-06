@@ -363,4 +363,8 @@ input#locationSearch {
         font-size: 16px !important;
         line-height: 25px !important;
     }
+
+    .ala-header {
+        min-height: 185px;
+    }
 }
