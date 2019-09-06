@@ -356,11 +356,11 @@ input#locationSearch {
     .jumbotron {
         /*background-size: 100% !important;*/
         background-position: top right !important;
-        /*padding-top: 50px !important;*/
+        padding-top: 50px !important;
     }
 
     .jumbotron .promotional {
-        /*padding: 10px !important;*/
+        padding: 10px !important;
         /*font-size: 12px !important;*/
         /*line-height: 25px !important;*/
     }
