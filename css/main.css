@@ -344,10 +344,23 @@ input#locationSearch {
 #barra-brasil a {
     font-size: .9em !important;
 }
+
 @media (max-width: 768px) {
     .no-gbif {
         margin: 10px !important;
         border-width: 1px !important;
         margin-top: -10px !important;
+    }
+
+    .jumbotron {
+        background-size: 100% !important;
+        background-position: 0 0 !important;
+        padding-top: 50px !important;
+    }
+
+    .jumbotron .promotional {
+        padding: 10px !important;
+        font-size: 16px !important;
+        line-height: 25px !important;
     }
 }
