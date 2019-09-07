@@ -1005,3 +1005,8 @@ table.table.specieslist-table td:first-child {
     content: "- Vulnerável";
     font-weight: 500;
 }
+
+/*Correção barra brasil*/
+#barra-brasil .conteudo-barra-brasil a.botao-seta-direita {
+    display: none;
+}
