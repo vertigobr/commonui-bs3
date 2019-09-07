@@ -1006,6 +1006,10 @@ table.table.specieslist-table td:first-child {
     font-weight: 500;
 }
 
+.menu-logo{
+    margin-right: 0;
+}
+
 /*Correção barra brasil*/
 @media only screen and (max-width: 600px) {
     #barra-brasil .conteudo-barra-brasil a.botao-seta-direita {
