@@ -1007,6 +1007,8 @@ table.table.specieslist-table td:first-child {
 }
 
 /*Correção barra brasil*/
-#barra-brasil .conteudo-barra-brasil a.botao-seta-direita {
-    display: none;
+@media only screen and (max-width: 600px) {
+    #barra-brasil .conteudo-barra-brasil a.botao-seta-direita {
+        display: block !important;
+    }
 }
