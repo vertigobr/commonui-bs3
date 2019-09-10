@@ -369,3 +369,25 @@ input#locationSearch {
         min-height: 185px;
     }
 }
+
+/*Correção barra brasil*/
+@media only screen and (max-width: 600px) {
+    #barra-brasil .conteudo-barra-brasil a.botao-seta-direita {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .logo {
+        width: 290px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .logo {
+        width: 235px;
+        height: auto;
+    }
+}
