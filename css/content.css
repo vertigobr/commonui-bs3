@@ -1014,9 +1014,11 @@ table.table.specieslist-table td:first-child {
     padding-right: 0;
 }
 
-
-
 /*... correção paginação logo ...*/
 .container-navbar .navbar-brand {
     padding: 5px 5px 5px 10px;
+}
+
+.navbar-collapse{
+    border: 0 solid transparent;
 }
