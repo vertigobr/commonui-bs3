@@ -1023,5 +1023,5 @@ table.table.specieslist-table td:first-child {
 
 /*... correção paginação logo ...*/
 .container-navbar .navbar-brand {
-    padding: 5px;
+    padding: 5px 5px 5px 10px;
 }
