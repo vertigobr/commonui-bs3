@@ -385,6 +385,13 @@ input#locationSearch {
     }
 }
 
+@media only screen and (max-width: 375px) {
+    .logo {
+        width: 275px;
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 320px) {
     .logo {
         width: 235px;
