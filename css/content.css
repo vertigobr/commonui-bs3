@@ -239,6 +239,7 @@ img:hover {
 
 .promotional {
     margin-left: 10px !important;
+    margin-right: 10px !important;
 }
 
 .title-box-2 h3 {
@@ -1019,6 +1020,6 @@ table.table.specieslist-table td:first-child {
     padding: 5px 5px 5px 10px;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     border: 0 solid transparent;
 }
