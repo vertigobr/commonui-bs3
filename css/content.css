@@ -1006,11 +1006,11 @@ table.table.specieslist-table td:first-child {
     font-weight: 500;
 }
 
-.menu-logo{
+.menu-logo {
     margin-right: 0;
 }
 
-.navbar-header{
+.navbar-header {
     padding-right: 0;
 }
 
@@ -1019,4 +1019,9 @@ table.table.specieslist-table td:first-child {
     #barra-brasil .conteudo-barra-brasil a.botao-seta-direita {
         display: none !important;
     }
+}
+
+/*... correção paginação logo ...*/
+.container-navbar .navbar-brand {
+    padding: 5px;
 }
