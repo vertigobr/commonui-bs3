@@ -1,7 +1,6 @@
 <?php
 if (isset($_POST['email'])) {
 
-    session_start();
 
     $email_to = "sibbr.brasil@gmail.com";
     $email_subject = "Contato encaminhado portal LA SiBBr";
@@ -15,7 +14,7 @@ if (isset($_POST['email'])) {
 
     function died($error)
     {
-        $text = '';
+     	$text = '';
         $text .= "Lamentamos, mas houve erro(s) encontrado(s) com o formulário que você enviou. ";
         $text .= "Esses erros aparecem abaixo.<br /><br />";
         $text .= $error . "<br /><br />";
@@ -42,25 +41,38 @@ if (isset($_POST['email'])) {
     }
 
     if (strlen($error_message) > 0) {
+        session_start();
         $_SESSION['error'] = died($error_message);
         header("Location: ./contato.php");
         exit();
     }
+     function limpar($string)
+        {
+         	$bad = array("content-type", "bcc:", "to:", "cc:", "href");
+            return str_replace($bad, "", $string);
+        }
 
-    function limpar($string)
-    {
-        $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-        return str_replace($bad, "", $string);
-    }
+        $email_message = "Mensagem.\n\n";
+        $email_message .= "Nome: " . limpar($name) . " \n Email: " . limpar($email_de) . " \n Assunto: " . limpar($tema) . "\nMenssagem: " . limpar($menssagem) . "\n";
 
-    $email_message = "Mensagem.\n\n";
-    $email_message .= "Nome: " . limpar($name) . "\nEmail: " . limpar($email_de) . "\nAssunto: " . limpar($tema) . "\nMenssagem: " . limpar($menssagem) . "\n";
+        // $headers = 'From: ' . $email_de . "\r\n Reply-To: ' . $email_de . \"\r\n" . 'X-Mailer: PHP/' . phpversion();
+        // mail($email_to, $email_subject, $email_message, $headers);
 
-    $headers = 'From: ' . $email_de . "\r\n Reply-To: ' . $email_de . \"\r\n" . 'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers);
+        $headers = "";
+        $headers .= "From: ".$name." <". $email_de ."> \r\n";
+        $headers .= "Reply-To: ".$email_de."\r\n";
+        $headers .= "X-Mailer: PHP/" . phpversion()."\r\n";
+        // $headers .= "MIME-Version: 1.0". "\r\n";
+        // $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-    $_SESSION['sucesso'] = "Agradecemos pela sua mensagem, retornaremos seu contato em breve";
-    header("Location: ./contato.php");
+        mail($email_to, $tema, $menssagem, $headers);
+
+        session_start();
+        $_SESSION['sucesso'] = "Obrigada pela sua mensagem, retornaremos seu contato em breve ;)";
+         header("Location: ./contato.php");
     exit();
 }
 ?>
+
+
+
