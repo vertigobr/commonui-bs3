@@ -403,8 +403,7 @@
                     somos</a>
             </div>
             <div class="subitem">
-                <a href="https://sibbr.gov.br/page/canais-contato.html">Canais de
-                    contato</a>
+                <a href="https://ferramentas.sibbr.gov.br/contato/contato.php">Canais de contato</a>
             </div>
             <div class="subitem">
                 <a href="https://sibbr.gov.br/page/noticias.html">Notícias</a>
