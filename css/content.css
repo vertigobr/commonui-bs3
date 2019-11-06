@@ -663,6 +663,11 @@ h5.inline-head.name-authority strong {
     display: block;
 }
 
+.content > .specieslist-table > thead > tr > th, .content > .specieslist-table > tbody > tr > td {
+    border-top: 0px solid #dcdcdc;
+    display: block;
+}
+
 .content > .specieslist-table > thead > tr > th, .content > .specieslist-table > tbody > tr > td:first-child {
     border-top: 1px solid #dcdcdc;
 }
