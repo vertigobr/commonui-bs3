@@ -1024,3 +1024,8 @@ table.table.specieslist-table td:first-child {
 .navbar-collapse {
     border: 0 solid transparent;
 }
+
+/*... Custumização listas ...*/
+.listContent table.table.specieslist-table tr td {
+    display: block;
+}
