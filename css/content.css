@@ -675,6 +675,10 @@ h5.inline-head.name-authority strong {
     border-top: 1px solid #dcdcdc;
 }
 
+table.table.specieslist-table td:first-child {
+    text-transform: inherit;
+}
+
 /* FIM custumização exibição listas no ala-bie */
 
 h1.main.scientificName {
@@ -871,9 +875,6 @@ div#descriptiveContent {
 }
 
 /*... Tabelas da lista de especies exibidas na pagina de especies ...*/
-table.table.specieslist-table td:first-child {
-    text-transform: capitalize;
-}
 
 .panel.panel-default.panel-actions {
     display: none
