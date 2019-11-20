@@ -346,7 +346,7 @@ input#locationSearch {
 }
 
 
-@media (max-width: 680px) {
+@media (max-width: 768px) {
     .no-gbif {
         margin: 10px !important;
         border-width: 1px !important;
