@@ -8,7 +8,8 @@ $(document).ready(function () {
         url: 'https://www.collectory.ala-dev.vertigo.com.br/collectory/ws/institution/count',
         crossDomain: true,
         method: 'GET',
-        dataType: 'jsonp'
+        dataType: 'json',
+        contentType: 'application/json'
     })
         .done(function (data) {
             $('#allInstituicoes').append(data.total.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."));
@@ -22,7 +23,8 @@ $(document).ready(function () {
         url: 'https://www.collectory.ala-dev.vertigo.com.br/collectory/ws/collection/count',
         crossDomain: true,
         method: 'GET',
-        dataType: 'jsonp'
+        dataType: 'json',
+        contentType: 'application/json'
     })
         .done(function (data) {
             $('#allColecoes').append(data.total.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."));
@@ -37,7 +39,8 @@ $(document).ready(function () {
             url: 'https://www.collectory.ala-dev.vertigo.com.br/collectory/ws/dataResource/count',
             crossDomain: true,
             method: 'GET',
-            dataType: 'jsonp'
+            dataType: 'json',
+            contentType: 'application/json'
         })
         .done(function (data) {
             $('#allConjuntos').append(data.total.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1."));
