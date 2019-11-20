@@ -6,7 +6,7 @@ $('#allConjuntos').empty();
 $(document).ready(function () {
     $.ajax({
         url: 'https://www.collectory.ala-dev.vertigo.com.br/collectory/ws/institution/count',
-        crossDomain: true,
+        crossDomain: false,
         method: 'GET',
         dataType: 'json',
         contentType: 'application/json'
@@ -18,10 +18,11 @@ $(document).ready(function () {
             $('#allInstituicoes').append("0");
         });
 });
+
 $(document).ready(function () {
     $.ajax({
         url: 'https://www.collectory.ala-dev.vertigo.com.br/collectory/ws/collection/count',
-        crossDomain: true,
+        crossDomain: false,
         method: 'GET',
         dataType: 'json',
         contentType: 'application/json'
@@ -33,11 +34,12 @@ $(document).ready(function () {
             $('#allColecoes').append("0");
         });
 });
+
 $(document).ready(function () {
     $.ajax(
         {
             url: 'https://www.collectory.ala-dev.vertigo.com.br/collectory/ws/dataResource/count',
-            crossDomain: true,
+            crossDomain: false,
             method: 'GET',
             dataType: 'json',
             contentType: 'application/json'
@@ -49,6 +51,7 @@ $(document).ready(function () {
             $('#allConjuntos').append("0");
         });
 });
+
 $(document).ready(function () {
     $.ajax({url: "https://www.biocache-service.ala-dev.vertigo.com.br/biocache-service/occurrences"})
         .done(function (data) {
