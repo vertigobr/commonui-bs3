@@ -1,4 +1,3 @@
-
 body, nav, article, p, h, footer {
     -webkit-font-smoothing: antialiased;
     font: normal 15px Roboto, Helvetica, "Helvetica Neue", Arial, sans-serif;
@@ -10,7 +9,7 @@ body, nav, article, p, h, footer {
 }
 
 .np {
-    padding: 0px;
+    padding: 0;
 }
 
 a {
@@ -19,11 +18,11 @@ a {
 
 .navbar {
     border-width: 1px 0;
-    border-radius: 0px;
+    border-radius: 0;
     background-color: white;
     border-top: 4px solid #72B05F;
     border-bottom: 1px solid #DBDBDB;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 section#breadcrumb {
@@ -113,7 +112,7 @@ article h4 {
 }
 
 .panel {
-    border: 0px solid transparent;
+    border: 0 solid transparent;
     box-shadow: none;
 }
 
@@ -176,7 +175,7 @@ img:hover {
 }
 
 .help-block {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .box-map {
@@ -215,12 +214,12 @@ img:hover {
 }
 
 .navbar-collapse {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .form-control {
@@ -283,7 +282,7 @@ img:hover {
 
 .ala-header {
     min-height: 300px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .navbar-nav > li > a {
@@ -293,7 +292,7 @@ img:hover {
 
 .toc-floating-menu.affix {
     position: relative;
-    top: 0px !important;
+    top: 0 !important;
 }
 
 .subject-subtitle, .subject-subtitle p {
@@ -330,7 +329,7 @@ img:hover {
 
 /*..... Modulo collectory .....*/
 .collectory-content.row {
-    margin: 0px;
+    margin: 0;
 }
 
 /*..... Direitos Autorais fotos .....*/
@@ -367,7 +366,7 @@ img:hover {
     height: 15%;
     background: rgba(0, 0, 0, 0);
     color: #fff;
-    padding: 0px 0px;
+    padding: 0 0;
     -moz-transition: all 0.4s ease-in-out 0s;
     -webkit-transition: all 0.4s ease-in-out 0s;
     -ms-transition: all 0.4s ease-in-out 0s;
@@ -535,8 +534,7 @@ img:hover {
 /* Custumização paginas internas especies */
 .taxon-tabs .tab-content {
     border: 1px solid #999;
-    border-top: 0;
-    border-bottom: 1px solid #999;
+    border-top-width: 0;
 }
 
 .main-content.panel.panel-body {
@@ -582,7 +580,7 @@ span.commonNameSummary {
 }
 
 .panel-default > .panel-heading .painel-title, .panel-heading .panel-title {
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
 }
 
 .well.refine-box {
@@ -662,7 +660,7 @@ h5.inline-head.name-authority strong {
 
 .content > .specieslist-table > thead > tr > th, .content > .specieslist-table > tbody > tr > td,
 .content > .specieslist-table > tbody > tr:first-child > td:first-child {
-    border-top: 0px solid #dcdcdc;
+    border-top: 0 solid #dcdcdc;
     display: block;
 }
 
@@ -804,7 +802,7 @@ div#descriptiveContent {
 
 .search-result {
     margin-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .search-results-list li:last-child {
@@ -827,7 +825,7 @@ div#descriptiveContent {
 
 /*... Menu collpase ...*/
 .card {
-    padding: 0px;
+    padding: 0;
     margin-bottom: 10px;
 }
 
@@ -1042,9 +1040,11 @@ div#descriptiveContent {
 }
 
 /*... Configurações ajustes regions ...*/
+
 #accordion #main h2 {
     margin-top: 5px;
 }
+
 #accordion #main h2, #main h3 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
