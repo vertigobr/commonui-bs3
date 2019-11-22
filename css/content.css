@@ -1040,3 +1040,11 @@ div#descriptiveContent {
 .navbar-collapse {
     border: 0 solid transparent;
 }
+
+/*... Configurações ajustes regions ...*/
+#accordion #main h2 {
+    margin-top: 5px;
+}
+#accordion #main h2, #main h3 {
+    margin-bottom: 0px;
+}
