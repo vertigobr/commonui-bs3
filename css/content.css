@@ -1039,9 +1039,9 @@ div#descriptiveContent {
     border: 0 solid transparent;
 }
 
-/*... Configurações ajustes regions ...*/
+/*... Configuracoes ajustes regions ...*/
 
-#accordion .ui-accordion {
+#accordion h2 {
     margin-top: 5px;
     margin-bottom: 0;
 }
