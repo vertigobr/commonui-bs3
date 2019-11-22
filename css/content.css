@@ -1041,10 +1041,7 @@ div#descriptiveContent {
 
 /*... Configurações ajustes regions ...*/
 
-#accordion #main h2 {
+#accordion .ui-accordion {
     margin-top: 5px;
-}
-
-#accordion #main h2, #accordion #main h3 {
     margin-bottom: 0;
 }
