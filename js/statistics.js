@@ -6,6 +6,7 @@ $('#allConjuntos').empty();
 $(document).ready(function () {
     $.ajax({
         url: 'https://www.collectory.ala-dev.vertigo.com.br/collectory/ws/institution/count',
+        headers: {  'Access-Control-Allow-Origin': '*' },
         crossDomain: false,
         method: 'GET',
         dataType: 'json',
@@ -22,6 +23,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $.ajax({
         url: 'https://www.collectory.ala-dev.vertigo.com.br/collectory/ws/collection/count',
+        headers: {  'Access-Control-Allow-Origin': '*' },
         crossDomain: false,
         method: 'GET',
         dataType: 'json',
@@ -39,6 +41,7 @@ $(document).ready(function () {
     $.ajax(
         {
             url: 'https://www.collectory.ala-dev.vertigo.com.br/collectory/ws/dataResource/count',
+            headers: {  'Access-Control-Allow-Origin': '*' },
             crossDomain: false,
             method: 'GET',
             dataType: 'json',
