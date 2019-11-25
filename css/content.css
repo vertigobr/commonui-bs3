@@ -1046,7 +1046,7 @@ div#descriptiveContent {
     margin-bottom: 0;
 }
 
-.row a#alertsButton, #emblemsContainer #exploreButtonsZone #downloadRecords {
+.row a#alertsButton, a#downloadRecords {
     display: none;
 }
 
