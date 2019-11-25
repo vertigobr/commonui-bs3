@@ -1049,3 +1049,9 @@ div#descriptiveContent {
 .row a#alertsButton, #emblemsContainer #exploreButtonsZone #downloadRecords {
     display: none;
 }
+
+#emblemsContainer h1 {
+    margin-bottom: 10px;
+    color: #65953e;
+    font-size: 3rem;
+}
