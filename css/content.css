@@ -666,8 +666,14 @@ h5.inline-head.name-authority strong {
 .content > .specieslist-table > thead > tr > th, .content > .specieslist-table > tbody > tr > td,
 .content > .specieslist-table > tbody > tr:first-child > td:first-child {
     border-top: 0 solid #dcdcdc;
-    display: block;
+    display: inline-block;
 }
+
+
+.content > .specieslist-table > tbody > tr {
+    border-bottom: 1px solid #dcdcdc;
+}
+
 
 .content > .specieslist-table > tbody > tr > td:first-child {
     color: #d2583f;
@@ -675,7 +681,7 @@ h5.inline-head.name-authority strong {
 
 
 .content > .specieslist-table > thead > tr > th, .content > .specieslist-table > tbody > tr > td:first-child {
-    border-top: 1px solid #dcdcdc;
+    border-top: 0px solid #dcdcdc;
 }
 
 table.table.specieslist-table td:first-child {
