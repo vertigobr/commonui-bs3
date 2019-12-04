@@ -1,4 +1,4 @@
-$(function(){
+window.onload = function() {
     var acc = document.getElementsByClassName("panel-heading");
     var i;
 
@@ -13,4 +13,4 @@ $(function(){
             }
         });
     }
-});
+}
