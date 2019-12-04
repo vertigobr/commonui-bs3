@@ -1083,6 +1083,6 @@ div#descriptiveContent {
 }
 
 .species-list-block .panel-body {
-    display: none;
+    display: block;
     overflow: hidden;
 }
