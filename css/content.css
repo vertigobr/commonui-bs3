@@ -1069,3 +1069,28 @@ div#descriptiveContent {
     color: #65953e;
     font-size: 3rem;
 }
+
+/*... Customização accordion listas ...*/
+.species-list-block .panel-heading {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.species-list-block .active, .panel-heading:hover {
+    background-color: #ccc;
+}
+
+.species-list-block .panel-body {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
