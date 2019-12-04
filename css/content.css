@@ -1086,3 +1086,15 @@ div#descriptiveContent {
     display: block;
     overflow: hidden;
 }
+
+.panel-heading.active h3.panel-title.title::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+}
+
+.panel-heading h3.panel-title.title::after {
+    content: "-";
+    position: absolute;
+    right: 20px;
+}
