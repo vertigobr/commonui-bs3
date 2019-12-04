@@ -674,6 +674,9 @@ h5.inline-head.name-authority strong {
     border-bottom: 1px solid #dcdcdc;
 }
 
+.content > .specieslist-table > tbody > tr:last-child {
+    border-bottom: 0px solid #dcdcdc;
+}
 
 .content > .specieslist-table > tbody > tr > td:first-child {
     color: #d2583f;
