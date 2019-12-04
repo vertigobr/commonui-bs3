@@ -1079,7 +1079,7 @@ div#descriptiveContent {
 }
 
 .species-list-block .active, .panel-heading:hover {
-    background-color: #ccc;
+  opacity: 0.9;
 }
 
 .species-list-block .panel-body {
