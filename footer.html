@@ -119,22 +119,7 @@
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <!-- Accordion listas ala-bie -->
-<script>
-    var acc = document.getElementsByClassName("panel-heading");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-                panel.style.display = "none";
-            } else {
-                panel.style.display = "block";
-            }
-        });
-    }
-</script>
+<script type="text/javascript" charset="utf-8" src="js/accordion.js"></script>
 
 <!-- JavaScript funcionamento da barra governo brasileiro -->
 <script type="text/javascript" charset="utf-8" defer="defer" src="https://barra.brasil.gov.br/barra_2.0.js"></script>
