@@ -660,6 +660,7 @@ h5.inline-head.name-authority strong {
 .taxon-row .panel .panel-footer {
     border: 1px solid #e4e4e4;
     border-width: 0px 1px 1px;
+    background-color: #f3f3f3;
 }
 
 /* Custumização exibição listas no ala-bie */
@@ -1100,4 +1101,9 @@ div#descriptiveContent {
     position: absolute;
     right: 20px;
     font-weight: 100;
+}
+
+/*.... Breadcrumb ....*/
+.breadcrumb {
+    background-color: #f3f3f3;
 }
