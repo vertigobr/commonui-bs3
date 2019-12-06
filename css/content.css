@@ -354,7 +354,7 @@ img:hover {
 .ipts .hvrbox img {
     height: auto;
     width: 100%;
-    border: 1px solid #7cb900;
+    border: 1px solid #e2e2e2;
 }
 
 .hvrbox .hvrbox-layer_bottom {
@@ -1080,7 +1080,7 @@ div#descriptiveContent {
 }
 
 .species-list-block .active, .panel-heading:hover {
-  opacity: 0.9;
+    opacity: 0.9;
 }
 
 .species-list-block .panel-body {
