@@ -1104,6 +1104,6 @@ div#descriptiveContent {
 }
 
 /*.... Breadcrumb ....*/
-.breadcrumb {
+.taxonomy-bcrumb .breadcrumb {
     background-color: #f3f3f3;
 }
