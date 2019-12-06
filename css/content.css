@@ -354,6 +354,7 @@ img:hover {
 .ipts .hvrbox img {
     height: auto;
     width: 100%;
+    border: 1px solid #7cb900;
 }
 
 .hvrbox .hvrbox-layer_bottom {
