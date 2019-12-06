@@ -1088,13 +1088,15 @@ div#descriptiveContent {
 }
 
 .panel-heading.active h3.panel-title.title::after {
-    content: "+";
-    position: absolute;
-    right: 20px;
-}
-
-.panel-heading h3.panel-title.title::after {
     content: "-";
     position: absolute;
     right: 20px;
+    font-weight: 100;
+}
+
+.panel-heading h3.panel-title.title::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    font-weight: 100;
 }
