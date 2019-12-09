@@ -1108,3 +1108,8 @@ div#descriptiveContent {
 .taxonomy-bcrumb .breadcrumb {
     background-color: #f3f3f3;
 }
+
+/*... Species List lista principal...*/
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #f3f3f3;
+}
